@@ -1,0 +1,90 @@
+body {
+  background-color: #f8f9fa;
+}
+.resume-section {
+  background-color: #ffffff;
+  // margin: 20px;
+  // padding: 30px;
+  // border-radius: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+h2 {
+  color: #333;
+}
+h3 {
+  color: #555;
+}
+p {
+  color: #fff;
+  padding: 0px 10px;
+  word-wrap: break-word;
+}
+
+
+.profile-summery h2 {
+  color: #fff ;
+  background-color: #084C41;
+  padding: 10px;
+  border-radius: 5px;
+}
+.resume-section p,h2,h3{
+  color: #000;
+  text-align: left;
+}
+h3{
+  font-size: 19px;  
+}
+.resume-section ul li{
+  color: #000;
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+  color: #fff;
+  list-style-type: disc;
+  margin: 0px 30px;
+  line-height: 1.5;
+  font-family: 'Roboto';
+}
+.tech-category {
+  background-color: #084C41;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.tech-item {
+  color: #fff;
+}
+.hr_namewidth {
+  border-top: 3px solid #fff;
+  width: 16%;
+}
+
+.hr_width {
+  border: 1px solid #fff; /* Set the border color */
+  border-width: 0 0 2px 0; /* Set the bottom border to be 2 pixels thick */
+  margin: 20px 0; /* Add some space above and below the line */
+}
+
+
+.increse_font{
+  // font-size:16px;
+  
+}
+ul li,p{
+  font-size: 20px; 
+  line-height: 1.5;
+}

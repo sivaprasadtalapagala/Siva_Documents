@@ -1,0 +1,3373 @@
+===================What is ,angularFramework?(,framework)======================
+Angular is a TypeScript-based open-source front-end platform that makes it easy to build applications with in web/mobile/desktop.
+The major features of this framework such as declarative templates, dependency injection, end to end tooling, and many more other features are used to ease the
+development.
+
+its primary purpose is to develop single-page applications
+
+
+=====================What is the difference between AngularJS ,vs Angular?=====================================
+
+Angular is a completely revived component-based framework in which an application is a tree of individual components.
+Some of the major difference in tabular form
+        AngularJS	                                                                                  Angular
+It is based on MVC architecture	                                                     This is based on Service/Controller
+It uses JavaScript to build the application	                                         Introduced the TypeScript to write the application
+Based on controllers concept	                                                     This is a component based UI approach
+Not a mobile friendly framework	                                                     Developed considering mobile platform
+Difficulty in SEO friendly application development	                                 Ease to create SEO friendly applications
+doesn't officially support lazy loading of components, services, etc                 support lazy loading of components, services, etc
+Angular js                                                                           Angular cli 
+1X                                                                                   2,4,5,6,7,89,....14
+
+
+
+
+
+============================,decorators in Angular? 
+
+Decorators are a design pattern or functions that define how Angular features work. They are used to make prior modifications to a class, service, or filter. Angular supports four types of decorators, they are:
+
+Class Decorators
+Property Decorators
+Method Decorators
+Parameter Decorators
+
+
+
+
+or
+
+Decorators are design patterns used to isolate the modification or decoration of a class without modifying the source code.
+
+In AngularJS, decorators are functions that allow a service, directive, or filter to be modified before it is used.
+
+There are four main types of angular decorators:
+
+Class decorators, such as @Component and @NgModule
+Property decorators for properties inside classes, such as @Input and @Output
+Method decorators for methods inside classes, such as @HostListener
+Parameter decorators for parameters inside class constructors, such as @Inject
+
+
+
+
+===============================What are the ,classDecorators in Angular?
+
+A class decorator is a decorator that appears immediately before a class definition, which declares the class to be of the given type, and provides metadata suitable to the type
+
+The following list of decorators comes under class decorators,
+
+@Component()
+@Directive()
+@Pipe()
+@Injectable()
+@NgModule()
+
+
+
+
+
+====================================,Single Page Applications (SPA)?(,spa)
+Single-page applications are web applications that load once with new features just being mere additions to the user interface. It does not load new HTML pages to display the new page's content, instead generated dynamically. This is made possible through JavaScript's ability to manipulate the DOM elements on the existing page itself. A SPA approach is faster, thus providing a seamless user experience. 
+
+
+===================What is ,typeScript?======================================
+TypeScript is a typed superset of JavaScript created by Microsoft that adds optional types, classes, async/await, and many other features, and compiles to plain JavaScript.
+ Angular built entirely in TypeScript and used as a primary language.
+  You can install it globally as
+npm install -g typescript
+Let's see a simple example of TypeScript usage,
+function greeter(person: string) {
+    return "Hello, " + person;
+}
+
+let user = "Sudheer";
+
+document.body.innerHTML = greeter(user);
+The greeter method allows only string type as argument.
+
+
+
+
+=======================================What are the ,keyComponents of Angular?
+Angular has the below key components,
+   Component: These are the basic building blocks of angular application to control HTML views.
+   Modules: An angular module is set of angular basic building blocks like component, directives, services etc. An application is divided into logical pieces and 
+             each piece of code is called as "module" which perform a single task.
+   Templates: This represent the views of an Angular application.
+   Services: It is used to create components which can be shared across the entire application.
+   Metadata: This can be used to add more data to an Angular class.
+
+
+
+=========================What is Angular ,directive =============
+The Angular directive helps us to manipulate the DOM. You can change the appearance, behavior, or layout of a DOM element using the Directives. 
+They help you to extend HTML
+
+There are three kinds of directives in Angular:
+
+Component Directive
+Structural directives
+Attribute directives
+
+                 -------------,componentDirective?------------ 
+
+Component directive, is nothing but a simple class which is decorated with the @component decorator.
+In Angular 2 ,Normal typescript class will become a Component class once it has been decorated with @component decorator
+It is mainly used to specify the html templates.
+It is most commonly used directive in angular project
+
+
+                 --------------,structural Directives
+Structural directives can change the DOM layout by adding and removing DOM elements. All structural Directives are preceded by Asterix symbol
+
+Commonly used structural directives
+                          ---,ngFor
+ng For is used to iterate over a list of items 
+Example of ngFor
+<tr *ngFor="let customer of customers;">
+    <td>{{customer.customerNo}}</td>
+    <td>{{customer.name}}</td>
+    <td>{{customer.address}}</td>
+    <td>{{customer.state}}</td>
+</tr>
+
+  customers: customer[] =[
+ 
+  {customerNo:13,name:' B',address:'C',state:'D'}, 
+    {customerNo:'A',name:' B',address:'C',state:'D'}, 
+	  {customerNo:'A',name:' B',address:'C',state:'D'}, 
+	    {customerNo:'A',name:' B',address:'C',state:'D'}, 
+]
+ 
+ 
+}
+ 
+class customer {
+  customerNo : number;
+  name : string;
+  address : string;
+  state : string;
+}
+
+
+=============================What is the purpose of ngFor trackBy?(,ngForTrackBy)(,trackBy)
+The main purpose of using *ngFor with trackBy option is performance optimization. Normally if you use NgFor with large data sets, a small change to one item by removing or adding an item, can trigger a cascade of DOM manipulations. In this case, Angular sees only a fresh list of new object references and to replace the old DOM elements with all new DOM elements. You can help Angular to track which items added or removed by providing a trackBy function which takes the index and the current item as arguments and needs to return the unique identifier for this item.
+
+For example, lets set trackBy to the trackByTodos() method
+
+<div *ngFor="let todo of todos; trackBy: trackByTodos">
+  ({{todo.id}}) {{todo.name}}
+</div>
+and define the trackByTodos method,
+
+trackByTodos(index: number, item: Todo): number { return todo.id; }
+
+
+                           ------,ngIf
+The ngIf Directives is used to add or remove HTML elements based on an expression/condition.
+The expression must return a boolean value.
+If the expression is false then the element is removed, else the element is inserted
+
+Example of ngIf
+<div *ngIf="condition"> 
+    This is shown if condition is true
+</div>
+
+
+
+                           --------What is Angular NgSwitch?(,ngSwitch)---------------- 
+
+The NgSwitch directive specifies an expression to match against. The NgSwitchCase directive defines the expressions to match.
+
+It renders every view that matches.
+If there are no matches, the view with the NgSwitchDefault directive is rendered.
+Elements outside of any NgSwitchCase or NgSwitchDefault directive but within the NgSwitch statement but are preserved at the location.
+
+
+
+        ------------------------------,attributeDirectives
+An Attribute or style directive can change the appearance or behavior of an element.
+
+Commonly used Attribute directives:-
+
+               ----,ngModel
+The ngModel directive is used the achieve the two-way data binding. We have covered ngModel directive in Data Binding in Angular Tutorial
+ex:-
+
+import { FormsModule } from '@angular/forms';
+  
+<input type="text" name="value" [(ngModel)]="value">
+
+               -----------,ngClass
+The ngClass is used to add or remove the CSS classes from an HTML element. Using the ngClass one can create dynamic styles in HTML pages
+
+Example of ngClass
+ 
+<div [ngClass]="'first second'">...</div>
+               css file 
+    .red { color: red; }
+    .size20 { font-size: 20px; }
+
+               .html 
+     <div [ngClass]="'red size20'"> Red Text with Size 20px </div>
+     (or)
+     <div class="row">     
+        <div ngClass='red size20'>Red Text with Size 20px </div> 
+     </div>
+ 
+                ------------,ngStyle
+ngStyle is used to change the multiple style properties of our HTML elements. 
+We can also bind these properties to values that can be updated by the user or our components.
+
+Example of ngStyle
+
+<div [ngStyle]="{'color': 'blue', 'font-size': '24px', 'font-weight': 'bold'}">
+    some text
+</div>
+
+               -----------------,Custom Directives(,customDirectives)
+Apart from build in directives we can also build custom directives in Angular. 
+The Process is to create a JavaScript class and apply the @Directive attribute to that class.
+ You can write the desired behavior in the class.
+
+
+ ============================ ,attributeDirectives?
+
+Let's take simple highlighter behavior as a example directive for DOM element. You can create and apply the attribute directive using below steps,
+
+Create HighlightDirective class with the file name src/app/highlight.directive.ts. In this file, we need to import Directive from core library to apply the metadata and ElementRef in the directive's constructor to inject a reference to the host DOM element ,
+import { Directive, ElementRef } from '@angular/core';
+
+@Directive({
+  selector: '[appHighlight]'
+})
+export class HighlightDirective {
+    constructor(el: ElementRef) {
+       el.nativeElement.style.backgroundColor = 'red';
+    }
+}
+Apply the attribute directive as an attribute to the host element(for example,
+)
+
+<p appHighlight>Highlight me!</p>
+Run the application to see the highlight behavior on paragraph element
+ng serve
+
+
+
+ ================================,What are components?(,components)
+
+Components are the most basic UI building block of an Angular app to control HTML views,which formed a tree of Angular components.
+ These components are subset of directives. 
+ Unlike directives, components always have a template and only one component can be instantiated per an element in a template. 
+
+
+
+
+======================================differences between Component ,vs Directive?=======================(component ,vsCD ,vsDC directives)
+
+  In a short note, A component(@component) is a directive-with-a-template.
+                                    Component	                                                                           Directive
+ To register a component we use @Component meta-data annotation	                          To register directives we use @Directive meta-data annotation
+ Components are typically used to create UI widgets	                                      Directive is used to add behavior to an existing DOM element
+ Component is used to break up the application into smaller components	                  Directive is use to design re-usable components
+ Only one component can be present per DOM element	                                      Many directives can be used per DOM element
+ @View decorator or templateurl/template are mandatory	                                  Directive doesn't use View
+
+
+
+ =================================================,template=====================
+
+A template is a HTML view where you can display data by binding controls to properties of an Angular component.
+You can store your component's template in one of two places.
+You can define it inline using the template property, or you can define the template in a separate HTML file and link to it in the component metadata using 
+the @Component decorator's templateUrl property.
+
+
+
+===========================================What is an Angular ,module?
+
+In Angular, a module is a mechanism to group components, directives, pipes and services that are related, in such a way that can be combined with other modules to
+create an application. 
+An Angular application can be thought of as a puzzle where each piece (or each module) is needed to be able to see the full picture.
+
+Another analogy to understand Angular modules is classes. 
+In a class, we can define public or private methods. 
+The public methods are the API that other parts of our code can use to interact with it while the private methods are implementation details that are hidden. 
+
+In the same way, a module can export or hide components, directives, pipes and services. 
+The exported elements are meant to be used by other modules, while the ones that are not exported (hidden) are just used inside the module itself and cannot be 
+  directly accessed by other modules of our application.
+
+A Basic Use of Modules
+To be able to define modules we have to use the decorator NgModule.
+import { NgModule } from '@angular/core';
+​
+@NgModule({
+  imports: [ ... ],
+  declarations: [ ... ],
+  bootstrap: [ ... ]
+})
+export class AppModule { }
+In the example above, we have turned the class AppModule into an Angular module just by using the NgModule decorator. 
+The NgModule decorator requires at least three properties: imports, declarations and bootstrap.
+The property imports expects an array of modules. Here's where we define the pieces of our puzzle (our application). 
+The property declarations expects an array of components, directives and pipes that are part of the module. 
+The bootstrap property is where we define the root component of our module. 
+Even though this property is also an array, 99% of the time we are going to define only one component.
+There are very special circumstances where more than one component may be required to bootstrap a module but we are not going to cover those edge cases here.
+
+
+The NgModule decorator has five important(among all) options
+
+The imports option is used to import other dependent modules. The BrowserModule is required by default for any web based angular application
+The declarations option is used to define components in the respective module
+The bootstrap option tells Angular which Component to bootstrap in the application
+The providers option is used to configure set of injectable objects that are available in the injector of this module.
+The entryComponents option is a set of components dynamically loaded into the view.
+
+
+===========================================What are ,lifecycle hooks available?=============
+
+ 8 lifecycle method is as below,
+
+ngOnChanges: When the value of a data bound property changes, then this method is called.
+ngOnInit: This is called whenever the initialization of the directive/component after Angular first displays the data-bound properties happens.
+ngDoCheck: This is for the detection and to act on changes that Angular can't or won't detect on its own.
+ngAfterContentInit: This is called in response after Angular projects external content into the component's view.
+ngAfterContentChecked: This is called in response after Angular checks the content projected into the component.
+ngAfterViewInit: This is called in response after Angular initializes the component's views and child views.
+ngAfterViewChecked: This is called in response after Angular checks the component's views and child views.
+ngOnDestroy: This is the cleanup phase just before Angular destroys the directive/component.
+
+
+
+
+===========================================What is a ,dataBinding?======================================
+
+Data binding is a core concept in Angular and allows to define communication between a component and the DOM, making it very easy to define interactive applications 
+without worrying about pushing and pulling data. 
+There are four forms of data binding(divided as 3 categories) which differ in the way the data is flowing.
+
+ -------------1:-From the Component to the DOM:
+
+  a:Interpolation: 
+  
+  {{ value }}: Adds the value of a property from the component
+
+<li>Name: {{ user.name }}</li>
+<li>Address: {{ user.address }}</li>
+
+  b:Property binding: 
+
+  [property]=”value”: The value is passed from the component to the specified property or simple HTML attribute
+
+<input type="email" [value]="user.email">
+------------2:-From the DOM to the Component: 
+
+Event binding: (event)=”function”: When a specific DOM event happens (eg.: click, change, keyup), call the specified method in the component
+
+<button (click)="logout()"></button>
+
+------------3:-Two-way binding: Two-way data binding: 
+
+[(ngModel)]=”value”: Two-way data binding allows to have the data flow both ways. For example, in the below code snippet, both the email DOM input and component email property are in sync
+
+<input type="email" [(ngModel)]="user.email">
+
+
+
+=========================What is ,metadata?
+
+Metadata is used to decorate a class so that it can configure the expected behavior of the class. The metadata is represented by decorators
+
+Class decorators, e.g. @Component and @NgModule
+import { NgModule, Component } from '@angular/core';
+
+@Component({
+  selector: 'my-component',
+  template: '<div>Class decorator</div>',
+})
+export class MyComponent {
+  constructor() {
+    console.log('Hey I am a component!');
+  }
+}
+
+@NgModule({
+  imports: [],
+  declarations: [],
+})
+export class MyModule {
+  constructor() {
+    console.log('Hey I am a module!');
+  }
+}
+
+Property decorators Used for properties inside classes, e.g. @Input and @Output
+import { Component, Input } from '@angular/core';
+
+@Component({
+    selector: 'my-component',
+    template: '<div>Property decorator</div>'
+})
+
+export class MyComponent {
+    @Input()
+    title: string;
+}
+
+Method decorators Used for methods inside classes, e.g. @HostListener
+import { Component, HostListener } from '@angular/core';
+
+@Component({
+    selector: 'my-component',
+    template: '<div>Method decorator</div>'
+})
+export class MyComponent {
+    @HostListener('click', ['$event'])
+    onHostClick(event: Event) {
+        // clicked, `event` available
+    }
+}
+
+Parameter decorators Used for parameters inside class constructors, e.g. @Inject, Optional
+import { Component, Inject } from '@angular/core';
+import { MyService } from './my-service';
+
+@Component({
+    selector: 'my-component',
+    template: '<div>Parameter decorator</div>'
+})
+export class MyComponent {
+    constructor(@Inject(MyService) myService) {
+        console.log(myService); // MyService
+    }
+}
+
+
+
+
+
+============================What is ,angularCLI?(,cli)
+Angular CLI(Command Line Interface) is a command line interface to scaffold and build angular apps using nodejs style (commonJs) modules. 
+You need to install using below npm command,
+npm install @angular/cli@latest
+Below are the list of few commands, which will come handy while creating angular projects
+Creating New Project: ng new
+
+Generating Components, Directives & Services: ng generate/g The different types of commands would be,
+
+ng generate class my-new-class: add a class to your application
+ng generate component my-new-component: add a component to your application
+ng generate directive my-new-directive: add a directive to your application
+ng generate enum my-new-enum: add an enum to your application
+ng generate module my-new-module: add a module to your application
+ng generate pipe my-new-pipe: add a pipe to your application
+ng generate service my-new-service: add a service to your application
+
+Running the Project: ng serve
+
+
+
+====================constructor ,vs ngOnint ===============================
+
+
+The constructor is a Typescript feature used to instantiate the Typescript class. 
+In most Angular projects about the only thing that should ever be done in the constructor is to inject services. 
+
+The ngOnInit function is specific to the Angular framework and is called when Angular is done creating the component.
+
+The Constructor is a default method of the class that is executed when the class is instantiated and ensures proper initialisation of fields in the class and its 
+subclasses. Angular, or better Dependency Injector (DI), analyses the constructor parameters and when it creates a new instance by calling new MyClass() it tries to 
+find providers that match the types of the constructor parameters, resolves them and passes them to the constructor.
+
+ngOnInit is a life cycle hook called by Angular to indicate that Angular is done creating the component.
+Mostly we use ngOnInit for all the initialization/declaration and avoid stuff to work in the constructor. 
+The constructor should only be used to initialize class members but shouldn't do actual "work". So you should use constructor() to setup Dependency Injection and not 
+much else. ngOnInit() is better place to "start" - it's where/when components' bindings are resolved.
+
+
+
+=================================What is a ,service?
+
+Services allow us to create reusable code and use it every component that needs it. 
+The Services can be injected into components and other services using the dependency injection system.
+ The dependencies are declared in the Module using the Provider’s metadata. The Angular creates a tree of injector & Providers that resembles the Component Tree.
+  This is called the hierarchical pattern.
+
+A service is used when a common functionality needs to be provided to various modules. 
+Services allow for greater separation of concerns for your application and better modularity by allowing you to extract common functionality out of components.
+
+
+===================================What is dependency injection in Angular?(,dependencyInjection)
+
+Dependency injection (DI), is an important application design pattern in which a class asks for dependencies from external sources rather than creating them itself. 
+Angular comes with its own dependency injection framework for resolving dependencies( services or objects that a class needs to perform its function).
+So you can have your services depend on other services throughout your application
+
+
+=======================================What is the purpose of ,asyncPipe?============
+
+The AsyncPipe subscribes to an observable or promise and returns the latest value it has emitted. 
+When a new value is emitted, the pipe marks the component to be checked for changes.
+
+Let's take a time observable which continuously updates the view for every 2 seconds with the current time.
+
+@Component({
+  selector: 'async-observable-pipe',
+  template: `<div><code>observable|async</code>:
+       Time: {{ time | async }}</div>`
+})
+export class AsyncObservablePipeComponent {
+  time = new Observable(observer =>
+    setInterval(() => observer.next(new Date().toString()), 2000)
+  );
+}
+
+
+==================================What is the option to choose between ,inline ,vs+ external template file?=================
+
+You can store your component's template in one of two places. You can define it inline using the template property, or you can define the template in a separate HTML 
+file and link to it in the component metadata using the @Component decorator's templateUrl property.
+
+The choice between inline and separate HTML is a matter of taste, circumstances, and organization policy. 
+But normally we use inline template for small portion of code and external template file for bigger views. 
+By default, the Angular CLI generates components with a template file. But you can override that with the below command,
+
+ng generate component hero -it
+
+
+
+
+======================================What happens if you use script tag inside template?(,scriptTag)===========================
+Angular recognizes the value as unsafe and automatically sanitizes it, which removes the script tag but keeps safe content such as the text content of the script tag.
+ This way it eliminates the risk of script injection attacks. If you still use it then it will be ignored and a warning appears in the browser console.
+
+Let's take an example of innerHtml property binding which causes XSS vulnerability,
+
+export class InnerHtmlBindingComponent {
+  // For example, a user/attacker-controlled value from a URL.
+  htmlSnippet = 'Template <script>alert("0wned")</script> <b>Syntax</b>';
+}
+
+
+==========================================What is ,interpolation?==========================
+
+Interpolation is a special syntax that Angular converts into property binding. It’s a convenient alternative to property binding. 
+It is represented by double curly braces({{}}). 
+The text between the braces is often the name of a component property. Angular replaces that name with the string value of the corresponding component property.
+
+Let's take an example,
+
+<h3>
+  {{title}}
+  <img src="{{url}}" style="height:30px">
+</h3>
+
+
+==========================================What are template expressions? (,templateExpression)======================================
+
+A template expression produces a value similar to any Javascript expression. 
+Angular executes the expression and assigns it to a property of a binding target; 
+the target might be an HTML element, a component, or a directive. 
+In the property binding, a template expression appears in quotes to the right of the = symbol as in [property]="expression". 
+In interpolation syntax, the template expression is surrounded by double curly braces. 
+For example, in the below interpolation, the template expression is {{username}},
+
+<h3>{{username}}, welcome to Angular</h3>
+The below javascript expressions are prohibited in template expression
+
+assignments (=, +=, -=, ...)
+new
+chaining expressions with ; or ,
+increment and decrement operators (++ and --)
+
+
+
+======================================================What are ,templateStatements?
+A template statement responds to an event raised by a binding target such as an element, component, or directive. 
+The template statements appear in quotes to the right of the = symbol like (event)="statement".
+
+Let's take an example of button click event's statement
+
+<button (click)="editProfile()">Edit Profile</button>
+In the above expression, editProfile is a template statement. The below JavaScript syntax expressions are not allowed.
+
+new
+increment and decrement operators, ++ and --
+operator assignment, such as += and -=
+the bitwise operators | and &
+the template expression operators
+
+
+
+==========================================What are ,pipes?
+The Angular pipes are used to Transform the Data.
+A pipe takes in data as input and transforms it to a desired output. 
+ We use them to change the appearance of the data before presenting it to the user.
+  --built in pipes :-
+  angular built-in pipes like 
+               currency pipe, 
+               date pipe, 
+               number pipe, 
+               percent pipe, 
+               decimal pipe, & 
+               slice pipe etc.
+
+  syntax:
+Expression | pipeOperator[:pipeArguments]
+
+
+  Expression: is the expression, which you want to transform
+  | : is the Pipe Character
+  pipeOperator : name of the Pipe
+  pipeArguments: arguments to the Pipe
+
+
+For example, let us take a pipe to transform a component's birthday property into a human-friendly date using date pipe.
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-birthday',
+  template: `<p>Birthday is {{ birthday | date }}</p>`
+})
+export class BirthdayComponent {
+  birthday = new Date(1987, 6, 18); // June 18, 1987
+}
+
+
+
+===========================================What is a parameterized Pipe? (,parameterizedPipe)====================
+
+A pipe can accept any number of optional parameters to fine-tune its output. 
+The parameterized pipe can be created by declaring the pipe name with a colon ( : ) and then the parameter value. 
+If the pipe accepts multiple parameters, separate the values with colons. Let's take a birthday example with a particular format(dd/MM/yyyy):
+
+import { Component } from '@angular/core';
+
+    @Component({
+      selector: 'app-birthday',
+      template: `<p>Birthday is {{ birthday | date:'dd/MM/yyyy'}}</p>` // 18/06/1987
+    })
+    export class BirthdayComponent {
+      birthday = new Date(1987, 6, 18);
+    }
+Note: The parameter value can be any valid template expression, such as a string literal or a component property.
+
+
+
+============================================How do you ,chainPipes?======================
+
+You can chain pipes together in potentially useful combinations as per the needs. 
+Let's take a birthday property which uses date pipe(along with parameter) and uppercase pipes as below
+
+import { Component } from '@angular/core';
+
+        @Component({
+          selector: 'app-birthday',
+          template: `<p>Birthday is {{  birthday | date:'fullDate' | uppercase}} </p>` // THURSDAY, JUNE 18, 1987
+        })
+        export class BirthdayComponent {
+          birthday = new Date(1987, 6, 18);
+        }
+
+
+
+============================================What is a ,customPipe?================================
+
+Apart from built-inn pipes, you can write your own custom pipe with the below key characteristics,
+A pipe is a class decorated with pipe metadata @Pipe decorator, which you import from the core Angular library For example,
+    @Pipe({name: 'myCustomPipe'})
+The pipe class implements the PipeTransform interface's transform method that accepts an input value followed by optional parameters and returns the transformed value. The structure of pipeTransform would be as below,
+interface PipeTransform {
+  transform(value: any, ...args: any[]): any
+}
+The @Pipe decorator allows you to define the pipe name that you'll use within template expressions. It must be a valid JavaScript identifier.
+template: `{{someInputValue | myCustomPipe: someOtherValue}}`
+
+
+
+
+==============================================What is the difference between ,pure ,vs ,impure pipe?
+
+
+A pure pipe is only called when Angular detects a change in the value or the parameters passed to a pipe. 
+For example, any changes to a primitive input value (String, Number, Boolean, Symbol) or a changed object reference (Date, Array, Function, Object). 
+
+An impure pipe is called for every change detection cycle no matter whether the value or parameters changes. 
+i.e, An impure pipe is called often, as often as every keystroke or mouse-move.
+
+
+
+===============================================What is a ,bootstrappingModule?==============
+
+Every application has at least one Angular module, the root module that you bootstrap to launch the application is called as bootstrapping module. 
+It is commonly known as AppModule. The default structure of AppModule generated by AngularCLI would be as follows,
+
+```javascript
+/* JavaScript imports */
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+import { AppComponent } from './app.component';
+
+/* the AppModule class with the @NgModule decorator */
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpClientModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+
+
+======================================What is a bootstrapped component?(,bootstrappedComponent)
+A bootstrapped component is an entry component that Angular loads into the DOM during the bootstrap process or application launch time. 
+Generally, this bootstrapped or root component is named as AppComponent in your root module using bootstrap property as below.
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpClientModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent] // bootstrapped entry component need to be declared here
+})
+
+
+=========================================difference between ,promise,vs,observable?  or   ,observables,vs,promise
+
+Below are the list of differences between promise and observable,
+
+                                Observable	                                                                                       Promise
+
+Declarative: Computation does not start until subscription so that they can be run whenever you need the result	         Execute immediately on creation
+Provide multiple values over time	                                                                                       Provide only one
+Subscribe method is used for error handling which makes centralized and predictable error handling	                     Push errors to the child promises
+Provides chaining and subscription to handle complex applications	                                                       Uses only .then() clause
+
+
+=================================================What is ,multicasting?
+
+Multi-casting is the practice of broadcasting to a list of multiple subscribers in a single execution.
+
+Let's demonstrate the multi-casting feature,
+
+var source = Rx.Observable.from([1, 2, 3]);
+var subject = new Rx.Subject();
+var multicasted = source.multicast(subject);
+
+// These are, under the hood, `subject.subscribe({...})`:
+multicasted.subscribe({
+  next: (v) => console.log('observerA: ' + v)
+});
+multicasted.subscribe({
+  next: (v) => console.log('observerB: ' + v)
+});
+
+// This is, under the hood, `s
+
+
+
+=========================================How can you read full response?(,fullResponse)
+
+The response body doesn't may not return full response data because sometimes servers also return special headers or status code which which are important for the 
+   application workflow. 
+Inorder to get full response, you should use observe option from HttpClient,
+
+getUserResponse(): Observable<HttpResponse<User>> {
+  return this.http.get<User>(
+    this.userUrl, { observe: 'response' });
+}
+Now HttpClient.get() method returns an Observable of typed HttpResponse rather than just the JSON data.
+
+
+
+============================================What are ,observables?============================
+
+Observables are declarative which provide support for passing messages between publishers and subscribers in your application. 
+They are mainly used for event handling, asynchronous programming, and handling multiple values. 
+In this case, you define a function for publishing values, but it is not executed until a consumer subscribes to it. 
+The subscribed consumer then receives notifications until the function completes, or until they unsubscribe.
+
+
+
+=========================================observable?
+
+An Observable is a unique Object similar to a Promise that can help manage async code. 
+Observables are not part of the JavaScript language so we need to rely on a popular Observable library called RxJS. 
+The observables are created using new keyword.
+
+Let see the simple example of observable,
+
+import { Observable } from 'rxjs';
+
+const observable = new Observable(observer => {
+  setTimeout(() => {
+    observer.next('Hello from a Observable!');
+  }, 2000);
+});
+
+===========================================What is an ,observer?
+
+Observer is an interface for a consumer of push-based notifications delivered by an Observable. It has below structure,
+
+interface Observer<T> {
+  closed?: boolean;
+  next: (value: T) => void;
+  error: (err: any) => void;
+  complete: () => void;
+}
+A handler that implements the Observer interface for receiving observable notifications will be passed as a parameter for observable as below,
+
+myObservable.subscribe(myObserver);
+Note: If you don't supply a handler for a notification type, the observer ignores notifications of that type.
+
+
+
+=======================================How do you perform Error handling?(,errorHandling)
+
+If the request fails on the server or failed to reach the server due to network issues then HttpClient will return an error object instead of a successful reponse. 
+In this case, you need to handle in the component by passing error object as a second callback to subscribe() method.
+
+Let's see how it can be handled in the component with an example,
+
+fetchUser() {
+  this.userService.getProfile()
+    .subscribe(
+      (data: User) => this.userProfile = { ...data }, // success path
+      error => this.error = error // error path
+    );
+}
+It is always a good idea to give the user some meaningful feedback instead of displaying the raw error object returned from HttpClient.
+
+
+========================================How do you perform error handling in observables?(,errorHandlingInObservables)
+
+You can handle errors by specifying an error callback on the observer instead of relying on try/catch which are ineffective in asynchronous environment.
+
+For example, you can define error callback as below,
+
+myObservable.subscribe({
+  next(num) { console.log('Next num: ' + num)},
+  error(err) { console.log('Received an errror: ' + err)}
+});
+
+
+===============================================What is ,HttpClient and its benefits?=====================
+Most of the Front-end applications communicate with backend services over HTTP protocol using either XMLHttpRequest interface or the fetch() API. 
+Angular provides a simplified client HTTP API known as HttpClient which is based on top of XMLHttpRequest interface. 
+
+HttpClient is a built-in service class available in the @angular/common/http package. 
+It has multiple signature and return types for each request. 
+It uses the RxJS observable-based APIs, which means it returns the observable and what we need to subscribe it.
+
+
+ex:-reference link=https://www.telerik.com/blogs/angular-basics-how-to-use-httpclient#:~:text=What%20Is%20HttpClient%3F,we%20need%20to%20subscribe%20it.
+steps:
+ 1. Import or configure the HttpClientModule into the app.module.ts file 
+ 2. You can directly use the HttpClient in your component, but its best to access it via the service.
+ 3. Inject the HttpClient in the service file 
+ 4.In this step we are going to fetch the data from the server with the help of HTTP GET request.
+ 5.
+
+
+This client is avaialble from @angular/common/http package. You can import in your root module as below,
+
+import { HttpClientModule } from '@angular/common/http';
+The major advantages of HttpClient can be listed as below,
+
+Contains testability features
+Provides typed request and response objects
+Intercept request and response
+Supports Observalbe APIs
+Supports streamlined error handling
+
+
+
+=================================================Explain on how to use ,HttpClient with an example?============================
+
+Below are the steps need to be followed for the usage of HttpClient.
+1.Import HttpClient into root module:
+
+import { HttpClientModule } from '@angular/common/http';
+@NgModule({
+  imports: [
+    BrowserModule,
+    // import HttpClientModule after BrowserModule.
+    HttpClientModule,
+  ],
+  ......
+  })
+ export class AppModule {}
+2.Inject the HttpClient into the application: Let's create a userProfileService(userprofile.service.ts) as an example. It also defines get method of HttpClient
+
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+const userProfileUrl: string = 'assets/data/profile.json';
+
+@Injectable()
+export class UserProfileService {
+  constructor(private http: HttpClient) { }
+
+  getUserProfile() {
+    return this.http.get(this.userProfileUrl);
+  }
+}
+3.Create a component for subscribing service:
+Let's create a component called UserProfileComponent(userprofile.component.ts) which inject UserProfileService and invokes the service method,
+
+fetchUserProfile() {
+  this.userProfileService.getUserProfile()
+    .subscribe((data: User) => this.user = {
+        id: data['userId'],
+        name: data['firstName'],
+        city:  data['city']
+    });
+}
+Since the above service method returns an Observable which needs to be subscribed in the component.
+
+
+
+
+38  pending
+
+
+==================================================What is RxJS?    (,rxjs)================================
+
+RxJS is a library for composing asynchronous and callback-based code in a functional, reactive style using Observables. 
+Many APIs such as HttpClient produce and consume RxJS Observables and also uses operators for processing observables.
+
+For example, you can import observables and operators for using HttpClient as below,
+
+import { Observable, throwError } from 'rxjs';
+import { catchError, retry } from 'rxjs/operators';
+
+
+==================================================What is ,subscribing?===========================
+An Observable instance begins publishing values only when someone subscribes to it. 
+So you need to subscribe by calling the subscribe() method of the instance, passing an observer object to receive the notifications.
+
+Let's take an example of creating and subscribing to a simple observable, with an observer that logs the received message to the console.
+
+
+
+==================================,subscribeMethod?
+
+The subscribe() method can accept callback function definitions in line, for next, error, and complete handlers is known as short hand notation or Subscribe method with positional arguments.
+
+For example, you can define subscribe method as below,
+
+myObservable.subscribe(
+  x => console.log('Observer got a next value: ' + x),
+  err => console.error('Observer got an error: ' + err),
+  () => console.log('Observer got a complete notification')
+);
+
+
+
+================================================What is an ,observable?===============================================
+An Observable is a unique Object similar to a Promise that can help manage async code. 
+Observables are not part of the JavaScript language so we need to rely on a popular Observable library called RxJS. 
+The observables are created using new keyword
+
+
+===============================================What are ,dynamicComponents?===========================================
+
+Dynamic components are the components in which components location in the application is not defined at build time.i.e, 
+They are not used in any angular template. But the component is instantiated and placed in the application at runtime.
+
+
+===================================================What is Angular ,router?
+
+The Router module handles the navigation & Routing in Angular. 
+The Routing allows you to move from one part of the application to another part or one View to another View.
+It is in its own library package, @angular/router.
+
+Angular Router is a mechanism in which navigation happens from one view to the next as users perform application tasks. 
+It borrows the concepts or model of browser's application navigation
+
+Using Angular Router you can
+  Navigate to a specific view by typing a URL in the address bar
+  Pass optional parameters to the View
+  Bind the clickable elements to the View and load the view when the user performs application tasks
+  Handles back and forward buttons of the browser
+  Allows you to dynamically load the view
+  Protect the routes from unauthorized users using Guards
+
+
+  *To Configure the Router in Angular, you need to follow these steps
+    Set the <base href>                               
+    ex:-
+      <base href="/">
+    Define routes for the view                        
+    ex:-
+      const appRoutes={ path: 'product', component: ProductComponent },
+                        { path: '', redirectTo: 'home', pathMatch: 'full' },   //defaulot route
+                        { path: '**', component: ErrorComponent }              //wildcard route 
+    Register the Router Service with Routes 
+      ex:-
+        import { RouterModule } from '@angular/router';
+        import { routes } from './app.routes'; 
+
+        imports: [RouterModule.forRoot(routes)],    /*path location strategy */
+                /*RouterModule.forRoot(appRoutes, { useHash: true }) */   /*Hashlocationstrategy */
+    Map HTML Element actions to Route
+      ex:-
+        <li><a [routerLink]="['product']">Product</a></li>
+    Choose where you want to display the view
+     ex:-
+       <router-outlet></router-outlet>
+
+
+
+ ========================================,components of angularRouterModule
+Router:-
+    The Angular Router is an object that enables navigation from one component to the next component as users perform application tasks like clicking on menus links, 
+        buttons or clicking on back/forward button on the browser. 
+    We can access the router object and use its methods like navigate() or navigateByUrl(), to navigate to a route
+
+Route:-
+    Route tells the Angular Router which view to display when a user clicks a link or pastes a URL into the browser address bar. 
+    Every Route consists of a path and a component it is mapped to. 
+    The Router object parses and builds the final URL using the Route
+
+Routes:-
+    Routes is an array of Route objects our application supports
+
+RouterOutlet:-
+    The outerOutlet is a directive (<router-outlet>) that serves as a placeholder, where the Router should display the view
+
+RouterLink:-
+    The RouterLink is a directive that binds the HTML element to a Route. 
+    Clicking on the HTML element, which is bound to a RouterLink, will result in navigation to the Route. 
+    The RouterLink may contain parameters to be passed to the route’s component.
+
+RouterLinkActive:-
+    RouterLinkActive is a directive for adding or removing classes from an HTML element that is bound to a RouterLink. 
+    Using this directive, we can toggle CSS classes for active RouterLinks based on the current RouterState
+
+ActivatedRoute:-
+    The ActivatedRoute is an object that represents the currently activated route associated with the loaded Component.
+
+RouterState:-
+    The current state of the router including a tree of the currently activated routes together with convenience methods for traversing the route tree.
+
+RouteLink Parameters array:-
+    The Parameters or arguments to the Route. 
+    It is an array which you can bind to RouterLink directive or pass it as an argument to the Router.navigate method.      
+
+
+===================================================What is the purpose of ,Wildcard route?=========================================
+
+If the URL doesn't match any predefined routes then it causes the router to throw an error and crash the app. 
+In this case, you can use wildcard route. A wildcard route has a path consisting of two asterisks to match every URL.
+
+For example, you can define PageNotFoundComponent for wildcard route as below
+
+{ path: '**', component: PageNotFoundComponent }
+
+
+
+==============================,AJAX?(,ajax)
+
+Angular uses AJAX technology to build single-page applications
+When we use HttpClient for the Ajax calls in Angular Framework, 
+       we can use both implementations (i.e. observables or promises) which provides an easy way of API operation for handling requests or receiving a response.
+
+
+=======================================================What is Angular Universal?  (,angularUniversal)(,universal)
+Angular Universal is a server-side rendering module for Angular applications in various scenarios. 
+This is a community driven project and available under @angular/platform-server package. Recently Angular Universal is integrated with Angular CLI.
+
+
+========================================================What are different types of compilation in Angular?
+Angular offers two ways to compile your application,
+Just-in-Time (JIT)
+Ahead-of-Time (AOT)
+
+
+==============================What is JIT?(,jit)
+Just-in-Time (JIT) is a type of compilation that compiles your app in the browser at runtime. 
+JIT compilation is the default when you run the ng build (build only) or 
+ng serve (build and serve locally) CLI commands. i.e, the below commands used for JIT compilation,
+
+ng build
+ng serve
+
+
+=================================What is AOT?  (,aot)
+Ahead-of-Time (AOT) is a type of compilation that compiles your app at build time. 
+For AOT compilation, include the --aot option with the ng build or ng serve command as below,
+
+ng build --aot
+ng serve --aot
+
+Note: The ng build command with the --prod meta-flag (ng build --prod) compiles with AOT by default
+
+
+or
+
+The Ahead-of-time (AOT) compiler converts the Angular HTML and TypeScript code into JavaScript code during the build phase, i.e., before the browser downloads and runs the code.
+
+Some of its advantages are as follows. 
+
+Faster rendering
+Fewer asynchronous requests
+Smaller Angular framework download size
+Quick detection of template errors
+Better security
+
+
+
+===================================Why do we need ,compilation process?===============================
+The Angular components and templates cannot be understood by the browser directly. 
+Due to that Angular applications require a compilation process before they can run in a browser. 
+For example, In AOT compilation, both Angular HTML and TypeScript code converted into efficient JavaScript code during the build phase before browser runs it.
+
+
+
+===================================How do you find angular CLI ,version?==================================
+Angular CLI provides it's installed version using below different ways using ng command,
+
+ng v
+ng version
+ng -v
+ng --version
+and the output would be as below,
+
+Angular CLI: 1.6.3
+Node: 8.11.3
+OS: darwin x64
+Angular:
+...
+
+
+
+
+
+=============================What is validator in Angular?(,validator)===================
+
+A validator is a function that processes a FormControl or collection of controls and returns an error map or null. 
+A null map means that validation has passed.
+
+
+
+====================================What are the types of validator functions?(,validatorFunction ,types)
+In reactive forms, the validators can be either synchronous or asynchronous functions,
+
+Sync validators: These are the synchronous functions which take a control instance and immediately return either a set of validation errors or null. 
+                Also, these functions passed as second argument while instantiating the form control. 
+                The main use cases are simple checks like whether a field is empty, whether it exceeds a maximum length etc.
+Async validators: These are the asynchronous functions which take a control instance and return a Promise or Observable that later emits a set of validation errors 
+                  or null. 
+                  Also, these functions passed as second argument while instantiating the form control. 
+                  The main use cases are complex validations like hitting a server to check the availability of a username or email.
+
+
+
+
+
+====================================How do you ,reset the form?
+
+In a model-driven form, you can reset the form just by calling the function reset() on our form model. 
+For example, you can reset the form model on submission as follows,
+
+onSubmit() {
+  if (this.myform.valid) {
+    console.log("Form is submitted");
+    // Perform business logic here
+    this.myform.reset();
+  }
+}
+
+
+
+
+================================================What are the ,stateCSSclasses provided by ,ngModel?
+
+The ngModel directive updates the form control with special Angular CSS classes to reflect it's state. Let's find the list of classes in a tabular format,
+
+Form control state	                          If true	                     If false
+Visited	                                    ng-touched	                 ng-untouched
+Value has changed	                          ng-dirty	                   ng-pristine
+Value is valid	                            ng-valid	                   ng-invalid
+
+
+
+
+
+
+
+==============================How to set ngFor and ngIf on the same element?======================
+
+Sometimes you may need to both ngFor and ngIf on the same element but unfortunately you are going to encounter below template error.
+
+ Template parse errors: Can't have multiple template bindings on one element.
+
+In this case, You need to use either ng-container or ng-template.
+ Let's say if you try to loop over the items only when the items are available, the below code throws an error in the browser
+
+<ul *ngIf="items" *ngFor="let item of items">
+  <li></li>
+</ul>
+and it can be fixed by
+
+<ng-container *ngIf="items">
+  <ul *ngFor="let item of items">
+    <li></li>
+  </ul>
+</ng-container>
+
+
+======================================How do you get the current route?===============(,currentRoute)
+In Angular, there is an url property of router package to get the current route. You need to follow the below few steps,
+
+1.Import Router from @angular/router
+  import { Router } from '@angular/router';
+2.Inject router inside constructor
+  constructor(private router: Router ) {
+  }
+3.Access url parameter
+  console.log(this.router.url); //  /routename
+
+
+
+=========================================================What is the benefit of Automatic Inlining of Fonts?(,automaticInlining)
+During compile time, Angular CLI will download and inline the fonts that your application is using. 
+This performance update speed up the first contentful paint(FCP) and this feature is enabled by default in apps built with version 11.
+
+
+==================================================What is content projection?================(,contentProjection)
+Content projection is a pattern in which you insert, or project, the content you want to use inside another component.
+
+===================================================What is ng-content and its purpose?  (,ngContent)
+The ng-content is used to insert the content dynamically inside the component that helps to increase component reusability.
+ 
+ ----><ng-container></ng-container>
+ng-container is an extremely simple directive that allows you to group elements in a template that doesn’t interfere with styles or layout because Angular doesn’t 
+put it in the DOM
+
+This is helpful if you don’t want any extra div on DOM, you can simply use
+ng-container. For eg: If there are two structural directives are being called on one div as below:
+
+<div *ngIf="details" *ngFor="let info of details">
+  {{ info.content }}
+</div>
+Attempting to compile this code will result in the following error:
+
+Can't have multiple template bindings on one element. Use only one attribute prefixed with *
+One workaround would be to separate the bindings as below:
+
+<div *ngIf="details">
+  <div *ngFor="let info of details">
+    {{ info.content }}
+  </div>
+</div>
+Or we can use <ng-container> without adding any extra element to the DOM at runtime:
+
+<ng-container *ngIf="details">
+  <div *ngFor="let info of details">
+    {{ info.content }}
+  </div>
+</ng-container>
+3) <ng-content></ng-content>
+ng-content is used to project content into Angular components. You use the <ng-content></ng-content> tag as a placeholder for that dynamic content, 
+then when the template is parsed Angular will replace that placeholder tag with your content.
+
+For example, you have two components as parent and child component
+and want to show some data in the child component from the parent component
+
+In parent.component.html <app-child> selector is used to show data of child component
+
+<app-child>
+  <div> Child Component Details </div>
+</app-child>
+If you check on your browser <div>Child Component Details</div> inside
+<app-child></app-child> would not be visible. What if we want to show this content? So this is where the ng-content directive comes into the picture. 
+What we need to do is, just add “ng-content” inside the component template and it will find the content inside the directive tag and add it to that template at 
+that particular place where we added the “ng-content” tag.
+
+So instead of div, you do something similar with Angular components except if you tell Angular where to display it in the parent template using ng-content.
+
+In child.component.html:
+
+<h1>Child Info</h1>
+<ng-content></ng-content>
+Now go to your browser again, you are able to see this: <div>Child Component Details</div>
+
+<ng-content> accepts a select attribute, which allows us to sort of name our slot, to be more specific, it allows us to define the selector of our slot. 
+It means “Replace me only if the element has card-body attribute”. Then, we change our app component view to include the card-body attribute.
+
+For example: In child.component.html:
+
+<h1>Child Info</h1>
+<ng-content select="[input], [form-field]"></ng-content>
+In parent.component.html:
+
+<app-child>
+  <h1 input>Content1!</h3>
+  <h2 form-field>Content2!</h2>
+  <h3 input form-field>Content1 & Content2!</h1>
+</app-child>
+If you check your browser, all the heading tags will be visible from child component with the help of <ng-content>.
+
+To sum up, ng-content is used to display children in a template, ng-container is used as a non-rendered container to avoid having to add a span or a div, 
+and ng-template allows you to group some content that is not rendered directly but can be used in other places of your template or you code.
+
+=======================================,ngTemplate==============================
+
+      <ng-template></ng-template>
+As the name suggests the <ng-template> is a template element that Angular uses with structural directives ( *ngIf , *ngFor , [ngSwitch] and custom directives). 
+These template elements only work in the presence of structural directives, which help us to define a template that doesn’t render anything by itself, 
+                       but conditionally renders them to the DOM. 
+It helps us create dynamic templates that can be customized and configured.
+
+<div> 
+   Ng-template Content 
+   <div *ngIf=”false else showNgTemplateContent”> 
+      Shouldn't be displayed 
+   </div>
+</div>
+ 
+<ng-template #showNgTemplateContent> Should be displayed
+</ng-template>
+
+
+================================================,ngContainer======================================================
+ <ng-container></ng-container>
+ng-container is an extremely simple directive that allows you to group elements in a template that doesn’t interfere with styles or layout because 
+                   Angular doesn’t put it in the DOM
+
+This is helpful if you don’t want any extra div on DOM, you can simply use
+ng-container. For eg: If there are two structural directives are being called on one div as below:
+
+<div *ngIf="details" *ngFor="let info of details">
+  {{ info.content }}
+</div>
+Attempting to compile this code will result in the following error:
+
+Can't have multiple template bindings on one element. Use only one attribute prefixed with *
+One workaround would be to separate the bindings as below:
+
+<div *ngIf="details">
+  <div *ngFor="let info of details">
+    {{ info.content }}
+  </div>
+</div>
+Or we can use <ng-container> without adding any extra element to the DOM at runtime:
+
+<ng-container *ngIf="details">
+  <div *ngFor="let info of details">
+    {{ info.content }}
+  </div>
+</ng-container>
+
+
+
+
+=====================================types of injector hierarchies?
+
+There are two types of injector hierarchies in Angular
+
+ModuleInjector hierarchy: It configure on a module level using an @NgModule() or @Injectable() annotation.
+ElementInjector hierarchy: It created implicitly at each DOM element. 
+Also it is empty by default unless you configure it in the providers property on @Directive() or @Component().
+
+
+
+
+
+==================================================The Template-driven forms (,templateDrivenForms)
+
+The form is set up using ngForm directive
+controls are set up using the ngModel directive
+ngModel also provides the two-way data binding
+The Validations are configured in the template via directives
+
+To work with Template-driven forms, 
+    1.we must import the FormsModule. We usually import it in root module or in a shared module.
+    2.create regular html form in form tag
+    3.using ngForm directive ,normal form converted into template driven forms
+          ex:-<form #contactForm="ngForm">
+              <input type="text" name="firstname" ngModel>
+              <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+               onSubmit(contactForm) {
+                    console.log(contactForm.value);
+                       }
+
+        ----------The ,ngForm does the following
+
+Binds itself to the <Form> directive
+Creates a top-level FormGroup instance
+CreatesFormControl instance for each of child control, which has ngModel directive.
+CreatesFormGroup instance for each of the  NgModelGroup directive.
+
+
+================================================What are Reactive Forms? (,reactiveForms)
+also known as MOdel driven forms 
+Reactive forms are forms where we define the structure of the form in the component class. i.e. 
+we create the form model with Form Groups, Form Controls, and FormArrays. We also define the validation rules in the component class. 
+Then, we bind it to the HTML form in the template. 
+
+This is different from the template-driven forms, where we define the logic and controls in the HTML template.
+
+    How to use Reactive Forms
+Import ReactiveFormsModule  in root Module 
+Create Form Model in component class using FormGroup, FormControl & FormArrays
+Create the HTML Form resembling the Form Model.
+Bind the HTML Form to the Form Model
+
+  ex:-<form [formGroup]="contactForm">
+      <input type="text" id="firstname" name="firstname" formControlName="firstname">
+      <input type="text" id="lastname" name="lastname" formControlName="lastname">
+      <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+
+
+
+
+
+=================================================reactive forms ,vs template driven forms?
+Below are the main differences between reactive forms and template driven forms
+
+Feature	                                Reactive	                                                                 Template-Driven
+
+Form model setup	         Created(FormControl instance) in component explicitly	                             Created by directives
+Data updates	             Synchronous	                                                                          Asynchronous
+Form custom validation	   Defined as Functions	                                                              Defined as Directives
+Testing	                   No interaction with change detection cycle	                                  Need knowledge of the change detection process
+Mutability	               Immutable(by always returning new value for FormControl instance)	            Mutable(Property always modified to new value)
+Scalability	               More scalable using low-level APIs	                                          Less scalable using due to abstraction on APIs
+
+
+
+=================================================,dynamic forms?===============================
+Dynamic forms is a pattern in which we build a form dynamically based on metadata that describes a business object model. 
+You can create them based on reactive form API.
+
+  =========================================What is ,formBuilder
+
+The FormBuilder is the helper API to build forms in Angular.  
+It provides shortcuts to create the instance of the FormControl, FormGroup or FormArray. 
+It reduces the code required to write the complex forms.
+
+ex:-
+ 
+import { FormBuilder } from '@angular/forms'
+ 
+Next, we need to inject it into our component class
+ 
+constructor(private formBuilder: FormBuilder) {
+}
+
+
+
+
+=================================================How do you update specific properties of a form model?(,updateSpecificProperties)
+
+You can use patchValue() method to update specific properties defined in the form model. 
+For example,you can update the name and street of certain profile on click of the update button as shown below.
+
+updateProfile() {
+  this.userProfile.patchValue({
+    firstName: 'John',
+    address: {
+      street: '98 Crescent Street'
+    }
+  });
+}
+  <button (click)="updateProfile()">Update Profile</button>
+You can also use setValue method to update properties.
+
+Note: Remember to update the properties against the exact model structure.
+
+
+
+==========================================,setValue
+
+setValue(value: { [key: string]: any; }, options: { onlySelf?: boolean; emitEvent?: boolean; } = {}): void
+
+We use the SetValue to update the FormControl , FormGroup or FormArray. 
+When we use it to update the FormGroup or FormArray the SetValue requires that the object must match the structure of the FormGroup or FormArray exactly. 
+Otherwise, it will result in an error.
+
+==========================================,patchValue
+patchValue(value: { [key: string]: any; }, options: { onlySelf?: boolean; emitEvent?: boolean; } = {}): void
+
+The PatchValue is used to update only a subset of the elements of the FormGroup or FormArray. It will only update the matching objects and ignores the rest.
+
+
+
+===========================================What is ,formControl
+
+ 
+ex:-First Name : <input type="text" name="firstname" /> 
+ 
+As a developer, you would like to know the current value in the text box. 
+You would also be like to know if the value is valid or not.. If the user has changed the value(dirty) or is it unchanged. 
+You would like to be notified when the user changes its value.
+
+The FormControl is an object that encapsulates all the information related to the single input element. It Tracks the value and validation status of each of these control.
+
+The FormControl is just a class. A FormControl is created for each form field. We can refer to them in our component class and inspect its properties and methods
+
+We can use FormControl to set the value of the Form field. Find the status of form field like (valid/invalid, pristine/dirty, touched/untouched ), etc. You can add validation rules to it.
+  
+
+
+===================================================What are the different ways to group form controls?
+Reactive forms provide two ways of grouping multiple related controls.
+
+FormGroup:FormGroup: It defines a form with a fixed set of controls those can be managed together in an one object. 
+                     It has same properties and methods similar to a FormControl instance. This FormGroup can be nested to create complex forms
+FormArray:It defines a dynamic form in an array format, where you can add and remove controls at run time. 
+          This is useful for dynamic forms when you don’t know how many controls will be present within the group.
+
+=============================================,formGroup
+
+The FormGroup is a collection of Form controls It Tracks the value and validity state of a group of Form control instances. 
+The FormGroup is one of the building blocks of the angular forms. The other two are FormControl and FormArray.
+
+We create a FormControl for each of these input fields. It tracks the value & validity of these elements. 
+All of the above input fields are represented as the separate FormControl. If we wanted to check the validity of our form, 
+                                            we have to check the validity of each and every FormControl for validity. 
+Imagine a form having a large no of fields. It is cumbersome to loop over large no of FormControls and check for validity
+
+The FormGroup solve’s this issue by providing a wrapper around a collection of FormControls It encapsulates all the information related to a group of form elements. 
+It Tracks the value and validation status of each of these control. 
+We can use it to check the validity of the elements. set its values & listen for change events, add and run validations on the group, etc
+
+The FormGroup is just a class. We create a FormGroup to organize and manage the related elements. 
+For Example form elements like address, city.state, pin code etc can be grouped together as a single FormGroup. 
+It makes it easier to manage them. 
+A FormGroup aggregates the values of each child FormControl into one object, with each control name as the key. 
+It calculates its status by reducing the status values of its children. 
+For example, if one of the controls in a group is invalid, the entire group becomes invalid.
+
+
+
+=============================,formControl,status 
+The FormGroup tracks the validation status of all the FormControls, which is part of the FormGroup. That also includes the status of nested FormGroup or FormArray. 
+If any of the control becomes invalid, then the entire FormGroup becomes invalid.
+
+The following is the list of status-related properties
+
+status
+status: string
+
+The Angular runs validation checks, whenever the value of a form control changes. Based on the result of the validation, the FormGroup can have four possible states.
+
+VALID: All the controls of the FormGroup has passed all validation checks.
+INVALID: At least one of the control has failed at least one validation check.
+PENDING: This Group is in the midst of conducting a validation check.
+DISABLED: This FormGroup is exempt from validation checks
+
+//reactive forms
+this.reactiveForm.status
+
+
+==========================================What is ,formArray
+The FormArray is a way to manage the collection of Form Controls in Angular. 
+The controls can be a FormGroup, FormControl, or another FormArray.
+
+We can group Form Controls in Angular forms in two ways. One is using the FormGroup and the other one is FormArray. 
+The difference is how they implement it. In FormGroup controls becomes a property of the FormGroup. Each control is represented as key-value pair. 
+While in FormArray, the controls become part of an array
+
+
+
+===========================================,validators in Reactive Forms
+What is a Validator
+A Validator is a function that checks the instance of FormControl, FormGroup or a FormArray and returns a list of errors. 
+If the Validator returns a null means that validation has passed
+
+
+===========================================Built-in Validators  (,builtInValidators)
+The Angular ReactiveForms Module provides several Built-in validators out of the box. They are required, minlength, maxlength & pattern etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===============================How do you create ,displayBlock components?
+By default, Angular CLI creates components in an inline displayed mode(i.e, display:inline). 
+But it is possible to create components with display: block style using displayBlock option,
+
+ng generate component my-component --displayBlock
+(OR) the option can be turned on by default in Angular.json with schematics.@schematics/angular:component.displayBlock key value as true.
+
+
+==================================What classes should not be added to declarations?
+The below class types shouldn't be added to declarations
+
+A class which is already declared in any another module.
+Directives imported from another module.
+Module classes.
+Service classes.
+Non-Angular classes and objects, such as strings, numbers, functions, entity models, configurations, business logic, and helper classes.
+
+
+=======================================What is ,ngcc?
+The ngcc(Angular Compatibility Compiler) is a tool which upgrades node_module compiled with non-ivy ngc into ivy compliant format. 
+The postinstall script from package.json will make sure your node_modules will be compatible with the Ivy renderer.
+
+"scripts": {
+   "postinstall": "ngcc"
+}
+Whereas, Ivy compiler (ngtsc), which compiles Ivy-compatible code.
+
+
+======================================Can I share services using modules?
+No, it is not recommended to share services by importing module. 
+i.e Import modules when you want to use directives, pipes, and components only. 
+The best approach to get a hold of shared services is through 'Angular dependency injection' because importing a module will result in a new service instance.
+
+
+======================================What is a ,sharedModule?============================
+
+The Shared Module is the module in which you put commonly used directives, pipes, and components into one module that is shared(import it) throughout the application.
+
+For example, the below shared module imports CommonModule, FormsModule for common directives and components, pipes and directives based on the need,
+
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { UserComponent } from './user.component';
+import { NewUserDirective } from './new-user.directive';
+import { OrdersPipe } from './orders.pipe';
+
+@NgModule({
+ imports:      [ CommonModule ],
+ declarations: [ UserComponent, NewUserDirective, OrdersPipe ],
+ exports:      [ UserComponent, NewUserDirective, OrdersPipe,
+                 CommonModule, FormsModule ]
+})
+export class SharedModule { }
+
+
+
+
+===================================What are the steps to use ,declaration elements?
+Below are the steps to be followed to use declaration elements.
+
+Create the element(component, directive and pipes) and export it from the file where you wrote it
+Import it into the appropriate module.
+Declare it in the @NgModule declarations array.
+
+
+
+============================What are the possible errors with declarations?
+There are two common possible errors with declarations array,
+
+If you use a component without declaring it, Angular returns an error message.
+If you try to declare the same class in more than one module then compiler emits an error.
+
+
+=================================What are the imported modules in CLI generated feature modules?
+
+In the CLI generated feature module, there are two JavaScript import statements at the top of the file
+
+NgModule: InOrder to use the @NgModule decorator
+CommonModule: It provides many common directives such as ngIf and ngFor
+
+
+
+========================================What are feature modules?(,featureModules)
+Feature modules are NgModules, which are used for the purpose of organizing code. The feature module can be created with Angular CLI using the below command 
+in the root directory,
+
+ng generate module MyCustomFeature //
+
+
+==================================Give few examples for NgModules?
+
+The Angular core libraries and third-party libraries are available as NgModules.
+
+Angular libraries such as FormsModule, HttpClientModule, and RouterModule are NgModules.
+Many third-party libraries such as Material Design, Ionic, and AngularFire2 are NgModules.
+
+
+
+===================================How does angular finds components, directives and pipes?
+
+The Angular compiler finds a component or directive in a template when it can match the selector of that component or directive in that template. 
+Whereas it finds a pipe if the pipe's name appears within the pipe syntax of the template HTML.
+
+
+
+=====================================What is the role of ,ngModule metadata in compilation process?
+
+The @NgModule metadata is used to tell the Angular compiler what components to be compiled for this module and how to link this module with other modules.
+
+
+What is Angular compiler?(,compiler)
+The Angular compiler is used to convert the application code into JavaScript code. It reads the template markup, combines it with the corresponding component class code,
+ and emits component factories which creates JavaScript representation of the component along with elements of @Component metadata.
+
+
+
+======================================What is a routed entry component?(,routedEntryComponent)
+
+The components referenced in router configuration are called as routed entry components. This routed entry component defined in a route definition as below,
+
+const routes: Routes = [
+  {
+    path: '',
+    component: TodoListComponent // router entry component
+  }
+];
+
+
+
+===================What is the difference between ngIf ,vs hidden property?
+The main difference is that *ngIf will remove the element from the DOM, while [hidden] actually plays with the CSS style by setting display:none. 
+Generally it is expensive to add and remove stuff from the DOM for frequent actions.
+
+
+
+================================What is the purpose of hidden property?(,hiddenProperty)
+
+The hidden property is used to show or hide the associated DOM element, based on an expression. It can be compared close to ng-show directive in AngularJS. Let's say you want to show user name based on the availability of user using hidden property.
+
+<div [hidden]="!user.name">
+  My name is: {{user.name}}
+</div>
+
+
+
+=========================================What is the purpose of base href tag?(,baseHref)
+
+The routing application should add element to the index.html as the first child in the tag in order to indicate how to compose navigation URLs. 
+If app folder is the application root then you can set the href value as below
+
+<base href="/">
+
+
+=================================What are router links?(,routerLinks)
+
+The RouterLink is a directive on the anchor tags give the router control over those elements. 
+Since the navigation paths are fixed, you can assign string values to router-link directive as below,
+
+<h1>Angular Router</h1>
+<nav>
+  <a routerLink="/todosList" >List of todos</a>
+  <a routerLink="/completed" >Completed todos</a>
+</nav>
+<router-outlet></router-outlet>
+
+
+
+====================================What are active router links?(,activeRouterLinks)
+
+RouterLinkActive is a directive that toggles css classes for active RouterLink bindings based on the current RouterState. 
+i.e, The Router will add CSS classes when this link is active and remove when the link is inactive. For example, you can add them to RouterLinks as below.
+
+<h1>Angular Router</h1>
+<nav>
+  <a routerLink="/todosList" routerLinkActive="active">List of todos</a>
+  <a routerLink="/completed" routerLinkActive="active">Completed todos</a>
+</nav>
+<router-outlet></router-outlet>
+
+
+
+==============================What is router state?(,routerState)
+
+RouterState is a tree of activated routes. 
+Every node in this tree knows about the "consumed" URL segments, the extracted parameters, and the resolved data. 
+You can access the current RouterState from anywhere in the application using the Router service and the routerState property.
+
+@Component({templateUrl:'template.html'})
+class MyComponent {
+  constructor(router: Router) {
+    const state: RouterState = router.routerState;
+    const root: ActivatedRoute = state.root;
+    const child = root.firstChild;
+    const id: Observable<string> = child.params.map(p => p.id);
+    //...
+  }
+}
+          
+          (or)
+
+The RouteState is an interface which represents the state of the router as a tree of activated routes.
+
+interface RouterState extends Tree {
+  snapshot: RouterStateSnapshot
+  toString(): string
+}
+You can access the current RouterState from anywhere in the Angular app using the Router service and the routerState property.
+
+
+
+
+=====================================How do you use ,jquery in Angular?
+
+You can use jquery in Angular using 3 simple steps,
+
+Install the dependency: At first, install the jquery dependency using npm
+   npm install --save jquery
+Add the jquery script: In Angular-CLI project, add the relative path to jquery in the angular.json file.
+"scripts": [
+   "node_modules/jquery/dist/jquery.min.js"
+]
+
+
+
+====================================What is ,protractor?
+
+Protractor is an end-to-end test framework for Angular and AngularJS applications. It runs tests against your application running in a real browser, interacting with it as a user would.
+
+npm install -g protractor
+
+
+
+==============================What are Http Interceptors?(,httpInterceptor)
+Http Interceptors are part of @angular/common/http, which inspect and transform HTTP requests from your application to the server and vice-versa on HTTP responses. These interceptors can perform a variety of implicit tasks, from authentication to logging.
+
+The syntax of HttpInterceptor interface looks like as below,
+
+interface HttpInterceptor {
+  intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>>
+}
+
+
+
+====================================What are the applications of HTTP interceptors?(,httpInterceptor)
+The HTTP Interceptors can be used for different variety of tasks,
+
+Authentication
+Logging
+Caching
+Fake backend
+URL transformation
+Modifying headers
+
+
+
+===================================================What is the purpose of innerHTML?(,innerHTML)
+The innerHtml is a property of HTML-Elements, which allows you to set it's html-content programmatically. Let's display the below html code snippet in a <div> tag as below using innerHTML binding,
+
+<div [innerHTML]="htmlSnippet"></div>
+and define the htmlSnippet property from any component
+
+export class myComponent {
+  htmlSnippet: string = '<b>Hello World</b>, Angular';
+}
+Unfortunately this property could cause Cross Site Scripting (XSS) security bugs when improperly handled.
+
+
+
+=======================================What is ,schematic?
+It's a scaffolding library that defines how to generate or transform a programming project by creating, modifying, refactoring, or moving files and code. 
+It defines rules that operate on a virtual file system called a tree.
+
+
+
+
+======================================What is rule in Schematics?(schematicRulle)
+In schematics world, it's a function that operates on a file tree to create, delete, or modify files in a specific manner.
+
+
+
+=========================================What is Schematics CLI?(.schematicsCli)
+Schematics come with their own command-line tool known as Schematics CLI. 
+It is used to install the schematics executable, which you can use to create a new schematics collection with an initial named schematic. The collection folder is a workspace for schematics. You can also use the schematics command to add a new schematic to an existing collection, or extend an existing schematic. You can install Schematic CLI globally as below,
+
+npm install -g @angular-devkit/schematics-cli
+
+
+
+
+==========================How to use polyfills in Angular application?
+
+The Angular CLI provides support for polyfills officially. When you create a new project with the ng new command, a src/polyfills.ts configuration file is created as part of your project folder. 
+This file includes the mandatory and many of the optional polyfills as JavaScript import statements. Let's categorize the polyfills,
+
+Mandatory polyfills: 
+       These are installed automatically when you create your project with ng new command and the respective import statements enabled in 'src/polyfills.ts' file.
+Optional polyfills: 
+       You need to install its npm package and then create import statement in 'src/polyfills.ts' file. 
+       For example, first you need to install below npm package for adding web animations (optional) polyfill. bash npm install --save web-animations-js and 
+           create import statement in polyfill file. javascript import 'web-animations-js';
+
+
+
+
+=====================================How do you ,upgrade angular version?
+The Angular upgrade is quite easier using Angular CLI ng update command as mentioned below. 
+For example, if you upgrade from Angular 7 to 8 then your lazy loaded route imports will be migrated to the new import syntax automatically.
+
+$ ng update @angular/cli @angular/core
+
+
+
+
+=====================================What is lazy loading?(,lazyLoading)
+Lazy loading is one of the most useful concepts of Angular Routing. 
+It helps us to download the web pages in chunks instead of downloading everything in a big bundle. 
+It is used for lazy loading by asynchronously loading the feature module for routing whenever required using the property loadChildren. 
+Let's load both Customer and Order feature modules lazily as below,
+
+const routes: Routes = [
+  {
+    path: 'customers',
+    loadChildren: () => import('./customers/customers.module').then(module => module.CustomersModule)
+  },
+  {
+    path: 'orders',
+    loadChildren: () => import('./orders/orders.module').then(module => module.OrdersModule)
+  },
+  {
+    path: '',
+    redirectTo: '',
+    pathMatch: 'full'
+  }
+];
+
+
+
+
+==================================================How do you select an element with in a component template?(componentTemplate)
+You can use @ViewChild directive to access elements in the view directly. Let's take input element with a reference,
+
+<input #uname>
+and define view child directive and access it in ngAfterViewInit lifecycle hook
+
+@ViewChild('uname') input;
+
+ngAfterViewInit() {
+  console.log(this.input.nativeElement.value);
+}
+
+
+
+=========================================================What is ,platform in Angular?
+A platform is the context in which an Angular application runs. The most common platform for Angular applications is a web browser, but it can also be an operating system for a mobile device, or a web server. The runtime-platform is provided by the @angular/platform-* packages and these packages allow applications that make use of @angular/core and @angular/common to execute in different environments. i.e, Angular can be used as platform-independent framework in different environments, For example,
+
+While running in the browser, it uses platform-browser package.
+When SSR(server-side rendering ) is used, it uses platform-server package for providing web server implementation
+
+
+
+
+==========================What is a DI token?(,diToken)
+A DI token is a lookup token associated with a dependency provider in dependency injection system. 
+The injector maintains an internal token-provider map that it references when asked for a dependency and the DI token is the key to the map. 
+
+Let's take example of DI Token usage,
+
+const BASE_URL = new InjectionToken<string>('BaseUrl');
+const injector =
+   Injector.create({providers: [{provide: BASE_URL, useValue: 'http://some-domain.com'}]});
+const url = injector.get(BASE_URL);
+
+
+
+=============================What are the case types in Angular?(,caseTypes)
+Angular uses capitalization conventions to distinguish the names of various types. Angular follows the list of the below case types.
+
+camelCase : Symbols, properties, methods, pipe names, non-component directive selectors, constants uses lowercase on the first letter of the item. For example, "selectedUser"
+UpperCamelCase (or PascalCase): Class names, including classes that define components, interfaces, NgModules, directives, and pipes uses uppercase on the first letter of the item.
+dash-case (or "kebab-case"): The descriptive part of file names, component selectors uses dashes between the words. For example, "app-user-list".
+UPPER_UNDERSCORE_CASE: All constants uses capital letters connected with underscores. For example, "NUMBER_OF_USERS".
+
+
+
+==========================================What is a builder?
+A builder function is a function that uses the Architect API to perform a complex process such as "build" or "test". 
+The builder code is defined in an npm package. 
+For example:-
+ BrowserBuilder runs a webpack build for a browser target and KarmaBuilder starts the Karma server and runs a webpack build for unit tests.
+
+
+
+=====================================How do you invoke a builder?
+The Angular CLI command ng run is used to invoke a builder with a specific target configuration. 
+The workspace configuration file, angular.json, contains default configurations for built-in builders.
+
+
+
+======================================What is Angular CLI Builder?(,cliBuilder)(,builder)
+
+In Angular8, the CLI Builder API is stable and available to developers who want to customize the Angular CLI by adding or modifying commands. 
+For example, you could supply a builder to perform an entirely new task, or to change which third-party tool is used by an existing command.
+
+
+===================================What is Angular Language Service?
+
+The Angular Language Service is a way to get completions, errors, hints, and navigation inside your Angular templates whether they are external in an HTML file 
+     or embedded in annotations/decorators in a string. 
+It has the ability to autodetect that you are opening an Angular file, reads your tsconfig.json file, finds all the templates you have in your application, and then 
+    provides all the language services.
+
+
+=============================How do you install angular language service in the project?(,installLanguageService)(,languageService)
+You can install Angular Language Service in your project with the following npm command,
+
+npm install --save-dev @angular/language-service
+After that add the following to the "compilerOptions" section of your project's tsconfig.json
+
+"plugins": [
+    {"name": "@angular/language-service"}
+]
+Note: The completion and diagnostic services works for .ts files only. You need to use custom plugins for supporting HTML files
+
+
+
+===============================Is there any editor support for Angular Language Service?(,editorSupport)(,languageService)
+Yes, Angular Language Service is currently available for Visual Studio Code and WebStorm IDEs. 
+You need to install angular language service using an extension and devDependency respectively. 
+In sublime editor, you need to install typescript which has has a language service plugin model.
+
+
+
+==============================What is Angular Ivy?(,ivy)
+Angular Ivy is a new rendering engine for Angular. You can choose to opt in a preview version of Ivy from Angular version 8.
+
+You can enable ivy in a new project by using the --enable-ivy flag with the ng new command
+
+ng new ivy-demo-app --enable-ivy
+You can add it to an existing project by adding enableIvy option in the angularCompilerOptions in your project's tsconfig.app.json.
+
+{
+  "compilerOptions": { ... },
+  "angularCompilerOptions": {
+    "enableIvy": true
+  }
+}
+
+
+==========================Can I use AOT compilation with Ivy?
+
+Yes, it is a recommended configuration. Also, AOT compilation with Ivy is faster. So you need set the default build options(with in angular.json) for your project to always use AOT compilation.
+
+{
+  "projects": {
+    "my-project": {
+      "architect": {
+        "build": {
+          "options": {
+            ...
+            "aot": true,
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+============================What are the differences between AngularJS and Angular with respect to dependency injection?
+
+Dependency injection is a common component in both AngularJS and Angular, but there are some key differences between the two frameworks in how it actually works.
+
+                      AngularJS	                                                                         Angular
+Dependency injection tokens are always strings	Tokens can have different types.          They are often classes and sometimes can be strings.
+There is exactly one injector even though it is a multi-module applications	              There is a tree hierarchy of injectors, with a root injector and an 
+                                                                                             additional injector for each component.
+
+
+
+======================What are the features included in ivy preview?(,ivyFeatures)
+
+You can expect below features with Ivy preview,
+
+Generated code that is easier to read and debug at runtime
+Faster re-build time
+Improved payload size
+Improved template type checking
+
+
+
+=============================================What is transition function?(,transitionFunction)
+The animation transition function is used to specify the changes that occur between one state and another over a period of time. It accepts two arguments: the first argument accepts an expression that defines the direction between two transition states, and the second argument accepts an animate() function.
+
+Let's take an example state transition from open to closed with an half second transition between states.
+
+transition('open => closed', [
+  animate('500ms')
+]),
+
+
+===============================What is the purpose of animate function?(,animateFunction)
+
+Angular Animations are a powerful way to implement sophisticated and compelling animations for your Angular single page web application.
+
+
+
+===============================What is the purpose of common module?(,commonModule)
+
+The commonly-needed services, pipes, and directives provided by @angular/common module. Apart from these HttpClientModule is available under @angular/common/http.
+
+
+===============================How do you describe various dependencies in angular application?(,dependencies)
+
+The dependencies section of package.json with in an angular application can be divided as follow,
+
+Angular packages: Angular core and optional modules; their package names begin @angular/.
+Support packages: Third-party libraries that must be present for Angular apps to run.
+Polyfill packages: Polyfills plug gaps in a browser's JavaScript implementation
+
+
+
+=================================What is the purpose of metadata json files?(,metadataJson)
+The metadata.json file can be treated as a diagram of the overall structure of a decorator's metadata, represented as an abstract syntax tree(AST). 
+During the analysis phase, the AOT collector scan the metadata recorded in the Angular
+
+
+
+
+===============================Can I use arrow functions in AOT?
+
+No, Arrow functions or lambda functions can’t be used to assign values to the decorator properties. For example, the following snippet is invalid:
+
+@Component({
+  providers: [{
+    provide: MyService, useFactory: () => getService()
+  }]
+})
+To fix this, it has to be changed as following exported function:
+
+function getService(){
+  return new MyService();
+}
+
+@Component({
+  providers: [{
+    provide: MyService, useFactory: getService
+  }]
+})
+
+If you still use arrow function, it generates an error node in place of the function. 
+When the compiler later interprets this node, it reports an error to turn the arrow function into an exported function. 
+Note: From Angular5 onwards, the compiler automatically performs this rewriting while emitting the .js file.
+
+
+What are the three phases of AOT?(,threePhasesOfAot)(,aot)
+
+The AOT compiler works in three phases,
+Code Analysis: The compiler records a representation of the source
+Code generation: It handles the interpretation as well as places restrictions on what it interprets.
+Validation: In this phase, the Angular template compiler uses the TypeScript compiler to validate the binding expressions in templates.
+
+
+===========================================.advantages with AOT?
+
+Below are the list of AOT benefits,
+
+Faster rendering:              The browser downloads a pre-compiled version of the application. So it can render the application immediately without compiling the app.
+Fewer asynchronous requests:   It inlines external HTML templates and CSS style sheets within the application javascript which eliminates separate ajax requests.
+Smaller Angular framework download size:          Doesn't require downloading the Angular compiler. Hence it dramatically reduces the application payload.
+Detect template errors earlier:        Detects and reports template binding errors during the build step itself
+Better security:               It compiles HTML templates and components into JavaScript. So there won't be any injection attacks
+
+
+================Do I need a Routing Module always?(,routingModule)(,needOfRoutingModule)
+
+No, the Routing Module is a design choice. 
+You can skip routing Module (for example, AppRoutingModule) ,
+            when the configuration is simple and merge the routing configuration directly into the companion module (for example, AppModule). 
+But it is recommended when the configuration is complex and includes specialized guard and resolver services
+
+
+
+============================How do you define routes?(,routesDefine)(,defineRoutes)
+
+A router must be configured with a list of route definitions. 
+You configures the router with routes via the RouterModule.forRoot() method, and adds the result to the AppModule's imports array.
+
+ const appRoutes: Routes = [
+  { path: 'todo/:id',      component: TodoDetailComponent },
+  {
+    path: 'todos',
+    component: TodosListComponent,
+    data: { title: 'Todos List' }
+  },
+  { path: '',
+    redirectTo: '/todos',
+    pathMatch: 'full'
+  },
+  { path: '**', component: PageNotFoundComponent }
+];
+
+@NgModule({
+  imports: [
+    RouterModule.forRoot(
+      appRoutes,
+      { enableTracing: true } // <-- debugging purposes only
+    )
+    // other imports here
+  ],
+  ...
+})
+export class AppModule { }
+
+
+
+================================What are router events?(,routerEvents)
+
+During each navigation, the Router emits navigation events through the Router.events property allowing you to track the lifecycle of the route.
+
+The sequence of router events is as below,
+
+NavigationStart,
+RouteConfigLoadStart,
+RouteConfigLoadEnd,
+RoutesRecognized,
+GuardsCheckStart,
+ChildActivationStart,
+ActivationStart,
+GuardsCheckEnd,
+ResolveStart,
+ResolveEnd,
+ActivationEnd
+ChildActivationEnd
+NavigationEnd,
+NavigationCancel,
+NavigationError
+Scroll
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+====================================================================,html=====================================================
+
+======================,hyprtText====
+
+text means normal text ,hypertest means inclusion of images,text,links all are mixed so called hypertext
+
+
+
+=====================,versions of html
+HTML 1.0
+HTML 2.0
+HTML 3.0
+HTML 3.2
+HTML 4.01
+
+XHTML 1.0
+
+HTML5
+
+
+
+=========================HTML ,vs XHTML===========
+
+                 HTML                                                                                              XHTML
+
+start tags are not required for every element                                                 All elements must have a start tags
+
+end tags are ................................                                                 Non-void elements with a start tag must have an end tag(p and li ,example)
+
+Only void elements such as br,img, and link may be "self-closed" with />                      Any element may be self closed using />
+
+Tags and attributes are case-insensitive                                                      sensitive ,typically lowercase
+
+Attributes donot need to be quoted                                                            must be enclosed in quotes
+
+Some attributes may be empty(such as checked and disabled)                                    Empty attributes are forbidden(ex:checked="checked" or checked ="true")
+
+special characters,or entities,do not have to be escaped                                      special characters must be escaped using character entities.
+
+
+
+
+======================================== What are the building blocks of HTML5?(,buildingBlocks of html5)
+
+Semantics: allowing you to describe more precisely what your content is.
+Connectivity: allowing you to communicate with the server in new and innovative ways.
+Offline and storage: allowing webpages to store data on the client-side locally and operate offline more efficiently.
+Multimedia: making video and audio first-class citizens in the Open Web.
+2D/3D graphics and effects: allowing a much more diverse range of presentation options.
+Performance and integration: providing greater speed optimization and better usage of computer hardware.
+Device access: allowing for the usage of various input and output devices.
+Styling: letting authors write more sophisticated themes.
+
+
+==============================semantic and non-semantic elements?(,semantic ,vs ,non-semantic)(semantic ,vs non-semantic)
+
+Semantic elements: clearly describes its meaning to both the browser and the developer. 
+For example: 
+<form>, <table>, <article>, <aside>, <details>, <figcaption>, <figure>, <footer>, <header>, <main>, <mark>, <nav>, <section>, <summary>, <time> clearly defines its content.
+
+Non-semantic elements: <div> and <span> tells nothing about its content.
+
+
+
+========================================= What are the semantic tags available in html5?(,sematicTags)
+
+
+Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. 
+Elements such as 
+   <header> , 
+   <footer> and 
+   <article> 
+   are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
+
+//HTML5 semantic tags define the function and the category of your text, simplifying the work for browsers and search engines, as well as developers.
+
+HTML5 offers new semantic elements to define different parts of a web page:
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+Syntax:
+
+<!DOCTYPE html> 
+
+<html>  
+   <head> 
+      <meta charset = "utf-8"/> 
+      <title>...</title> 
+   </head> 
+  
+   <body> 
+      <header>...</header> 
+      <nav>...</nav> 
+      
+      <article> 
+         <section> 
+            ... 
+         </section> 
+      </article> 
+      <aside>...</aside> 
+      
+      <footer>...</footer> 
+   </body> 
+</html> 
+
+
+
+
+===========================,sematicTagsUses
+
+Semantic HTML refers to syntax that makes the HTML more comprehensible by better defining the different sections and layout of web pages. 
+It makes web pages more informative and adaptable, allowing browsers and search engines to better interpret content
+
+
+
+
+============================,docType
+
+All HTML documents must start with a <!DOCTYPE> declaration.
+ 
+The <!DOCTYPE> declaration is not an HTML tag; 
+it is an instruction to the web browser about what version of HTML the page is written in.
+<!DOCTYPE html> // Tells the browser that we are using HTML5.
+
+If document type is not mentioned, browser will go to Quirks mode. 
+Quirks mode depends upon the web browser version, If is older version then this will not support HTML5 tags (Example: header tag, footer tag, section tag,...)
+
+
+
+===================================What are the new form elements in HTML5?(,newFormElements)
+
+There are five new form elements in the HTML5 forms specification: <datalist>, <output>, <progress>, and <meter>.
+
+1. Datalist Tag
+
+Allows to attach a list of suggestions to a text input element. 
+As soon as the user begins to type in the text field, the list of suggestions appears and the user can choose from the suggestions with the mouse.
+
+<p>Enter your favorite browser name:</p>
+<input type="text" list="browsers" name="favorite_browser">
+<datalist id="browsers">
+    <option value="Firefox">
+    <option value="Chrome">    
+    <option value="Internet Explorer">
+    <option value="Opera">
+    <option value="Safari">
+</datalist>
+
+2. Meter Tag
+
+Indicates a numeric value that falls within a range. 
+The tag supports a number of attributes: value: If you don't specify a value, the first numeric value inside the <meter></meter> pair becomes the value.
+
+max: The maximum possible value of the item.
+min: The minimum possible value of the item.
+high: If the value can be defined as a range, this is the high end of the range.
+low: If the value can defined as a range, this is the low end of that range.
+optimum: The optimal value of the element.
+<p>Disk Usage: <meter value="0.2">20%</meter></p>
+
+<p>Total Score: <meter value="6" min="0" max="10">6 out of 10</meter></p>
+
+<p>Pollution Level: <meter low="60" high="80" max="100" value="85">Very High</meter></p>
+
+3. Output Tag
+
+It indicates a section of the page that can be modified by a script (usually JavaScript).
+
+<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" id="a" value="50"> +
+  <input type="number" id="b" value="100"> =
+  <output name="result" for="a b"></output>
+</form>
+
+4. Progress Tag
+
+Indicates how much of a task has been completed (often marked as a percentage). It is expected to be modified through JavaScript code.
+
+ 
+<p>Progress: <progress id="bar" value="0" max="100"><span>0</span>%</progress></p>
+
+<script type="text/javascript">
+    var i = 0;
+    var progressBar = document.getElementById("bar");
+    
+    function countNumbers() {
+      if(i < 100) {
+        i = i + 1;
+        progressBar.value = i;
+        // For browsers that don't support progress tag
+        progressBar.getElementsByTagName("span")[0].textContent = i;
+      }
+
+      // Wait for sometime before running this script again
+      setTimeout("countNumbers()", 100);
+    }
+    countNumbers();
+</script>
+
+
+
+=======================================How many new form elements are introduced in html5?(,newFormElements)
+
+Sl.No	Element	Description
+01.	color	Gives the end user a native color picker to choose a color.
+02.	date	Offers a datepicker.
+03.	datetime	An element to choose both date and time.
+04.	datetime-local	An element to choose both date and time, with local settings support.
+05.	email	A field for entering e-mail address(es).
+06.	month	Choose a full month.
+07.	number	Picking a number.
+08.	range	Offers a slider to set to a certain value/position.
+09.	search	A field for search queries.
+10.	tel	Choosing a telephone number.
+11.	time	Input a certain time.
+12.	url	Entering a URL.
+13.	week	Picking a specific week.
+Example:
+
+<input type="color" value="#b97a57">
+
+<input type="date" value="2020-06-08">
+
+<input type="datetime" value="2020-06-09T20:35:34.32">
+
+<input type="datetime-local" value="2020-06-09T22:41">
+
+<input type="email" value="robert@robertnyman.com">
+
+<input type="month" value="2020-06">
+
+<input type="number" value="4">
+
+<input type="range" value="15">
+
+<!-- Note: If not set, default attribute values are min="0", max="100", step="1". -->
+
+<input type="search" value="[Any search text]">
+
+<input type="tel" value="[Any numeric value]">
+
+<!-- Note: Most web browsers seem to let through any value at this time. -->
+
+<input type="time" value="22:38">
+
+<input type="url" value="https://www.google.com/">
+
+<!-- Note: requires a protocol like http://, ftp:// etc in the beginning. -->
+
+
+<input type="week" value="2020-W24">
+
+
+
+
+
+==================================What is difference between span tag and div tag?(span ,vs div)
+
+The primary difference between div and span tag is their default behavior. By default, a <div> is a block-level-element and a <span> is an inline element.
+
+<div> is a block level element which means it will render it on it's own line with a width of a 100% of the parent element.
+
+<span> is an inline element which means it will render on the same line as the previous element, if it is also an inline element, and 
+it's width will be determined by it's content.
+<div>Demo Text, with <span>some other</span> text.</div>
+
+
+
+
+=================================,optionalClosingTag?
+
+<p>, <li>, <td>, <tr>, <th>, <html>, <body>, etc. don't have to provide end tag. 
+Whenever browser hits a new tag it automatically ends the previous tag.
+
+
+
+=============================,self closing tag?(,selfClosingTag)
+
+In HTML5 it is not strictly necessary to close certain HTML tags. The tags that aren't required to have specific closing tags are called “self closing” tags.
+
+An example of a self closing tag is something like a line break (<br />) or the meta tag (<meta>). This means that the following are both acceptable:
+
+<meta charset="UTF-8">
+...
+<meta charset="UTF-8" />
+
+
+
+============================================= What is the purpose of main element?(,mainElement)
+
+The HTML <main> element represents the dominant content of the <body> of a document. 
+The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.
+
+<main role="main">
+    <p>Geckos are a group of usually small, usually nocturnal lizards. 
+       They are found on every continent except Australia.</p>
+    <p>Many species of gecko have adhesive toe pads which enable them to climb walls and even windows.</p>
+</main>
+Note: A document mustn't have more than one <main> element that doesn't have the hidden attribute specified.
+
+
+
+==========================================What are the ,semantic meanings and how should each be used in structuring html markup?
+
+<header> is used to contain introductory and navigational information about a section of the page. 
+           This can include the section heading, the author's name, time and date of publication, table of contents, or other navigational information.
+
+<article> is meant to house a self-contained composition that can logically be independently recreated outside of the page without losing it's meaining. 
+           Individual blog posts or news stories are good examples.
+
+<section> is a flexible container for holding content that shares a common informational theme or purpose.
+
+<footer> is used to hold information that should appear at the end of a section of content and contain additional information about the section. 
+           Author's name, copyright information, and related links are typical examples of such content.
+
+
+===================================Can a web page contain multiple <header> elements? What about <footer> elements?(,multipleHeader,footer)
+
+Yes, header elements can be used multiple times in documents. 
+A <header> tag must be present for all articles, sections, and pages, although a <footer> tag is not necessary.
+
+
+
+=====================,section, ,div or ,article?
+<section>, group of content inside is related to a single theme, and should appear as an entry in an outline of the page. 
+             It's a chunk of related content, like a subsection of a long article, a major part of the page (eg the news section on the homepage), or 
+                              a page in a webapp's tabbed interface. 
+             A section normally has a heading (title) and maybe a footer too.
+
+<article>, represents a complete, or self-contained, composition in a document, page, application, or site and that is, in principle, independently distributable or 
+            reusable, 
+         e.g. in syndication. This could be a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or 
+            any other independent item of content.
+
+<div>, on the other hand, does not convey any meaning, aside from any found in its class, lang and title attributes.
+
+
+
+
+===============================,physicalTags and ,logicalTags in HTML?
+
+1. Physical Tags:
+
+Physical tags are used to indicate how a particular character is to be formatted. 
+Any physical style tag may contain any item allowed in text, including conventional text, images, line breaks, etc.
+
+Example:
+
+Tags	Description
+<sup>	Superscript is usually used for showing elements above base-line
+<sub>	The subscript is used for alternate baseline.
+<i>	An Italic tag is used to define a text with a special meaning.
+<big>	Big tag increase the font size by 1 (Note: You can not use the big tag in HTML 5)
+<small>	A small tag defines the small text, and it is used while writing copyright.
+<b>	Bold increases the importance of the text because bold tag covert the text into bold size.
+<u>	It is used to underline the text.
+<tt>	Teletype text gives the default font-family which is monospace.
+<strike>	It is an editing markup that tells the reader to ignore the text passage.
+
+
+2. Logical Tags:
+
+Logical tags are used to tell the browser what kind of text is written inside the tags. 
+Logical tags are also known as Structural tags because they specify the structure of the document. 
+Logical tags are used to indicate to the visually impaired person that there is something more important in the text or to emphasize the text ie, logical tags can be used for styling purposes as well as to give special importance to text content.
+
+Example:
+
+Tags	Description
+<abbr>	Defines the abbreviation of text.
+<acronym>	Defines the acronym.
+<address>	Contact information of a person or an organization.
+<cite>	Defines citation. It displays the text in italic format.
+<code>	Defines the piece of computer code.
+<blockquote>	Defines a long quotation.
+<del>	Defines the deleted text and is used to mark a portion of text which has been deleted from the document.
+<dfn>	Defines the definition element and is used to representing a defining instance in HTML.
+<ins>	Defines inserted text.
+<kbd>	Defines keyboard input text.
+<pre>	Defines the block of preformatted text which preserves the text spaces, line breaks, tabs, and other formatting characters which are ignored by web browsers.
+<q>	Defines the short quotation.
+<samp>	Defines the sample output text from a computer program.
+<strong>	Defines strong text i.e. show the importance of the text.
+<var>	Defines the variable in a mathematical equation or in the computer program.
+
+
+
+
+=============================What is the purpose of meta tags?
+The META elements can be used to include name/value pairs describing properties of the HTML document, such as author, expiry date, a list of keywords, document author etc.
+
+<!DOCTYPE html>
+<html>
+  <head>
+        <!--Recommended Meta Tags-->
+        <meta charset="utf-8">
+        <meta name="language" content="english"> 
+        <meta http-equiv="content-type" content="text/html">
+        <meta name="author" content="Author Name">
+        <meta name="designer" content="Designer Name">
+        <meta name="publisher" content="Publisher Name">
+        <meta name="no-email-collection" content="name@email.com">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+        <!--Search Engine Optimization Meta Tags-->
+        <meta name="description" content="Project Description">
+        <meta name="keywords" content="Software Engineer,Product Manager,Project Manager,Data Scientist">
+        <meta name="robots" content="index,follow">
+        <meta name="revisit-after" content="7 days">
+        <meta name="distribution" content="web">
+        <meta name="robots" content="noodp">
+        
+        <!--Optional Meta Tags-->
+        <meta name="distribution" content="web">
+        <meta name="web_author" content="">
+        <meta name="rating" content="">
+        <meta name="subject" content="Personal">
+        <meta name="title" content=" - Official Website.">
+        <meta name="copyright" content="Copyright 2020">
+        <meta name="reply-to" content="">
+        <meta name="abstract" content="">
+        <meta name="city" content="Bangalore">
+        <meta name="country" content="INDIA">
+        <meta name="distribution" content="">
+        <meta name="classification" content="">
+    
+        <!--Meta Tags for HTML pages on Mobile-->
+        <meta name="format-detection" content="telephone=yes"/>
+        <meta name="HandheldFriendly" content="true"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        
+        <!--http-equiv Tags-->
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+      
+    <title>HTML5 Meta Tags</title>
+  </head>
+  <body>
+       ...
+  </body>
+</html>
+
+
+========================What is the purpose of meta tags?(,metaTags)
+
+The META elements can be used to include name/value pairs describing properties of the HTML document, such as author, expiry date, a list of keywords, document author etc.
+
+<!DOCTYPE html>
+<html>
+  <head>
+        <!--Recommended Meta Tags-->
+        <meta charset="utf-8">
+        <meta name="language" content="english"> 
+        <meta http-equiv="content-type" content="text/html">
+        <meta name="author" content="Author Name">
+        <meta name="designer" content="Designer Name">
+        <meta name="publisher" content="Publisher Name">
+        <meta name="no-email-collection" content="name@email.com">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+        <!--Search Engine Optimization Meta Tags-->
+        <meta name="description" content="Project Description">
+        <meta name="keywords" content="Software Engineer,Product Manager,Project Manager,Data Scientist">
+        <meta name="robots" content="index,follow">
+        <meta name="revisit-after" content="7 days">
+        <meta name="distribution" content="web">
+        <meta name="robots" content="noodp">
+        
+        <!--Optional Meta Tags-->
+        <meta name="distribution" content="web">
+        <meta name="web_author" content="">
+        <meta name="rating" content="">
+        <meta name="subject" content="Personal">
+        <meta name="title" content=" - Official Website.">
+        <meta name="copyright" content="Copyright 2020">
+        <meta name="reply-to" content="">
+        <meta name="abstract" content="">
+        <meta name="city" content="Bangalore">
+        <meta name="country" content="INDIA">
+        <meta name="distribution" content="">
+        <meta name="classification" content="">
+    
+        <!--Meta Tags for HTML pages on Mobile-->
+        <meta name="format-detection" content="telephone=yes"/>
+        <meta name="HandheldFriendly" content="true"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        
+        <!--http-equiv Tags-->
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+      
+    <title>HTML5 Meta Tags</title>
+  </head>
+  <body>
+       ...
+  </body>
+</html>
+
+
+
+======================================local storage in html5?(,localStorage)
+
+The localStorage read-only property of the window interface allows you to access a Storage object for the Document's origin; the stored data is saved across browser 
+ sessions.
+
+Example:
+
+// Store
+localStorage.setItem("name", "Kanti Ahluwalia");
+
+// Retrieve
+localStorage.getItem("name"); // Kanti Ahluwalia
+
+
+
+=================================== session storage in html5?(,sessionStorage)
+
+The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session. 
+The data is deleted when the user closes the specific browser tab.
+
+Example:
+
+// Save data to sessionStorage
+sessionStorage.setItem('key', 'value');
+
+// Get saved data from sessionStorage
+let data = sessionStorage.getItem('key');
+
+// Remove saved data from sessionStorage
+sessionStorage.removeItem('key');
+
+// Remove all saved data from sessionStorage
+sessionStorage.clear();
+
+
+
+=========================================cookies in html5?(,cookies)
+
+A cookie is an amount of information that persists between a server-side and a client-side. A web browser stores this information at the time of browsing.
+
+A cookie contains the information as a string generally in the form of a name-value pair separated by semi-colons. 
+It maintains the state of a user and remembers the user's information among all the web pages.
+
+Example 01: Create a Cookies
+
+// create a cookie
+document.cookie = "username=Anjali Batta";
+
+// cookie with expiry date
+document.cookie = "username=Anjali Batta; expires=Thu, 18 Dec 2022 12:00:00 UTC";
+Example 02: Cookie with expiry date
+
+// cookie with expiry date
+document.cookie = "username=Anjali Batta; expires=Thu, 18 Dec 2022 12:00:00 UTC";
+Example 03: Read Cookie
+
+let myCookies = document.cookie;
+
+console.log(myCookies);
+Example 04: Update Cookie
+
+document.cookie = "username=John Smith; expires=Thu, 18 Dec 2022 12:00:00 UTC; path=/";
+Example 05: Delete Cookie
+
+document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
+
+
+========================cookie, sessionStorage and localStorage?
+
+                               cookie	                                          localStorage	                                    sessionStorage
+
+Initiator	                Client or server. Server can use Set-Cookie header	    Client	                                            Client
+
+Expiry	                  Manually set	                                         Forever	                                         On tab close
+
+Persistent across 
+browser sessions	         Depends on whether expiration is set	                    Yes	                                                 No
+
+Capacity (per domain)	                    4kb	                                      5MB	                                                5MB
+
+Accessibility	                           Any window	                             Any window	                                          Same tab
+
+Note: If the user decides to clear browsing data via whatever mechanism provided by the browser, this will clear out any cookie, localStorage, or sessionStorage stored. 
+It's important to keep this in mind when designing for local persistance, especially when comparing to alternatives such as server side storing in a database or 
+   similar (which of course will persist despite user actions).
+
+
+
+
+==================What is the purpose of the alt attribute on images?(,alt)
+
+The alt attribute provides alternative information for an image if a user cannot view it. 
+The alt attribute should be used to describe any images except those which only serve a decorative purposes, in which case it should be left empty.
+
+<img src="pancakes.png" alt="Stack of blueberry pancakes with powdered sugar">
+
+
+
+=========================What does enctype='multipart/form-data' mean?(,enctype)
+
+The enctype attribute specifies how the form-data should be encoded when submitting it to the server.
+
+Example: 01
+
+<form action="fileupload.php" method="post" enctype="multipart/form-data"> 
+    <p>Please select the file you would like to upload.</p> 
+    <input type="file" name="upload"> 
+    <br> 
+    <input type="submit" value="Upload File">
+</form>
+Example: 02
+
+<form action="/urlencoded?token=A87412B" method="POST" enctype="application/x-www-form-urlencoded">
+    <input type="text" name="username" value=""/>
+    <input type="text" name="password" value=""/>
+    <input type="submit" value="Submit" />
+</form>
+Example: 03
+
+<form action="action.do" method="get" enctype="text/plain">
+    Name: <input type="text" name="name" />
+    Phone: <input type="number" name="phone" />
+    <input type="submit" value="Submit" />
+</form>
+
+Sl.No 	        Value	                                                                     Description
+
+01.	    application/x-www-form-urlencoded	                               Default.All characters are encoded before sent 
+                                                            (spaces are converted to "+" symbols, and special characters are converted to ASCII HEX values)
+
+02.	    multipart/form-data	                                  No characters are encoded. This value is required when you are using forms that have a file upload control
+
+03.	     text/plain	                                               Spaces are converted to "+" symbols, but no special characters are encoded
+
+
+
+================================difference between Select and Datalist?(,select ,vs ,datalist)   (select ,vs datalist) 
+
+For the select element, the user is required to select one of the options you've given. 
+For the datalist element, it is suggested that the user select one of the options you've given, but he can actually enter anything he wants in the input.
+
+1. Select:
+
+<select name="browser">
+  <option value="firefox">Firefox</option>
+  <option value="ie">IE</option>
+  <option value="chrome">Chrome</option>
+  <option value="opera">Opera</option>
+  <option value="safari">Safari</option>
+</select>
+2. Datalist:
+
+<input type="text" list="browsers">
+<datalist id="browsers">
+  <option value="Firefox">
+  <option value="IE">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+
+
+
+
+======================,dom
+     
+      dom in html
+
+The HTML DOM is an Object Model for HTML. 
+
+When a web page is loaded, the browser creates a Document Object Model of the page.
+
+The HTML DOM model is constructed as a tree of Objects:
+
+It defines:
+
+HTML elements as objects
+Properties for all HTML elements
+Methods for all HTML elements
+Events for all HTML elements
+
+
+
+
+      dom in js
+The HTML DOM is an API (Programming Interface) for JavaScript:
+
+JavaScript can add/change/remove HTML elements
+JavaScript can add/change/remove HTML attributes
+JavaScript can add/change/remove CSS styles
+JavaScript can react to HTML events
+JavaScript can add/change/remove HTML events
+
+
+===============Why do we need DOM?(,needOfDom)(,domNeed)(,domUse)
+
+The DOM (Document Object Model) is an interface that represents how your HTML and XML documents are read by the browser. 
+It allows a language (JavaScript) to manipulate, structure, and style your website.
+
+
+=============================,browser rendering ,engine work?
+
+In order to render content the browser has to go through a series of steps:
+
+Document Object Model(DOM)
+CSS object model(CSSOM)
+Render Tree
+Layout
+Paint
+
+
+
+=====================================standards mode and quirks mode?(standardMode ,vs quirksMode)
+
+In Quirks mode, layout emulates nonstandard behavior in Navigator 4 and Internet Explorer 5. 
+This is essential in order to support websites that were built before the widespread adoption of web standards. 
+
+
+In Standards mode, the behavior is described by the HTML and CSS specifications.
+
+For HTML documents, browsers use a <!DOCTYPE html> in the beginning of the document to decide whether to handle it in quirks mode or standards mode.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=UTF-8>
+    <title>Hello World!</title>
+  </head>
+  <body>
+  </body>
+</html>
+
+
+
+==========================================Ways to improve website performance(,websitePerformance)
+
+           ------------Minimize HTTP Requests:
+
+Sites are mainly slow because of too many (or too large) HTTP requests. We can eliminate unnecessary request;
+combined files: js to a file, css to a file
+CSS sprites: CSS Sprites are the preferred method for reducing the number of image requests. Combine your background images into a single image and use the CSS background-image and background-position properties to display the desired image segment.
+
+
+          ----------------Use a Content Delivery Network CDN
+
+A CDN is essentially many optimized servers around the world that deliver web content to users based on their geographic location. This means big performance improvements for site users. Because, say, if a person accessing your site in India, they will be retrieving web content from a server nearby
+          
+          
+          ------------------Optimize Images:
+
+image sizes make a huge difference to site speed. The larger content/images, the slower the site. we could:
+Changing the resolution: reducing the “quality” of the image (and thereby the file size)
+Compressing the picture: increasing the efficiency of image data storage
+Cropping the picture: when cropping, you are cutting out unneeded areas and thus making the image smaller in size
+        
+        
+        
+        ------------------Put Scripts at the Bottom:
+
+Javascript files can load after the rest of your page. The simplest solution is to place your external Javascript files at the bottom of your page, just before the close of your body tag. Now more of your site can load before your scripts. Another method that allows even more control is to use the defer or async attributes when placing external .js files on your site.
+
+Async tags load the scripts while the rest of the page loads, but this means scripts can be loaded out of order. Basically, lighter files load first. This might be fine for some scripts, but can be disastrous for others.
+
+The defer attribute loads your scripts after your content has finished loading. It also runs the scripts in order. Just make sure your scripts run so late without breaking your site.
+
+       
+       
+       
+        ------------------Add an Expires or a Cache-Control Header
+
+Web page designs are getting richer and richer, which means more scripts, stylesheets, images, and Flash in the page. A first-time visitor to your page may have to make several HTTP requests, but by using the Expires header you make those components cacheable. This avoids unnecessary HTTP requests on subsequent page views. Expires headers are most often used with images, but they should be used on all components including scripts, stylesheets, and Flash components.
+
+
+              
+              
+              ----------------------Gzip Components
+
+Compression reduces response times by reducing the size of the HTTP response. Gzipping generally reduces the response size by about 70%.
+
+
+
+               -----------------Put Stylesheets at the Top:
+
+This is because putting stylesheets in the HEAD allows the page to render progressively.
+
+
+
+
+                   -------------------Avoid CSS Expressions
+
+                   --------------Use GET for AJAX Requests:
+
+Ajax is that it provides instantaneous feedback to the user because it requests information asynchronously from the backend web server
+ 
+ 
+ 
+                     ----------------Make JavaScript and CSS External:
+
+Using external files in the real world generally produces faster pages because the JavaScript and CSS files are cached by the browser. JavaScript and CSS that are inlined in HTML documents get downloaded every time the HTML document is requested. This reduces the number of HTTP requests that are needed, but increases the size of the HTML document. On the other hand, if the JavaScript and CSS are in external files cached by the browser, the size of the HTML document is reduced without increasing the number of HTTP requests.
+
+
+                    --------------------Use get to ajax request:
+
+POST is implemented in the browsers as a two-step process: sending the headers first, then sending data. So it's best to use GET, which only takes one TCP packet to send (unless you have a lot of cookies).
+ 
+ 
+                    ------------------No 404s:
+
+HTTP requests are expensive so making an HTTP request and getting a useless response (i.e. 404 Not Found) is totally unnecessary and will slow down the user experience without any benefit.
+
+
+
+            ----------------------------Reduce Cookie Size:
+
+HTTP cookies are used for a variety of reasons such as authentication and personalization. Information about cookies is exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
+
+
+-----Reduce DNS Lookups
+
+------Minify JavaScript and CSS
+
+----Avoid Redirects
+
+--------Remove Duplicate Scripts
+
+----Configure Etags
+
+----Make Ajax Cacheable
+
+----Post-load Components
+
+----Preload Components
+
+---Reduce the Number of DOM Elements
+
+----Minimize the Number of iframes
+
+----Minimize DOM Access
+
+----Optimize CSS Sprites
+
+----Don't Scale Images in HTML
+
+-----Make favicon.ico Small and Cacheable
+
+------Avoid Empty Image src
+
+
+
+==============================,lang attribute
+
+The lang attribute specifies the language of the element's content.
+
+Common examples are "en" for English, "es" for Spanish, "fr" for French, and so on.
+
+
+
+=============================How to make page responsive?(,responsivePage)
+
+Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones).
+
+1. Setting the viewport:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+2. Responsive Images:
+
+If the CSS width property is set to 100%, the image will be responsive and scale up and down
+
+<img src="img.png" style="width:100%;">
+
+3. Show different Images depending on Browser Width:
+
+The HTML <picture> element allows you to define different images for different browser window sizes.
+
+<picture>
+  <source srcset="img_small.jpg" media="(max-width: 600px)">
+  <source srcset="img_large.jpg" media="(max-width: 1500px)">
+  <source srcset="img.jpg">
+  <img src="img_small.jpg" alt="Image">
+</picture>
+
+4. Responsive Text Size:
+
+The text size can be set with a "vw" unit, which means the "viewport width". That way the text size will follow the size of the browser window.
+
+<h1 style="font-size:10vw">Hello World</h1>
+
+5. Media Queries:
+
+Using media queries you can define completely different styles for different browser sizes.
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
+
+=========================================How can I get indexed better by search engines?(,searchEngine)
+
+HTML tags are used to influence the way our pages appear in search results. 
+With the help of certain tags, we can turn regular search snippets into rich snippets, and maybe even into featured snippets. And, as our search snippets get more advanced, they are able to secure better Search Engine Results Pages (SERP) positions and attract more traffic.
+
+Here are all the HTML tags that still matter:
+
+1. Title tag:
+
+Title tags are used by search engines to determine the subject of a page and display it in SERP. 
+As a rule of thumb, titles that are under 60 characters long will fit on most screens. In HTML, a title tag looks like this:
+
+<title>Your Title Goes Here</title>
+
+2. Meta description tag:
+
+Meta description is a short paragraph of text used to describe your page in search results. 
+The function of meta description is similar to the title. It provides a little more detail about your page and it helps users decide whether to visit your page or not. 
+In HTML, a meta description tag looks like this:
+
+<meta name="description" content="Your description goes here">
+
+3. Heading tags:
+
+Headings (H1-H6) are used to split your page into sections or chapters. Each heading is like a small title within the page. 
+In HTML, a heading looks like this:
+
+<h1>Your heading goes here</h1>
+
+4. Image alt attribute:
+
+The alt text attribute is a part of an image tag, and it provides a description for an image. Alt text plays a major role in image optimization. 
+It makes your images accessible both to search engines (by telling them what a particular image means) and to people 
+    (by displaying an alternative text in case a particular image cannot be loaded or by helping screen readers convey images). In HTML it may look like this:
+
+<img src="url" alt="Your image description goes here">
+
+5. Open Graph tags:
+
+Open Graph (OG) tags are placed in the <head> section of a page and allow any webpage to become a rich object in social networks. 
+OG tags let you control how the information about your page is represented when shared via social channels. 
+This possibility may help you enhance the performance of your links on social media, thus driving more click-throughs and increasing conversions. 
+In HTML, it can look like this:
+
+<meta name="og:title" property="og:title" content="Your Open Graph Title Goes Here">
+
+6. Robots tag:
+
+A robots tag is an element in the HTML of a page that informs search engines which pages on your site should be indexed and which should not. 
+Its functions are similar to robots.txt, but robots.txt gives suggestions. Whereas robots tags give instructions. In HTML, it can look like this:
+
+<meta name="robots" content="index, follow">
+
+7. Canonical tag:
+
+A canonical tag is a way of telling search engines that a specific URL represents the master copy of a page. 
+Using the canonical tag prevents problems caused by identical or "duplicate" content appearing on multiple URLs. 
+Practically speaking, the canonical tag tells search engines which version of a URL you want to appear in search results. In HTML, it may look like this:
+
+<link href="URL" rel="canonical">
+
+8. HTML5 semantic tags:
+
+One of the most important features of HTML5 is its semantics tags. 
+Semantic tags refers to syntax that makes the HTML more comprehensible by better defining the different sections and layout of web pages. 
+It makes web pages more informative and adaptable, allowing browsers and search engines to better interpret content. 
+For example, instead of using <div id="header"></div> you can use a <header></hrader> tag.
+
+
+
+=====================attribute  ,vs property in HTML?
+
+Attributes are defined by HTML. Properties are accessed from DOM (Document Object Model) nodes.
+
+Example:
+
+<input id="inputId" type="text" value="Hello World!" />
+The value property reflects the current text-content inside the input box, whereas the value attribute contains the initial text-content of the value attribute from the HTML source code
+
+Difference between HTML attributes and DOM properties:
+
+                     Attribute	                                       Property
+
+    Attributes are defined by HTML.	                         Properties are defined by the DOM.
+
+    The value of an attribute is constant.	                 The value of a property is variable.
+
+    These are used to initialize the DOM properties.	       No such job defined.
+
+
+
+================== optional tag?(,optionalTags)
+
+The following lists all optional tags.
+
+Tag	Description
+<area>	
+<base>	
+<body>	
+<br>	
+<caption>	
+<col>	
+<colgroup>	
+<dd>	
+<dt>	
+<embed>	
+<head>	
+<hr>	
+<html>	
+<img>	
+<input>	
+<li>	
+<link>	
+<meta>	
+<optgroup>	
+<option>	
+<p>	
+<param>	
+<rp>	
+<rt>	
+<source>	
+<tbody>	
+<td>	
+<tfoot>	
+<th>	
+<thead>	
+<tr>	
+<track>	
+<wbr>
+
+
+======================================What is an HTML preprocessor? Have you used different HTML templating languages before?(.preprocessorHtml)
+
+A HTML preprocessor is a program that takes one type of data and converts it to another one. 
+In case of HTML and CSS, some of the more popular preprocessor languages are Slim and Sass. Slim is processed into HTML and Sass is processed into CSS.
+
+No, but I heard about html template language like PUG (formerly Jade), Haml, ERB, Slim, Handlebars, Jinja, Liquid etc 
+   which is HTML preprocessor this mean that it is basically a language that will be converted to native html code.
+
+The typical usage is when you render something on the server side. 
+The usual use-case is when you have to add dynamic content to your website, so when you fetch something from your database, 
+                    you will have to replace some parts in your original template.
+
+
+
+
+==============================How do you change the direction of html text?
+
+The default text direction in HTML is left-to-right. However, when developing web content and applications, we may need to set it to right-to-left, for instance, 
+to cater for languages such as Arabic, Hebrew, Pashto, Persian, Urdu, and Sindhi.
+
+We can set text direction in HTML in one of two ways:
+
+With the HTML dir attribute
+With the CSS direction property
+Example:
+
+<!-- Syntax -->
+<element dir="ltr|rtl|auto">
+
+<!-- Example -->
+<textarea dir="rtl"></textarea>
+Attribute Values:
+
+Value	Description
+ltr	Default. Left-to-right text direction
+rtl	Right-to-left text direction
+auto	Let the browser figure out the text direction, based on the content

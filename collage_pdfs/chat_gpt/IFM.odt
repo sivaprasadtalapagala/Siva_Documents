@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:meta><dc:date>2023-08-29T08:54:53.291089905</dc:date><meta:editing-duration>PT59M56S</meta:editing-duration><meta:editing-cycles>47</meta:editing-cycles><meta:generator>LibreOffice/7.3.7.2$Linux_X86_64 LibreOffice_project/30$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="12" meta:paragraph-count="152" meta:word-count="4465" meta:character-count="30424" meta:non-whitespace-character-count="25703"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="ViewAreaTop" config:type="long">319701</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">27152</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">12070</config:config-item>
+   <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">12171</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">292590</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">319701</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">27150</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">331770</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
+     <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ZoomFactor" config:type="short">180</config:config-item>
+     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="KeepRatio" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectFields" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectBookmarks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="GutterAtTop" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ContinuousEndnotes" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HeaderSpacingBelowLastPara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="FrameAutowidthWithMorePara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintFaxName" config:type="string"/>
+   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">365413</config:config-item>
+   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FootnoteInColumnToPageEnd" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddParaLineSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintEmptyPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RsidRoot" config:type="int">365413</config:config-item>
+   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Lohit Devanagari" svg:font-family="&apos;Lohit Devanagari&apos;"/>
+  <style:font-face style:name="Lohit Devanagari1" svg:font-family="&apos;Lohit Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans CJK SC" svg:font-family="&apos;Noto Sans CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Serif CJK SC" svg:font-family="&apos;Noto Serif CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="OpenSymbol" svg:font-family="OpenSymbol" style:font-charset="x-symbol"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:flow-with-text="false"/>
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="IN" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <style:default-style style:family="paragraph">
+   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="1.251cm" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="IN" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
+  </style:default-style>
+  <style:default-style style:family="table">
+   <style:table-properties table:border-model="collapsing"/>
+  </style:default-style>
+  <style:default-style style:family="table-row">
+   <style:table-row-properties fo:keep-together="auto"/>
+  </style:default-style>
+  <style:style style:name="Standard" style:family="paragraph" style:class="text"/>
+  <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.212cm" style:contextual-spacing="false" fo:keep-with-next="always"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="Noto Sans CJK SC" style:font-family-asian="&apos;Noto Sans CJK SC&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Lohit Devanagari1" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.247cm" style:contextual-spacing="false" fo:line-height="115%"/>
+  </style:style>
+  <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
+   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;"/>
+  </style:style>
+  <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties fo:margin-top="0.212cm" fo:margin-bottom="0.212cm" style:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:language="zxx" fo:country="none" style:font-size-asian="12pt" style:language-asian="zxx" style:country-asian="none" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:language-complex="zxx" style:country-complex="none"/>
+  </style:style>
+  <style:style style:name="Strong_20_Emphasis" style:display-name="Strong Emphasis" style:family="text">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Numbering_20_Symbols" style:display-name="Numbering Symbols" style:family="text"/>
+  <style:style style:name="Bullet_20_Symbols" style:display-name="Bullet Symbols" style:family="text">
+   <style:text-properties style:font-name="OpenSymbol" fo:font-family="OpenSymbol" style:font-charset="x-symbol" style:font-name-asian="OpenSymbol" style:font-family-asian="OpenSymbol" style:font-charset-asian="x-symbol" style:font-name-complex="OpenSymbol" style:font-family-complex="OpenSymbol" style:font-charset-complex="x-symbol"/>
+  </style:style>
+  <text:outline-style style:name="Outline">
+   <text:outline-level-style text:level="1" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="2" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="3" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="4" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="5" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="6" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="7" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="8" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="9" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="10" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+  </text:outline-style>
+  <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
+  <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
+  <text:linenumbering-configuration text:number-lines="false" text:offset="0.499cm" style:num-format="1" text:number-position="left" text:increment="5"/>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="00059365" officeooo:paragraph-rsid="00059365" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="00059365"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="00059365" officeooo:paragraph-rsid="00059365" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="00059365" officeooo:paragraph-rsid="00059365" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L17">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L18">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L19">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L20">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L20">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L21">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+   <style:text-properties officeooo:paragraph-rsid="00059365"/>
+  </style:style>
+  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L22">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L22">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L23">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L23">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold" loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="00059365" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T6" style:family="text">
+   <style:text-properties officeooo:rsid="00059365" loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <text:list-style style:name="L1">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L2">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L3">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="2">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L4">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="3">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L5">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L6">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="2">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L7">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L8">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="2">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L9">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="3">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L10">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="4">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L11">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="5">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L12">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L13">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="2">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L14">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="3">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L15">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="4">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L16">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="5">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L17">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L18">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="2">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L19">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="3">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L20">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="4">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L21">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="5">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L22">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L23">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:footnote-max-height="0cm" loext:margin-gutter="0cm">
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Standard" style:page-layout-name="pm1"/>
+ </office:master-styles>
+ <office:body>
+  <office:text text:use-soft-page-breaks="true">
+   <text:sequence-decls>
+    <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
+   </text:sequence-decls>
+   <text:p text:style-name="Standard"><text:s text:c="72"/>UNIT-1</text:p>
+   <text:p text:style-name="Standard"><text:s text:c="24"/>INTRODUCTION TO INTERNATIONAL FINANCIAL MANAGEMENT</text:p>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">1.1 Meaning of International Financial Management (IFM):</text:span></text:span> International Financial Management (IFM) is about handling financial tasks for businesses that operate internationally. This includes managing money and finances in different countries. When a company expands its operations beyond its home country, it needs to manage its finances in various foreign markets. The main goal for any business is to increase its value and make its shareholders wealthier. This applies to both local businesses and those that operate internationally. Sometimes, a company decides to expand globally to improve its overall value. Since foreign markets can be quite different from local ones, they offer opportunities to make more money for the company.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> Imagine a toy company that started in the United States and became very successful. To make more money and increase its value, the company decides to sell its toys in other countries like China and Germany. To do this, they need to manage their finances carefully in these foreign markets.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">1.2 Difference between Domestic Financial Management and International Financial Management:</text:span></text:span> While there are similarities, there are also differences between managing finances for a company that only operates within its home country and one that operates globally.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Similarity:</text:span></text:span> The main goals of financial management, which are making profits and increasing the company&apos;s value, are the same whether the company operates locally or internationally.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Difference:</text:span></text:span> The big difference comes in how financial decisions are made.</text:p>
+   <text:list xml:id="list4215852395" text:style-name="L1">
+    <text:list-item>
+     <text:p text:style-name="P7"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Investment Decision:</text:span></text:span></text:p>
+     <text:list>
+      <text:list-item>
+       <text:p text:style-name="P6"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Domestic Financial Management:</text:span></text:span> For a local company, deciding where to invest money might involve choosing between different projects or buying new equipment for their existing stores.</text:p>
+      </text:list-item>
+      <text:list-item>
+       <text:p text:style-name="P6"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">International Financial Management:</text:span></text:span> For a global company, the investment decision might involve choosing which foreign markets to enter, like opening new stores in Japan or Mexico.</text:p>
+      </text:list-item>
+     </text:list>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P7"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Financing Decision:</text:span></text:span></text:p>
+     <text:list>
+      <text:list-item>
+       <text:p text:style-name="P6"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Domestic Financial Management:</text:span></text:span> Locally, the company might decide how to raise funds, such as getting a loan from a local bank to expand their production.</text:p>
+      </text:list-item>
+      <text:list-item>
+       <text:p text:style-name="P6"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">International Financial Management:</text:span></text:span> For an international company, financing could involve deciding how to raise money in multiple countries, like borrowing from a bank in France to support their operations in Europe.</text:p>
+      </text:list-item>
+     </text:list>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P7"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Asset Management Decision:</text:span></text:span></text:p>
+     <text:list>
+      <text:list-item>
+       <text:p text:style-name="P7"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Both Domestic and International Financial Management:</text:span></text:span> This decision is about efficiently managing the company&apos;s resources once they have been acquired and financed. It involves things like making sure inventory levels are right and collecting <text:soft-page-break/>payments from customers on time.</text:p>
+      </text:list-item>
+     </text:list>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> Let&apos;s continue with our toy company. For domestic financial management, they had to decide whether to invest in new toy designs or improve their existing ones. In international financial management, they had to figure out how to get funds to open stores in different countries, maybe by getting a loan from a local bank in each country. And for asset management, they needed to make sure they had enough toys in each store and that they were getting paid by customers in different currencies.</text:p>
+   <text:p text:style-name="P5">In summary, while the basic financial goals are the same, the way decisions are made and the challenges faced in managing finances change when a company goes from operating locally to operating internationally.</text:p>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="P1">1.3 NATURE OF INTERNATIONAL FINANCIAL MANAGEMENT</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P8"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">1. Foreign Exchange Risk:</text:span></text:span><text:span text:style-name="T2"> Think of foreign exchange risk as the uncertainty that comes with dealing in different currencies. In your own country, you&apos;re used to using a single currency, like dollars or euros, for transactions. But when you do business with other countries, you have to exchange your currency for theirs, and the value of currencies can change unpredictably. This can impact your profits or the cost of goods. For instance, if a company in the United States buys materials from Japan and needs to pay in Japanese yen, they might end up paying more if the yen becomes stronger compared to the dollar.</text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> Imagine a clothing company in France that imports fabric from India. They agree to pay in Indian rupees. If the rupee&apos;s value drops suddenly against the euro, the French company might end up paying more euros than they initially expected.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">2. Political Risk:</text:span></text:span> Political risk involves unexpected events related to a country&apos;s politics that can affect businesses. These events can range from government decisions to unexpected acts of violence or terrorism. For instance, a multinational company (MNC) that has a factory in a foreign country could face challenges if that country&apos;s government suddenly changes policies, affecting how they operate.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A technology company from Germany invests in a factory in a South American country. Suddenly, the government of that country changes and introduces new regulations that make it difficult for the German company to operate or make a profit.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">3. Expanded Opportunity Sets:</text:span></text:span> When companies expand internationally, they gain more chances to grow and make money. They can borrow money from places where it&apos;s cheaper and more <text:soft-page-break/>accessible, and they can benefit from producing on a larger scale. For instance, a global electronics company might be able to build factories in different countries, which could lower production costs and make their products more competitive.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> An American car manufacturer decides to sell its vehicles in Asia. By doing so, they can access a new customer base and potentially increase their sales and revenue.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">4. Market Imperfections:</text:span></text:span> The world is made up of diverse countries with different laws, taxes, and business practices. This creates imperfections in global financial markets. These differences can make it challenging for investors to diversify their investments effectively. Despite these challenges, they also create opportunities for international companies to adapt and find creative solutions.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A British company wants to invest in stocks from various countries, but different countries have different rules and regulations for foreign investors. This can make it more difficult for the British company to create a well-balanced and diversified investment portfolio.</text:p>
+   <text:p text:style-name="P5">In summary, international financial management involves dealing with risks related to changing currencies and political events, while also providing opportunities for companies to expand their business on a global scale. However, they need to navigate through differences in laws and regulations between countries to make the most of these opportunities.</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="Standard"><text:span text:style-name="T3">1.4 SCOPE OF INTERNATIONAL FINANCIAL MANAGEMENT<text:line-break/><text:line-break/></text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">1. Foreign Exchange Market:</text:span></text:span> Think of the foreign exchange (forex) market like a global marketplace where you can trade one country&apos;s money for another country&apos;s money. It&apos;s similar to exchanging your money when you travel to a different country. This market helps businesses and individuals convert their currency into another for various purposes, like buying goods from other countries.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> If a company in the United Kingdom wants to import cars from Germany, they would need to exchange British pounds for euros in the foreign exchange market to pay for the cars.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">2. Currency Convertibility:</text:span></text:span> Currency convertibility is about how easily a country&apos;s currency can be exchanged for other currencies. Some countries have restrictions that make it harder to change their money into foreign money. This can impact how smoothly international business transactions can happen.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> Imagine a company in China that wants to invest in a tech startup in the United States. If China has strict rules on converting its currency (the yuan) into U.S. dollars, it might be challenging for that Chinese company to make the investment.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">3. International Monetary System:</text:span></text:span> Think of the international monetary system as a set of rules that different countries follow to manage their own currencies and financial systems. Each country has its own central bank that handles its currency and economic policies.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> The European Union (EU) countries use the euro as their common currency. This <text:soft-page-break/>shared currency simplifies trade and travel within the EU because people and businesses don&apos;t need to worry about converting money between different countries.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">4. Balance of Payments:</text:span></text:span> The balance of payments is like a financial record that shows all the transactions between a country and other countries over a specific period. This includes things like exports, imports, money sent from people working abroad, and foreign investments.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> If a country exports more goods and services than it imports, it will have a positive balance of payments. This means it&apos;s earning more money from other countries than it&apos;s spending.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">5. International Financial System:</text:span></text:span> The international financial system is like a complex network of rules, organizations, and markets that allow money and investments to move across borders. It&apos;s how global payments and investments are managed.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> The New York Stock Exchange (NYSE) is an important part of the international financial system. It&apos;s where shares of companies from all over the world are bought and sold, making it a hub for international investment.</text:p>
+   <text:p text:style-name="P5">In summary, international financial management involves dealing with these different aspects to ensure that businesses can navigate global markets, exchange currencies, manage risks, and make investments across borders.</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1">1.5 <text:s/>IMPORTANCE Of INTERNATIONAL FINANCIAL MANAGEMENT</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P8"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T4">1. Increase in the Volume of International Trade:</text:span></text:span><text:span text:style-name="T2"> As global trade has grown, more products are being exchanged between countries. This expansion requires careful handling of finances to make sure that money flows smoothly between nations.</text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A smartphone company in South Korea sells its devices to customers all over the world. They need to manage the money they receive from different countries and deal with currency exchange rates.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T4">2. Globalization of Business:</text:span></text:span> Businesses are now operating beyond their home countries, reaching customers in various corners of the world. This expansion calls for effective management of financial resources across international borders.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> An American fast-food chain opens restaurants in multiple countries. They need to allocate funds wisely to support each restaurant&apos;s operations while considering different economic conditions.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">3. Movement of Capital and Labor with Fewer Restrictions:</text:span></text:span> With fewer restrictions, money and skilled workers can move more freely between countries. Managing these movements efficiently is crucial for both businesses and economies.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A software developer from India is hired by a technology company in the United States. They need to manage payments and taxes while working remotely across different time zones.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">4. Speed of Communication and Transport:</text:span></text:span> Modern technology has made communication and <text:soft-page-break/>transportation faster, enabling businesses to operate internationally more seamlessly. Managing finances across borders becomes essential to keep up with this pace.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> An online retailer in China can quickly ship products to customers in Europe. They need to handle payments, taxes, and logistics for efficient cross-border operations.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">5. Emergence of International Capital and Money Markets:</text:span></text:span> Global financial markets have expanded, offering opportunities for investments and funding from different countries. Managing these investments requires expertise in international financial management.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> An investor from Japan invests in a startup company in Africa through a global investment platform. The startup must manage funds received from various international investors.</text:p>
+   <text:p text:style-name="P5">In summary, international financial management is crucial because it helps businesses effectively handle finances in a world where trade, investment, and communication are happening at a rapid global pace.</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"><text:s text:c="60"/>UNIT-2</text:p>
+   <text:p text:style-name="P1"><text:s text:c="36"/>FOREIGN EXCHANGE MARKET</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1">1.1 MEANING AND DEFINITION OF FOREIGN EXCHANGE MARKET</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P8"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Foreign Exchange Market:</text:span></text:span><text:span text:style-name="T2"> The foreign exchange (forex or FX) market is where different currencies are traded and converted into one another. It&apos;s like a place where people exchange their money from one country for money from another country. This is done for various reasons like international trade, travel, or investment.</text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> Imagine you&apos;re planning a trip to France from the United States. You need euros to spend while you&apos;re in France. You go to a currency exchange booth or a bank to trade your U.S. dollars for euros. This is a small-scale version of what happens in the foreign exchange market, but on a much larger and global scale.</text:p>
+   <text:p text:style-name="P5">In the foreign exchange market, businesses and individuals trade currencies for various purposes, such as companies paying for goods from other countries or investors exchanging money to invest in foreign stocks or bonds. This market is essential for international transactions to happen smoothly.</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1">1.3 FUNCTIONS OF FOREX MARKET</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P8"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Functions of Forex Market:</text:span></text:span></text:p>
+   <text:list xml:id="list2341571058" text:style-name="L2">
+    <text:list-item>
+     <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Transfer of Purchasing Power:</text:span></text:span> The forex market helps move money from one country to another and convert one currency into another. This helps with international trade and <text:soft-page-break/>investment by allowing people and businesses to use different currencies easily.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A company in Japan wants to buy electronics components from a supplier in the United States. The forex market enables the Japanese company to convert Japanese yen into U.S. dollars to pay the supplier.</text:p>
+   <text:list xml:id="list2836418292" text:style-name="L3">
+    <text:list-item>
+     <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Provision of Credit:</text:span></text:span> The forex market provides credit services that support international trade. Exporters and importers can access credit facilities, allowing them to manage their cash flow while conducting cross-border transactions.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> An Indian textile exporter can get credit before and after shipping products to a buyer in Germany. This credit helps cover costs and ensures smooth trade.</text:p>
+   <text:list xml:id="list1580695175" text:style-name="L4">
+    <text:list-item>
+     <text:p text:style-name="P12"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Provision of Hedging Facilities:</text:span></text:span> The forex market offers hedging tools to protect businesses from losses due to currency exchange rate fluctuations. Exporters and importers can use these tools to reduce risks.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A British car manufacturer exporting to China worries about the value of the Chinese yuan dropping. They can use hedging in the forex market to lock in an exchange rate, safeguarding against unfavorable currency changes.</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1">1.4 STRUCTURE OF FOREX MARKET</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P8"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Structure of Forex Market:</text:span></text:span></text:p>
+   <text:list xml:id="list127750852" text:style-name="L5">
+    <text:list-item>
+     <text:p text:style-name="P13"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Retail Market:</text:span></text:span> This is where individuals, tourists, and small businesses exchange physical currency for their trips or minor transactions.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A traveler in Italy exchanges euros for U.S. dollars at an airport kiosk before visiting the United States.</text:p>
+   <text:list xml:id="list3102098240" text:style-name="L6">
+    <text:list-item>
+     <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Wholesale Market:</text:span></text:span> The wholesale market is where banks trade large amounts of currencies. The interbank market within this category involves direct trading between banks.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> Large international banks like Citibank and HSBC trade large amounts of currencies to meet their customers&apos; demands.</text:p>
+   <text:p text:style-name="P5">In summary, the forex market serves functions like transferring purchasing power, providing credit, and offering hedging options for currency risks. Its structure includes both retail and wholesale markets where individuals, businesses, and banks exchange currencies to enable global transactions.</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"><text:soft-page-break/></text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1">1.5 MAJOR PARTICIPANTS IN FOREIGN EXCHANGE MARKET</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P8"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Major Participants in Foreign Exchange Market:</text:span></text:span></text:p>
+   <text:list xml:id="list1129061884" text:style-name="L17">
+    <text:list-item>
+     <text:p text:style-name="P15"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Retail Clients:</text:span></text:span> These are businesses, investors, and corporations needing foreign exchange for their operations. They usually place buy-sell orders through commercial banks.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A multinational company based in Japan needs U.S. dollars to buy machinery from a U.S. supplier. They work with a bank to exchange Japanese yen for U.S. dollars.</text:p>
+   <text:list xml:id="list2342376704" text:style-name="L18">
+    <text:list-item>
+     <text:p text:style-name="P16"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Commercial Banks:</text:span></text:span> Banks execute buy/sell orders from retail clients and trade currencies for their own needs. They deal directly with other banks or through foreign exchange brokers.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A commercial bank receives orders from various businesses to exchange their currency for foreign currency, facilitating international transactions.</text:p>
+   <text:list xml:id="list3675478296" text:style-name="L19">
+    <text:list-item>
+     <text:p text:style-name="P17"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Foreign Exchange Brokers:</text:span></text:span> These brokers connect banks, offering them the best currency exchange rates. Banks trade currencies through brokers for efficiency.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A bank wants to exchange euros for British pounds. They use a foreign exchange broker to find the best exchange rate among multiple banks.</text:p>
+   <text:list xml:id="list75680243" text:style-name="L20">
+    <text:list-item>
+     <text:p text:style-name="P18"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Hedgers, Speculators, and Arbitrageurs:</text:span></text:span></text:p>
+     <text:list>
+      <text:list-item>
+       <text:p text:style-name="P19"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Hedgers:</text:span></text:span> These traders protect against currency value fluctuations due to business needs. For instance, an airline might hedge against rising fuel costs by buying foreign currency when it&apos;s cheaper.</text:p>
+      </text:list-item>
+      <text:list-item>
+       <text:p text:style-name="P19"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Speculators:</text:span></text:span> Traders who buy and sell currency to profit from expected price movements, without direct business needs.</text:p>
+      </text:list-item>
+      <text:list-item>
+       <text:p text:style-name="P19"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Arbitrageurs:</text:span></text:span> They profit from price differences of the same currency in different markets. For example, they might buy euros at a lower price in one market and sell them at a higher price in another.</text:p>
+      </text:list-item>
+     </text:list>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> An investor buys euros today, expecting their value to rise against the dollar. If the euro&apos;s value goes up, they can sell them for more dollars and make a profit.</text:p>
+   <text:list xml:id="list2603377761" text:style-name="L21">
+    <text:list-item>
+     <text:p text:style-name="P20"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Central Banks:</text:span></text:span> These banks intervene to stabilize their currency&apos;s value. They may buy or sell their currency to influence exchange rates.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> If the value of a country&apos;s currency drops significantly, its central bank might buy its own currency to increase its value in the foreign exchange market.</text:p>
+   <text:p text:style-name="P5"><text:soft-page-break/>In summary, the foreign exchange market involves a variety of participants, from businesses to banks, who trade currencies for different purposes, like international trade or profit-making.</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"><text:s text:c="64"/>UNIT-3</text:p>
+   <text:p text:style-name="P2"><text:s text:c="5"/>MANAGEMENT OF FOREIGN EXCHANGE EXPOSURE AND RISK</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P9"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">1.1Foreign Exchange Risk:</text:span></text:span></text:p>
+   <text:p text:style-name="P9"><text:span text:style-name="T2"><text:s/>Foreign exchange risk is the possibility of a firm experiencing a gain or loss due to unexpected changes in exchange rates. Imagine a company in India that imports goods from the United States and needs to pay in U.S. dollars. If the value of the dollar increases compared to the Indian rupee, the company has to spend more rupees to get the same amount of dollars, leading to potential financial loss.</text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> An Indian clothing retailer imports fabrics from China, paying in Chinese yuan. If the value of the yuan falls compared to the Indian rupee, the retailer&apos;s costs increase, affecting its profits.</text:p>
+   <text:p text:style-name="P21"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T6">1.2</text:span></text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Foreign Exchange Exposure:</text:span></text:span></text:p>
+   <text:p text:style-name="P21"><text:s/>Foreign exchange exposure refers to how much a company is affected by changes in exchange rates. It&apos;s about how alterations in the value of assets, liabilities, and operating income due to currency rate changes impact the company&apos;s financial health.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> Consider a technology company in Germany that sells software to customers in Japan. If the euro strengthens against the Japanese yen, the company might receive fewer euros for the same amount of yen, affecting its revenue.</text:p>
+   <text:p text:style-name="P5">In summary, foreign exchange risk is the potential for financial gains or losses due to unexpected exchange rate changes, while foreign exchange exposure refers to how a company&apos;s assets, liabilities, and income are affected by fluctuations in currency values.</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P3"><text:span text:style-name="T5">1.3. </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Types of Exposure:</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">A. Transaction Exposure:</text:span></text:span> Transaction exposure is about how changes in exchange rates impact future cash flows for transactions already agreed upon in foreign currency. It arises when a company has to pay or receive money in a foreign currency, and the exchange rate changes before the transaction is settled.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> An American company agrees to buy machinery from a German supplier for €100,000, to be paid in 30 days when the machinery arrives. If the exchange rate changes unfavorably during these 30 days (e.g., from 1 euro = $1.15 to 1 euro = $1.20), the American company will have to spend more dollars to buy the same amount of euros, increasing their costs.</text:p>
+   <text:p text:style-name="P5"><text:soft-page-break/><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">B. Translation Exposure:</text:span></text:span> Translation exposure refers to how changes in exchange rates affect a company&apos;s financial statements when converting foreign currency assets and liabilities into the local currency during financial reporting.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A Japanese company operates in the United States and earns revenue in U.S. dollars. At the end of the financial year, when translating their U.S. dollar earnings into yen for their Japanese financial statements, they may experience fluctuations in value due to changing exchange rates.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">C. Economic/Operating Exposure:</text:span></text:span> Economic or operating exposure is the broader impact of exchange rate changes on a company&apos;s overall operations and long-term cash flows. It reflects how fluctuations in exchange rates can affect a company&apos;s competitiveness, demand for its products, and its overall value.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A British car manufacturer sells vehicles in Europe but imports parts from the United States. If the British pound strengthens against the euro, it might make their cars more expensive for European customers, potentially reducing demand.</text:p>
+   <text:p text:style-name="P5">In summary, transaction exposure relates to short-term cash flow impact due to exchange rate changes in specific transactions. Translation exposure involves how exchange rate changes affect financial statements during reporting. Economic/operating exposure looks at long-term impacts on a company&apos;s overall operations and cash flows due to currency fluctuations.</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P3"><text:span text:style-name="T5">1.4. </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Measurement of Transaction Exposure:</text:span></text:span> Transaction exposure refers to gains or losses due to foreign currency settlement of existing obligations. To measure it:</text:p>
+   <text:list xml:id="list1721337050" text:style-name="L22">
+    <text:list-item>
+     <text:p text:style-name="P22">Calculate the net currency inflows or outflows for each foreign currency.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P23">Determine the overall exposure to those currencies.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A multinational company has subsidiaries in Europe and Asia. If one subsidiary has net inflows of €600,000 and another has net outflows of €700,000, the consolidated net inflow is €100,000. If the euro strengthens, the first subsidiary benefits, but the second one faces challenges.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Measurement of Translation Exposure:</text:span></text:span> Translation exposure involves how changes in exchange rates impact financial statements. Different methods can be used:</text:p>
+   <text:list xml:id="list3092214002" text:style-name="L23">
+    <text:list-item>
+     <text:p text:style-name="P24"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Monetary/Non-Monetary Method:</text:span></text:span> Translate cash, receivables, and payables at current rates, while inventory and fixed assets use historical rates.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P24"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Temporal Method:</text:span></text:span> Translate based on the time assets and liabilities were acquired, using current rates for current cost valuation and historical rates for historical cost valuation.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P24"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Current and Non-Current Method:</text:span></text:span> Translate current items at current rates and non-current items at historical rates.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P25"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Current Rate Method:</text:span></text:span> Translate balance sheets and income items at current rates, while common stock is at historical rates. Translation gains/losses go into a separate equity account.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> A U.S. company operates in Europe, holding assets in euros. When translating its assets <text:soft-page-break/>for the financial statement, the chosen method determines the impact of exchange rate changes on reported values.</text:p>
+   <text:p text:style-name="P5">In summary, measuring transaction exposure involves assessing the impact of currency fluctuations on cash flows, while measuring translation exposure focuses on how exchange rate changes affect financial statements, with various methods available for each.</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2">1.5 MANAGEMENT OF TRANSACTION EXPOSURE</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P9"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">1. Management of Transaction Exposure:</text:span></text:span> <text:span text:style-name="T2">Transaction exposure management involves strategies to mitigate the risks arising from short-term cash flow fluctuations due to exchange rate changes.</text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> Imagine a U.S. company expects to receive payment in euros in three months. They are worried that the euro might weaken against the dollar, resulting in reduced revenue in dollars when the payment is converted. To hedge this exposure, they could use a forward contract to lock in the exchange rate now for the future payment, ensuring a predictable amount in dollars.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">2. Management of Translation Exposure:</text:span></text:span> Translation exposure management focuses on strategies to handle the impact of fluctuating exchange rates on financial statement values.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> Consider a multinational corporation with subsidiaries in different countries. The local currency of one subsidiary appreciates against the parent company&apos;s reporting currency. To manage translation exposure, the company could use financial derivatives like currency swaps to offset the translation losses, helping maintain consistent financial ratios.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">3. Management of Economic/Operating Exposure:</text:span></text:span> Economic or operating exposure management aims to reduce the impact of exchange rate fluctuations on a company&apos;s overall competitiveness and long-term cash flows.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Example:</text:span></text:span> An American company exports its products to China. A sudden appreciation of the Chinese yuan could make their products more expensive for Chinese consumers. To manage this exposure, the company might consider diversifying its market presence, offering products in other countries, or establishing local production in China to mitigate the risk of exchange rate fluctuations affecting its competitiveness.</text:p>
+   <text:p text:style-name="P5">In summary, managing foreign exchange exposure involves employing strategies to mitigate the risks associated with currency fluctuations in various aspects of a business, whether it&apos;s short-term cash flows, financial statement values, or overall operational competitiveness. Each type of exposure requires different strategies tailored to the specific risks faced by a company in the global market.</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"><text:s text:c="72"/>UNIT-4</text:p>
+   <text:p text:style-name="P2"><text:s text:c="29"/>CROSS-BORDER INVESTMENT DECISIONS</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"><text:soft-page-break/></text:p>
+   <text:p text:style-name="P9"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Introduction to Capital Budgeting:</text:span></text:span> <text:span text:style-name="T2">Capital budgeting involves evaluating investment projects to determine if they will contribute value to a company. In the context of international business, it&apos;s about assessing whether implementing a project abroad will be financially beneficial. It&apos;s similar to domestic capital budgeting but more complex due to international factors.</text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Real-time Example:</text:span></text:span> Imagine a multinational company considering building a manufacturing plant in a foreign country. They need to evaluate if the project&apos;s benefits will outweigh the costs. This involves analyzing cash flows, considering exchange rates, and ensuring the project aligns with their overall strategic goals.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Concept of International Capital Budgeting:</text:span></text:span> International capital budgeting uses the same principles as domestic capital budgeting but faces additional complexities due to cross-border factors. Multinational firms evaluating foreign projects deal with more risks, decision variables, and considerations.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Real-time Example:</text:span></text:span> A multinational corporation is deciding whether to expand its retail chain to a new country. They must account for factors like political stability, currency fluctuations, and unique market conditions. These variables impact the investment&apos;s feasibility.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Estimating Cash Flows and Discount Rate:</text:span></text:span> To assess a project&apos;s viability, relevant expected cash flows need to be determined. These are the expected future income and expenses associated with the project. The proper discount rate is used to calculate the present value of these future cash flows, accounting for the time value of money.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Real-time Example:</text:span></text:span> A global company wants to invest in a renewable energy project in a foreign market. They estimate the project&apos;s future revenue from selling energy, operational costs, and maintenance expenses. The discount rate used reflects the risk associated with operating in that foreign market.</text:p>
+   <text:p text:style-name="P5">In simple terms, international capital budgeting involves evaluating investment projects abroad by considering their expected cash flows and discounting them back to present value. This process helps multinational companies make informed decisions about whether a foreign project is financially viable.</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"><text:s text:c="69"/>UNIT-5</text:p>
+   <text:p text:style-name="P2">FINANCING DECISIONS OF MNC`S &amp; WORKING CAPITAL MANAGEMENT</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P9"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Introduction to Financing Decisions of MNCs:</text:span></text:span> <text:span text:style-name="T2">Financial decisions in the international context are intricate and risky due to factors like exchange rate fluctuations, varying accounting systems, and government interventions. Information technology and fast information turnaround are crucial, </text:span><text:soft-page-break/><text:span text:style-name="T2">as global companies need to navigate complex financial markets.</text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Real-time Example:</text:span></text:span> Imagine a multinational corporation planning to expand its operations to multiple countries. They need to decide how to finance these expansions, whether through loans, bonds, or equity. They must consider exchange rate risks and government regulations in each country.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Importance of Information Systems:</text:span></text:span> In the international financial landscape, companies have more funding options compared to domestic firms. Information systems play a vital role in quickly accessing accurate data about various funding sources. This helps companies make informed decisions to acquire funds in the most cost-effective way.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Real-time Example:</text:span></text:span> A global tech company wants to launch a new product line. They can access real-time data through information systems to compare interest rates and terms for loans in different countries. This helps them choose the most suitable funding option.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Adapting to Dynamic Changes:</text:span></text:span> Financial factors affecting multinational companies can change unexpectedly, impacting decisions. Recent examples include exchange rate volatility in regions like Latin America and Southeast Asia, which increases costs and risks associated with financial choices.</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T1">Real-time Example:</text:span></text:span> An automobile manufacturer with operations in multiple countries faces challenges due to currency fluctuations. If the value of a particular currency drops, it might increase the cost of importing parts from that country, affecting the company&apos;s profitability.</text:p>
+   <text:p text:style-name="P5">In simple terms, financing decisions for international companies involve navigating risks like exchange rate fluctuations and government regulations. Effective use of information systems helps them select the best funding sources while adapting to dynamic financial changes in global markets.</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2">3. INTRODUCTION TO WORKING CAPITAL MANAGEMNET</text:p>
+   <text:p text:style-name="P4">Working capital management deals with stock and flow perspective of working capital assets.</text:p>
+   <text:p text:style-name="P4">In flow perspective we try to study the positioning of liquid funds. In stock perspective we try</text:p>
+   <text:p text:style-name="P4">to determine appropriate levels and short term debt. Thus in the working capital management</text:p>
+   <text:p text:style-name="P4">we deal with.</text:p>
+   <text:p text:style-name="P4">1. Cash management</text:p>
+   <text:p text:style-name="P4">2. Management of receivables and</text:p>
+   <text:p text:style-name="P4">3. Inventory management.</text:p>
+   <text:p text:style-name="P4">3.1.1 OBJECTIVES OF INTERNATIONAL CASH MANAGEMENT</text:p>
+   <text:p text:style-name="P4">3.1.2 IMPORTANT OF INTERNATIONAL CASH MANAGEMENT</text:p>
+   <text:p text:style-name="P4">3.1.3 PROBLEMS OF INTERNATIONAL CASH MANAGEMENT</text:p>
+  </office:text>
+ </office:body>
+</office:document>

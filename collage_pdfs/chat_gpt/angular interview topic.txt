@@ -1,0 +1,921 @@
+PROPERTY BINDING
+
+=>.html
+<h1 [innerText]="title"></h1>
+<h2>Example 1</h2>
+<button [disabled]="isDisabled">I am disabled</button>
+=>.ts
+  title="Angular Property Binding Example"
+  //Example 1
+  isDisabled= true;
+  
+  
+  
+  
+EVENT BINDING
+
+=>.html
+
+<button (click)="clickMe()">Click Me</button>
+<p>You have clicked {{clickCount}}</p>
+
+=>.ts
+
+clickCount=0
+  clickMe() {
+    this.clickCount++;
+  }
+  
+  
+TWO WAY DATA BINDING
+
+.modulre.ts
+import { FormsModule } from '@angular/forms';
+
+.html
+<input type="text" [(ngModel)]="output">
+<p>{{output}}</p>
+
+.ts
+
+ public output="";
+ 
+       
+	   
+		
+		
+		
+DIRECTIVES
+*ngFor
+=>.ts
+
+  movies: Movie[] =[
+ 
+  {title:'A',director:' B',cast:'C',releaseDate:'D'}, 
+    {title:'A',director:' B',cast:'C',releaseDate:'D'}, 
+	  {title:'A',director:' B',cast:'C',releaseDate:'D'}, 
+	    {title:'A',director:' B',cast:'C',releaseDate:'D'}, 
+]
+ 
+ 
+}
+ 
+class Movie {
+  title : string;
+  director : string;
+  cast : string;
+  releaseDate : string;
+}
+
+=>.html
+ <ul>
+    <li *ngFor="let movie of movies">
+      {{ movie.title }} - {{movie.director}}
+    </li>
+  </ul>
+  
+  
+  
+ *ngIf
+ .ts
+   people: any[] = [
+    {
+      "name": "Douglas  Pace",
+      "age": 35
+    },
+    {
+      "name": "Mcleod  Mueller",
+      "age": 32
+    },
+    {
+      "name": "Day  Meyers",
+      "age": 21
+    },
+    {
+      "name": "Aguirre  Ellis",
+      "age": 34
+    },
+    {
+      "name": "Cook  Tyson",
+      "age": 32
+    }
+  ];
+  
+  .html
+  
+  <h4>NgIf</h4>
+<ul *ngFor="let person of people">
+  <li *ngIf="person.age < 30"> (1)
+  {{ person.name }} ({{ person.age }})
+  </li>
+</ul>
+
+
+*ngSwitch
+.html
+<h4>NgSwitch</h4>
+<ul *ngFor="let person of people"
+    [ngSwitch]="person.country"> (1)
+
+  <li *ngSwitchCase="'UK'" (2)
+      class="text-success">{{ person.name }} ({{ person.country }})
+  </li>
+  <li *ngSwitchCase="'USA'"
+      class="text-primary">{{ person.name }} ({{ person.country }})
+  </li>
+  <li *ngSwitchCase="'HK'"
+      class="text-danger">{{ person.name }} ({{ person.country }})
+  </li>
+  <li *ngSwitchDefault (3)
+      class="text-warning">{{ person.name }} ({{ person.country }})
+  </li>
+</ul>
+
+.ts
+
+ people: any[] = [
+    {
+      "name": "Douglas  Pace",
+      "age": 35,
+      "country": 'MARS'
+    },
+    {
+      "name": "Mcleod  Mueller",
+      "age": 32,
+      "country": 'USA'
+    },
+    {
+      "name": "Day  Meyers",
+      "age": 21,
+      "country": 'HK'
+    },
+    {
+      "name": "Aguirre  Ellis",
+      "age": 34,
+      "country": 'UK'
+    },
+    {
+      "name": "Cook  Tyson",
+      "age": 32,
+      "country": 'USA'
+    }
+  ];
+  
+  
+  
+  =====ngStyle directive
+  
+  
+  <div [ngStyle]="{'background-color':'green'}"></<div>
+  <div [ngStyle]="{'background-color':person.country === 'UK' ? 'green' : 'red' }"></<div>
+  <div [ngStyle]="{'color': 'blue', 'font-size': '24px', 'font-weight': 'bold'}">
+    some text
+</div>
+  
+  
+  
+  =====ngClass
+  
+  <h4>NgClass</h4>
+  
+ <div [ngClass]="'first second'">...</div>
+ 
+<ul *ngFor="let person of people">
+  <li [ngClass]="{
+    'text-success':person.country === 'UK',
+    'text-primary':person.country === 'USA',
+    'text-danger':person.country === 'HK'
+  }">{{ person.name }} ({{ person.country }})
+  </li>
+</ul>
+
+
+
+
+
+
+======DATEPIPE
+.ts
+  toDate: Date = new Date(); 
+   msg: string= 'Welcome to Angular';
+   
+.html
+<p> Unformatted date : {{toDate }} </p>
+<p> Formatted date : {{toDate | date}} </p>
+
+<p>medium : {{toDate | date:'medium'}} </p>
+<p>short : {{toDate | date:'short'}} </p>
+<p>fullDate : {{toDate | date:'fullDate'}} </p>
+<p>longDate : {{toDate | date:'longDate'}} </p>
+<p>mediumDate : {{toDate | date:'mediumDate'}} </p>
+<p>shortDate : {{toDate | date:'shortDate'}} </p>
+<p>mediumTime : {{toDate | date:'mediumTime'}} </p>
+<p>dd-MM-y : {{toDate | date:'dd-MM-y'}} </p>
+<p>dd-MM-yy HH:mm : {{toDate | date:'dd-MM-yy HH:mm'}} </p>
+
+<p>Unformatted :{{msg}} </p>
+<p>Uppercase :{{msg | uppercase}} </p>
+<p>Lowercase :{{msg | lowercase}} </p>
+<p>Complete String :{{msg}} </p>
+<p>Example 1 :{{msg | slice:11:20}} </p>
+<p>Example 2 :{{msg | slice:-9}} </p>
+
+
+
+
+ROUTING
+
+                1.What is ,Routing
+Routing allows you to move from one part of the application to another part or one View to another View
+
+
+               2.Angular ,Router Module
+The Router is a separate module in Angular. It is in its own library package, @angular/router. The Router Module provides the necessary service providers and directives for navigating through application views.
+
+Using Angular Router you can
+
+Navigate to a specific view by typing a URL in the address bar
+Pass optional parameters to the View
+Bind the clickable elements to the View and load the view when the user performs application tasks
+Handles back and forward buttons of the browser
+Allows you to dynamically load the view
+Protect the routes from unauthorized users using Guards
+
+               3.Components of Angular ,Router Module
+Router
+Route
+Routes
+RouterOutlet
+RouterLink
+RouterLinkActive
+ActivatedRoute
+RouterState
+RouteLink Parameters array
+
+ 3(1),Router
+The Angular Router is an object that enables navigation from one component to the next component as users perform application tasks like clicking on menus links, buttons or clicking on back/forward button on the browser. We can access the router object and use its methods like navigate() or navigateByUrl(), to navigate to a route
+ 3(2),Route
+Route tells the Angular Router which view to display when a user clicks a link or pastes a URL into the browser address bar. Every Route consists of a path and a component it is mapped to. The Router object parses and builds the final URL using the Route
+3(3),Routes
+Routes is an array of Route objects our application supports
+3(4),RouterOutlet
+The outerOutlet is a directive (<router-outlet>) that serves as a placeholder, where the Router should display the view
+3(5),RouterLink
+The RouterLink is a directive that binds the HTML element to a Route. Clicking on the HTML element, which is bound to a RouterLink, will result in navigation to the Route. The RouterLink may contain parameters to be passed to the route’s component.
+3(6),RouterLinkActive
+RouterLinkActive is a directive for adding or removing classes from an HTML element that is bound to a RouterLink. Using this directive, we can toggle CSS classes for active RouterLinks based on the current RouterState
+3(7),ActivatedRoute
+The ActivatedRoute is an object that represents the currently activated route associated with the loaded Component.
+3(8),RouterState
+The current state of the router including a tree of the currently activated routes together with convenience methods for traversing the route tree.
+3(9),RouteLink Parameters array
+The Parameters or arguments to the Route. It is an array which you can bind to RouterLink directive or pass it as an argument to the Router.navigate method.
+
+
+4 ,How to configure Angular Router
+->To Configure the Router in Angular, you need to follow these steps
+
+->Set the <base href>
+ex:<base href="/">
+->Define routes for the view
+ex:const appRoutes={ path: 'product', component: ProductComponent }
+->Register the Router Service with Routes
+ex:import { RouterModule } from '@angular/router';
+   imports: [RouterModule.forRoot(routes)],
+             in root module
+->Map HTML Element actions to Route
+  Next, we need to bind the click event of the link, image or button to a route. This is done using the routerlink directive
+  <li><a [routerLink]="['product']">Product</a></li>
+->Choose where you want to display the view
+ex:<router-outlet></router-outlet>
+
+
+
+
+  practical
+
+  =create required comonents
+  =create Routes array in app routing
+  =<li><a [routerLink]="['home']">Home</a></li>
+  =<router-outlet></router-outlet>
+
+
+===========how to add Bootstrap4============
+1st using cdn from bootstrap page   
+<!-- Bootstrap CSS --> in index.html under head section
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    or
+   in styles.css
+    @import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+
+2nd 
+
+npm install --save bootstrap@4
+    2(a)
+    "styles": [
+     "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+     "src/styles.css"
+    ],
+
+    add
+    @import "~../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    or 
+    2(b) 
+    in styles.css
+    @import "~../node_modules/bootstrap/dist/css/bootstrap.min.css"  or    @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+3rd
+   3(a)
+Copy CSS file Local folder into local folder 
+You can manually copy the CSS files to any of local folder.
+<link rel="stylesheet" href="assets/bootstrap.min.css"> in head of infdex.html
+  
+  or
+
+   3(b)
+  Include it under styles node in angular.json. 
+"styles": [
+    "src/assets/bootstrap.min.css",
+     "src/styles.css"
+],
+or
+   3(c)
+import it in styles.css. 
+@import "~assets/bootstrap.min.css"; 
+
+
+
+
+
+
+===========>LOCATION STRATEGY =====================
+
+
+=============>ActivatedRoute================
+->{path:'product/:id',component:ProductDetailsComponent},
+
+->constructor(private _activatedRoute:ActivatedRoute) {
+  this._activatedRoute.params.subscribe(data=>{
+   // console.log(data) = returns id
+   this.defaulitId=data.id;
+  })
+ }
+
+ ->{{defaulitId}}
+
+
+
+ ==================>Child Routes============
+ ->  
+ {path:'product/:id',
+ component:ProductDetailsComponent,
+children:[   //can be view only if we enter inside product details
+ {path:'over-view',component:ProductOverviewComponent},
+ {path:'contact',component:ProductContactComponent}
+]},
+->
+<button> <a [routerLink]="['over-view']">over-view</a></button>
+<button> <a [routerLink]="['contact']">Contact</a></button>
+<router-outlet></router-outlet>
+
+
+
+========Navigating between Angular routes
+You can navigate between routes in Angular 2 in two ways
+
+Using RouterLink Directive
+<li><a [routerLink]="['product']">Product</a></li>
+
+Via Code
+  
+constructor(private _router:Router){
+}
+
+this._router.navigate(['product']
+Or
+this._router.navigateByUrl('product')
+
+link parameter array
+ 
+<li><a [routerLink]="['product/detail/1']">Product 1 Overview</a></li>
+
+or
+ 
+this._router.navigate(['product/detail/1'])
+
+
+
+
+
+====================>routeGuards===================
+ng g c admin-home
+ng g guard admin-access
+//in app Routingmodule.ts
+{path:'admin',
+  component:AdminHomeComponent,
+canActivate:[AdminAccessGuard]},
+
+
+
+
+====>lazy loading===================
+ng g m faculty --route faculty --module app.module.ts 
+
+
+
+
+=============>componentInteraction===============
+
+--------------*FROM PARENT TO Child
+   child.ts
+@Input() public fromParent:any;
+{{fromParent}}
+
+parent.ts
+<app-child [fromParent]="parentMsg"></app-child>
+
+public parentMsg="i am from parent";
+
+
+
+(or)
+
+->childComponent
+selector: 'child-component',
+template: `<h2>Child Component</h2>
+           current count is {{ count }}
+`
+})
+export class ChildComponent {
+@Input() count: number;
+}
+
+
+->ParentComponent
+selector: 'app-root',
+template: `
+      <h1>Welcome to {{title}}!</h1>
+      <button (click)="increment()">Increment</button>
+      <button (click)="decrement()">decrement</button>
+      <child-component [count]=Counter></child-component>` ,
+styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+title = 'Component Interaction';
+Counter = 5;
+
+increment() {
+  this.Counter++;
+}
+decrement() {
+  this.Counter--;
+}
+}
+
+
+-----------------*FROM CHILD TO PARENT
+
+child.ts
+@Output() public childInfo=new EventEmitter();
+fireEvent(){
+  this.childInfo.emit("this is from child")
+}
+.html
+<button (click)="fireEvent()">click</button>
+
+parent.ts
+public msg:any;
+parent.html
+<app-child (childInfo)="msg=$event"></app-child>> 
+{{msg}}
+
+
+
+
+=== to run json server
+npm i -g json-server
+json-server --watch db.json
+
+=>getmethod
+import {httpClientModule} in app module
+import httpclient in servicefile
+
+constructor(private httpclient:HttpClient) {}
+getContacts(){
+  return this.httpclient.get('http://localhost:3000/contacts')
+}
+ts file
+constructor(private contactservice:ContactsService) { }
+public contactList;
+ngOnInit(): void {
+this.contactservice.getContacts().subscribe(data=>{
+    this.contactList=data;
+    console.log(this.contactList)
+  })
+ html files
+  <ul>
+    <li *ngFor="let contact of contactList">
+           {{contact.firstName}}
+    </li>
+</ul>
+
+
+====>postMethod
+>>>>>>>>>create form to send data
+<form >
+  <input type="text" name="name" placeholder="Enter Name">
+  <br><br>
+  <input type="text" name="email" placeholder="Enter email">
+  <br><br>
+  <input type="password" name="password" placeholder="Enter password">
+  <br><br>
+  <button>Add New User</button>
+</form>
+>>>>>>>>>>
+import FormsModule in appmodule
+>>>>>>>
+<form #usersForm="ngForm" (ngSubmit)="getUserFormData(usersForm.value)" >
+  ngModel in input fields
+
+  >>>>>>>>>>>>>>>>>>.>>>>>>>>>>>>>>>>>>>>tsfile
+  //>>>>>>to console
+  getUserFormData(data:any){
+    console.warn(data)
+  }
+
+//>>>>>>to send to database
+  constructor(private contactService:ContactsService) { }
+  getUserFormData(data:any){
+    console.warn(data)
+    this.contactService.saveUser(data).subscribe((result)=>{
+      //this.users=data
+      console.warn(result)
+    })
+  }
+
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>servicefile
+
+  saveUser(data:any){
+    return this.httpclient.post(this.jsonUrl,data)
+  }
+
+
+
+
+  ================>delete method
+  <a href="" (click)="ClearPosts()">clear posts</a>  in html
+  tsfile 
+  ClearPosts(){
+    this.http.delete('apilink').subscribe(response)=>{
+      console.log(response)
+    }
+  }
+
+
+
+
+
+  ==========================>,How to use Reactive Forms
+  Import ReactiveFormsModule
+  Create Form Model in component class using FormGroup, FormControl & FormArrays
+  Create the HTML Form resembling the Form Model.
+  Bind the HTML Form to the Form Model
+
+  practical   from tektutorial
+  >>import ReactiveFormsModule
+
+  or
+  constructor(private fmb:FormBuilder) { }
+    contactForm=this.fmb.group({
+      firstname:[''],
+      lastname: [''],
+        email: [''],
+        gender: [''],
+        isMarried: [''],
+        country: [''],
+        address: this.formBuilder.group({
+          city: ['', [Validators.required]],
+          street: ['', [Validators.required]],
+          pincode: ['', [Validators.required]],
+        })
+    
+    })
+
+     onSubmit(){
+    this.formData=this.contactForm.value;
+    console.log(this.formData.firstName)
+  }
+
+  >>create html form
+  >>bind html with model
+  <form [formGroup]="contactForm">
+    name="firstname" formControlName="firstname" 
+    (ngSubmit)="onSubmit()"
+    {{formData.firstName}}
+    
+    above (or)
+      >>//modal is created
+  contactForm = new FormGroup({
+    firstname: new FormControl(),
+    lastname: new FormControl(),
+    email: new FormControl(),
+    gender: new FormControl(),
+    isMarried: new FormControl(),
+    country: new FormControl()
+  })
+
+
+
+    =====================>,formValidations======   from tektutorial
+    ,[Validators.required]
+    ex:city: ['', [Validators.required]]
+    
+
+    Built-in Validators
+     The Angular ReactiveForms Module provides several Built-in validators out of the box. 
+     They are required, minlength, maxlength & pattern etc.
+
+
+
+     =============================>Displaying the Validation/Error messages==============
+     2ways
+     1 way
+     <div
+     *ngIf="!contactForm.controls.firstname?.valid && (contactForm.controls.firstname?.dirty
+     ||contactForm.controls.firstname?.touched)">
+       First Name is not valid
+   </div>
+
+   or 2nd way
+
+   get firstname() {
+    return this.contactForm.get('firstname');
+    console.log(this.contactForm.get('firstname'))
+  } 
+  and in html
+  <div *ngIf="!firstname.valid && (firstname.dirty ||firstname.touched)">
+    First Name is not valid
+</div>
+
+>>>>>>>>>>>>........to display exact error message 
+
+lastname: ['',[Validators.required,Validators.minLength(4), Validators.pattern("^[a-zA-Z]+$")]],
+
+get lastname() {
+  return this.contactForm.get('lastname');
+} 
+
+<div *ngIf="!lastname.valid && (lastname.dirty ||lastname.touched)">
+  <div [hidden]="!lastname.errors.pattern">
+    Only characters are allowed
+  </div>
+  <div [hidden]="!lastname.errors.maxLength">
+    Max length allowed is {{lastname.errors.maxlength?.requiredLength}} 
+  </div>
+  <div [hidden]="!lastname.errors.required">
+    Last Name is required
+  </div>
+</div>
+
+
+class="text-danger"   bootstrap class to display error msg in red color
+
+>>>>>>>>>>>>>>>,moduleCreation with routing
+    ng g module main --routing
+
+
+
+
+    =====================>>How to use component from another module with Angular?======
+    ref link=https://thewebdev.info/2022/04/13/how-to-use-component-from-another-module-with-angular/#:~:text=To%20use%20component%20from%20another%20module%20with%20Angular%2C%20we%20export,module%20from%20the%20destination%20module.&text=to%20export%20FirstPage%20and%20ImportantCopmonent,array%20in%20the%20source%20module.
+    exports: [FirstPage, ImportantCopmonent], in 2nd module
+    imports:[ 2nd module name]
+
+
+
+
+
+    =============>>>>>>custompipe==========
+     ref link=https://www.angularjswiki.com/pipes/custompipe/
+
+
+     =====================>>>>>>>>>>>>>>>>>>>>>>crud operations
+     ref link=https://www.javaguides.net/2021/08/angular-crud-example.html
+
+
+
+
+
+
+
+
+
+     =================>>>CRUD OPERATIONS=====
+     youtube link==https://youtu.be/p01Ydl62ObE
+     learningpoints channel name
+
+     json server ref link=    https://www.npmjs.com/package/json-server
+
+
+
+
+
+     in another module
+     ng g c module/add-student
+     ng g c module/edit-student
+     ng g c module/list-student(delete also here)
+     ng g c module/login-student
+     ng g c module/registration-student
+
+     --->import all components and configure routes
+     --->in app.html
+     <h1>student management</h1>
+     <ul>
+      <li><a routerLink="add">addStudents</a></li>
+
+
+     </ul>
+
+    -->to display specific routed component html
+    <router-outlet></router-outlet>
+
+ added bootstrap 
+
+
+  -->edit db.json
+  {
+    "students": [
+      { "id": 1, "name": "student1", "gmail": "student1@gmail.com" },
+      { "id": 2, "name": "student2", "gmail": "student2@gmail.com" },
+      { "id": 3, "name": "student3", "gmail": "student3@gmail.com" }
+    ]
+  }
+
+  paste json server in postman to see result
+
+-->ng g s student
+student.service.ts
+getAllStudents(){
+  return this.http.get(this.url);
+}
+
+-->liststudent.ts
+studentData:any=[];
+ngOnInit():void{
+  this.student.getAllStudent().subscribe((data)=>{
+    this.studentData=data;
+  })
+}
+
+-->liststudent.html
+
+bootstrap <table>
+<thead>
+  <tr>
+    <th></th>
+    
+  </tr>
+</thead>
+<tbody>
+<tr>
+  <td></td>
+  <td></td>
+  <td><span (click)="deleteStudent(item.id)">Delete</span></td>
+</tr>
+</tbody>
+</table>
+
+
+-->add-student.html
+name and email and submit  using reactive forms
+-->add-student.tsfile
+ngOnInit(){}
+saveData(){
+  this.student.saveStudentData(this.addStudent.value).subscribe((result)=>{
+    console.log(result);
+  })
+}
+student.service.ts 
+saveStudentData(data){
+  console.log(data);
+ return this.http.post(this.url,data);
+}
+
+-->list-studenyt.html 
+<td></td>
+<td><span (click)="deleteStudent(item.id)">Delete</span></td>
+</tr>
+</tbody>
+--> .ts
+deleteStudent(student_id:any){
+  console.log(student_id);
+  this.student.deleteStudent(student_id).subscribe((result)=>{
+    console.log(result);
+    //to refresh page
+    this.ngOnInit();//meth for student data availoable here
+  })
+}
+-->student.sevice.ts 
+deleteStudent(id:any){
+  return this.http.delete(`${this.url}/${id}`);
+}
+
+
+
+
+--->edit
+<td></td>
+<td><span (click)="deleteStudent(item.id)">Delete</span></td>
+<a routerLink="/edit/{{item.id}}">Edit</a>
+</tr>
+</tbody>
+
+-->routing
+path:'edit/id',compont:editcomponent
+
+
+edit.html 
+reactive form 
+edit.ts 
+reactiveform modal 
+
+ngOnInit(){
+  console.log(this.activatedRoute.snapshot.params.id);
+  this.student.getStudentById(this.activatedRoute.snapshot.params.id).subscribe((result:any)={
+    console.log(result);
+    this.editStudent=new FormGroup({
+      name:new FormControl(result['name']),
+      email:new FormControl(result['email'])
+
+    });
+  });
+}
+
+student.ts 
+getStudentById(id:number){
+  return this.http.get(`${this.url}/${id}`);
+}
+
+
+
+
+updateStudentData(id:number,data:any){
+  return this.http.put(`${this.url}/${id}`,data);
+}
+
+
+
+--->edit.html 
+(ngSubmit)="updateData()"
+
+-->edit.ts 
+updateData(){
+  console.log(this.editStudent.value);
+  this.student.updateStudentData(this.activatedRoute.snapshot.params.id,this.editStudent.value).subscribe((result)=>{
+    console.log(result);
+  })
+}
+
+
+//refer learningpoints youtube channel to     show success message after submit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,gitHubInverview topics
+
+,constructorVsNgonInit
+The constructor() should only be used to initialize class members but shouldn't do actual "work".
+ So we should use constructor() to setup Dependency Injection, Initialization of class fields etc.
+  ngOnInit() is a better place to write "actual work code" that we need to execute as soon as the class is instantiated.
+
+  Why constructor is called before ngOnInit?
+This is because the constructor is called to initialize the class and not the component. The constructor is called before ngOnInit , 
+at this point the component hasn't been created yet, only the component class has being instantiated thus your dependencies are brought in, 
+but your initialization code will not run.
+
+
+
+
+=====,services======================== 
+Services allow us to create reusable code and use it every component that needs it. 
+The Services can be injected into components and other services using the dependency injection system.
+ The dependencies are declared in the Module using the Provider’s metadata. The Angular creates a tree of injector & Providers that resembles the Component Tree.
+  This is called the hierarchical pattern.
+
+How to create a Service in Angular
+An Angular service is simply a Javascript function. All we need to do is to create a class and add methods & properties. We can then create an instance of this class in our component and call its methods.
+
+One of the best uses of services is to get the data from the data source. Let us create a simple service, which gets the product data and passes it to our component.

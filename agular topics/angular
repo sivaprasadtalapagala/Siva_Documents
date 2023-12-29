@@ -1,0 +1,453 @@
+<button class="bot-create-button" mat-raised-button (click)="onExporttoExcelClick()" [disabled]="isLoading">Export to Excel</button>
+
+
+import * as FileSaver from 'file-saver';
+import * as XLSX from 'xlsx';
+const EXCEL_TYPE = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=UTF-8';
+const EXCEL_EXTENSION = '.xlsx';
+ 
+ onExportClick(): void {
+    const req = this.serviceInvoker
+      .getFile(this.urlService.fetchUrl('export'), {
+        intents: this.selectedFlows,
+        entities: this.selectedEntities,
+        shouldEncode: this.shouldEncode
+      })
+      .subscribe(
+        res => {
+          this.notificationService.notifySuccess("Successfully exported knowledge");
+          this.showDownloadOption(res);
+        },
+        (err: HttpErrorResponse) => {
+          this.notificationService.notifyError("Error while exporting. Please try again later");
+          console.log(err);
+        }
+      );
+  }
+
+  //export to excel 
+  onExporttoExcelClick(){
+    const req = this.serviceInvoker
+    .getExcelFile(this.urlService.fetchUrl('export'), {
+      intents: this.selectedFlows,
+      entities: this.selectedEntities,
+      shouldEncode: this.shouldEncode
+    })
+    .subscribe(
+      res => {
+        console.log("excel",res)
+        // this.notificationService.notifySuccess("Successfully exported knowledge"); 
+        const export_intents=res.body.intents
+        const export_entities=res.body.entities
+        this.exportData(export_intents,export_entities);
+        // this.showDownloadOption(res);
+      },
+      (err: HttpErrorResponse) => {
+        this.notificationService.notifyError("Error while exporting. Please try again later");
+        console.log(err);
+      }
+    );
+  }
+
+
+
+
+     //single sheet
+  
+  // format data to display in excel
+  exportData(dataArray: any[],export_entities) {
+    console.log("intents",dataArray)
+    console.log("entities",export_entities)
+    const data = dataArray.map((d) => ({
+      Flow_Name: d.name,
+      inputs:d.inputs.join(','),
+      Response: d.actions.executionsList?.[0]?.responses?.[0] || '',
+      // Response:d.actions.executionsList ? d.actions.executionsList[0]?.responses[0] :'',
+      // clusters: export_entities.filter(entity => entity.id ===d?.entityid ? d?.entityid[0] : '')?.name || 'true'
+      // clusters: export_entities.filter(entity => entity.id === (d?.entityid ? d.entityid[0] : ''))[0]?.name || ''
+      clusters: export_entities.filter(entity => d?.entityid?.includes(entity.id)).map(entity => entity.name).join(', ')
+
+    }));
+    this.exportAsXLSX(data)
+    // this.generateExcelFile(data, "myData.xlsx");
+    console.log("Export:", data);
+  }
+ 
+  
+  exportAsXLSX(data):void {
+    this.exportAsExcelFile(data, 'sample');
+  }
+
+  excel formatter
+  public exportAsExcelFile(json: any[], excelFileName: string): void {
+    const worksheet: XLSX.WorkSheet = {} as XLSX.WorkSheet;
+  
+    // Extract column headings from the first object in the JSON array
+    const columnHeadings: string[] = Object.keys(json[0]);
+  
+    // Convert data to a 2D array
+    const dataArray: any[][] = [];
+    
+    // Add column headings as the first row in the data array
+    dataArray.push(columnHeadings);
+  
+    // Add data rows to the data array
+    json.forEach((row) => {
+      const rowData: any[] = [];
+      for (const key in row) {
+        if (row.hasOwnProperty(key)) {
+          rowData.push(row[key]);
+        }
+      }
+      dataArray.push(rowData);
+    });
+  
+    // Add the data array to the worksheet
+    XLSX.utils.sheet_add_aoa(worksheet, dataArray, { origin: 0 });
+  
+    // Adjusting column widths based on content length
+    const columnWidths: XLSX.ColInfo[] = [];
+    const cellRange = XLSX.utils.decode_range(worksheet['!ref']);
+    for (let C = cellRange.s.c; C <= cellRange.e.c; ++C) {
+      const columnValues: any[] = [];
+      for (let R = cellRange.s.r; R <= cellRange.e.r; ++R) {
+        const cellAddress = { c: C, r: R };
+        const cell = worksheet[XLSX.utils.encode_cell(cellAddress)];
+        if (cell && cell.v) {
+          columnValues.push(cell.v.toString());
+        }
+      }
+      const maxLength = Math.max(...columnValues.map((value) => value.length));
+      const width = maxLength > 20 ? 20 : maxLength; // Adjust the maximum column width as desired
+      columnWidths.push({ wch: width });
+    }
+    worksheet['!cols'] = columnWidths;
+  
+  
+    // Adjusting cell heights based on fixed height
+const cellHeightMap: { [key: string]: number } = {};
+for (let R = cellRange.s.r; R <= cellRange.e.r; ++R) {
+  for (let C = cellRange.s.c; C <= cellRange.e.c; ++C) {
+    const cellAddress = { c: C, r: R };
+    const cell = worksheet[XLSX.utils.encode_cell(cellAddress)];
+    if (cell && cell.v) {
+      const key = `${C}-${R}`;
+      if (!cellHeightMap[key] || 20 > cellHeightMap[key]) {
+        cellHeightMap[key] = 30; // Set a fixed height of 30 pixels
+      }
+    }
+  }
+}
+
+// Generate an array of row objects with the fixed height
+worksheet['!rows'] = Object.keys(cellHeightMap).map((key) => ({
+  r: parseInt(key.split('-')[1], 10), // Extract the row index from the key
+  hpx: 30, // Set a fixed height of 30 pixels
+  hidden: false, // Set the hidden property to false to ensure the row is visible
+}));
+
+  
+    const workbook: XLSX.WorkBook = { Sheets: { 'data': worksheet }, SheetNames: ['data'] };
+    const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
+  
+    this.saveAsExcelFile(excelBuffer, excelFileName);
+  }
+
+  save excel file
+  private saveAsExcelFile(buffer: any, fileName: string): void {
+    const data: Blob = new Blob([buffer], {
+      type: EXCEL_TYPE
+    });
+    FileSaver.saveAs(data, fileName + '_export_' + new Date().getTime() + EXCEL_EXTENSION);
+    this.notificationService.notifySuccess("Successfully exported knowledge"); 
+  }
+
+
+  //two sheets
+
+  exportData(dataArray: any[], export_entities) {
+    console.log("intents", dataArray);
+    console.log("entities", export_entities);
+  
+    const questionData = dataArray.map((d) => ({
+      Flow_Name: d.name,
+      inputs: d.inputs.join(','),
+      Response: d.actions.executionsList?.[0]?.responses?.[0] || '',
+      clusters: export_entities.filter(entity => d?.entityid?.includes(entity.id)).map(entity => entity.name).join(', ')
+    }));
+  
+    const entityData = export_entities.map(entity => ({
+      Entity_ID: entity.id,
+      Entity_Name: entity.name,
+      // Add more properties as needed
+    }));
+  
+    this.exportAsXLSX({ questions: questionData, entities: entityData });
+    console.log("Export:", questionData, entityData);
+  }
+
+  //skip column headings
+  exportData(dataArray: any[], export_entities: any[]) {
+    console.log("intents", dataArray);
+    console.log("entities", export_entities);
+  
+    const questionData = dataArray.map((d) => [
+      d.name,
+      d.inputs.join(','),
+      d.actions.executionsList?.[0]?.responses?.[0] || '',
+      export_entities
+        .filter(entity => d?.entityid?.includes(entity.id))
+        .map(entity => entity.name)
+        .join(', ')
+    ]);
+  
+    const entityData = export_entities.map(entity => [
+      entity.name,
+      entity?.entries[0]?.synonyms.join(','),
+      // Add more properties as needed
+    ]);
+  
+    const excelData = {
+      questions: questionData,
+      entities: entityData
+    };
+  
+    this.exportAsXLSX(excelData);
+    console.log("Export:", questionData, entityData);
+  }
+  
+
+  exportAsXLSX(data):void {
+    // this.exportAsExcelFile(data, 'sample');
+    this.exportAsExcelFile(data, 'sample', false); // Set false to exclude headers
+
+  }
+
+  // exportAsExcelFile(data: { [sheetName: string]: any[] }, excelFileName: string): void {
+  //   const workbook: XLSX.WorkBook = { Sheets: {}, SheetNames: [] };
+  
+  //   for (const sheetName in data) {
+  //     if (data.hasOwnProperty(sheetName)) {
+  //       const worksheet: XLSX.WorkSheet = {} as XLSX.WorkSheet;
+  
+  //       const columnHeadings: string[] = Object.keys(data[sheetName][0]);
+  //       const dataArray: any[][] = [columnHeadings];
+  
+  //       data[sheetName].forEach((row) => {
+  //         const rowData: any[] = [];
+  //         for (const key in row) {
+  //           if (row.hasOwnProperty(key)) {
+  //             rowData.push(row[key]);
+  //           }
+  //         }
+  //         dataArray.push(rowData);
+  //       });
+  
+  //       XLSX.utils.sheet_add_aoa(worksheet, dataArray, { origin: 0 });
+  
+  //       workbook.SheetNames.push(sheetName);
+  //       workbook.Sheets[sheetName] = worksheet;
+  
+  //       // Adjusting column widths based on content length
+  //       const columnWidths: XLSX.ColInfo[] = [];
+  //       const cellRange = XLSX.utils.decode_range(worksheet['!ref']);
+  //       for (let C = cellRange.s.c; C <= cellRange.e.c; ++C) {
+  //         const columnValues: any[] = [];
+  //         for (let R = cellRange.s.r; R <= cellRange.e.r; ++R) {
+  //           const cellAddress = { c: C, r: R };
+  //           const cell = worksheet[XLSX.utils.encode_cell(cellAddress)];
+  //           if (cell && cell.v) {
+  //             columnValues.push(cell.v.toString());
+  //           }
+  //         }
+  //         const maxLength = Math.max(...columnValues.map((value) => value.length));
+  //         const width = maxLength > 20 ? 20 : maxLength; // Adjust the maximum column width as desired
+  //         columnWidths.push({ wch: width });
+  //       }
+  //       worksheet['!cols'] = columnWidths;
+  
+  //       // Adjusting cell heights based on fixed height
+  //       const cellHeightMap: { [key: string]: number } = {};
+  //       for (let R = cellRange.s.r; R <= cellRange.e.r; ++R) {
+  //         for (let C = cellRange.s.c; C <= cellRange.e.c; ++C) {
+  //           const cellAddress = { c: C, r: R };
+  //           const cell = worksheet[XLSX.utils.encode_cell(cellAddress)];
+  //           if (cell && cell.v) {
+  //             const key = `${C}-${R}`;
+  //             if (!cellHeightMap[key] || 20 > cellHeightMap[key]) {
+  //               cellHeightMap[key] = 30; // Set a fixed height of 30 pixels
+  //             }
+  //           }
+  //         }
+  //       }
+  
+  //       // Generate an array of row objects with the fixed height
+  //       worksheet['!rows'] = Object.keys(cellHeightMap).map((key) => ({
+  //         r: parseInt(key.split('-')[1], 10), // Extract the row index from the key
+  //         hpx: 30, // Set a fixed height of 30 pixels
+  //         hidden: false, // Set the hidden property to false to ensure the row is visible
+  //       }));
+  //     }
+  //   }
+  
+  //   const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
+  
+  //   this.saveAsExcelFile(excelBuffer, excelFileName);
+  // }
+  exportAsExcelFile(data: { [sheetName: string]: any[] }, excelFileName: string, includeHeaders: boolean): void {
+    const workbook: XLSX.WorkBook = { Sheets: {}, SheetNames: [] };
+  
+    for (const sheetName in data) {
+      if (data.hasOwnProperty(sheetName)) {
+        const worksheet: XLSX.WorkSheet = {} as XLSX.WorkSheet;
+  
+        const dataArray: any[][] = includeHeaders ? [data[sheetName][0]] : [];
+  
+        for (let i = includeHeaders ? 1 : 0; i < data[sheetName].length; i++) {
+          const rowData: any[] = [];
+          for (const key in data[sheetName][i]) {
+            if (data[sheetName][i].hasOwnProperty(key)) {
+              rowData.push(data[sheetName][i][key]);
+            }
+          }
+          dataArray.push(rowData);
+        }
+  
+        XLSX.utils.sheet_add_aoa(worksheet, dataArray, { origin: 0 });
+  
+        workbook.SheetNames.push(sheetName);
+        workbook.Sheets[sheetName] = worksheet;
+      }
+    }
+  
+    // Adjusting column widths based on content length
+    for (const sheetName in workbook.Sheets) {
+      if (workbook.Sheets.hasOwnProperty(sheetName)) {
+        const worksheet = workbook.Sheets[sheetName];
+        const columnWidths: XLSX.ColInfo[] = [];
+        const cellRange = XLSX.utils.decode_range(worksheet['!ref']);
+        for (let C = cellRange.s.c; C <= cellRange.e.c; ++C) {
+          const columnValues: any[] = [];
+          for (let R = cellRange.s.r; R <= cellRange.e.r; ++R) {
+            const cellAddress = { c: C, r: R };
+            const cell = worksheet[XLSX.utils.encode_cell(cellAddress)];
+            if (cell && cell.v) {
+              columnValues.push(cell.v.toString());
+            }
+          }
+          const maxLength = Math.max(...columnValues.map((value) => value.length));
+          const width = maxLength > 20 ? 20 : maxLength; // Adjust the maximum column width as desired
+          columnWidths.push({ wch: width });
+        }
+        worksheet['!cols'] = columnWidths;
+      }
+    }
+  
+    const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
+  
+    this.saveAsExcelFile(excelBuffer, excelFileName);
+  }
+  
+  // exportAsExcelFile(data: { [sheetName: string]: any[] }, excelFileName: string, includeHeaders: boolean): void {
+  //   const workbook: XLSX.WorkBook = { Sheets: {}, SheetNames: [] };
+  
+  //   for (const sheetName in data) {
+  //     if (data.hasOwnProperty(sheetName)) {
+  //       const worksheet: XLSX.WorkSheet = {} as XLSX.WorkSheet;
+  
+  //       const dataArray: any[][] = includeHeaders ? [data[sheetName][0]] : [];
+  
+  //       for (let i = includeHeaders ? 1 : 0; i < data[sheetName].length; i++) {
+  //         const rowData: any[] = [];
+  //         for (const key in data[sheetName][i]) {
+  //           if (data[sheetName][i].hasOwnProperty(key)) {
+  //             rowData.push(data[sheetName][i][key]);
+  //           }
+  //         }
+  //         dataArray.push(rowData);
+  //       }
+  
+  //       XLSX.utils.sheet_add_aoa(worksheet, dataArray, { origin: 0 });
+  
+  //       workbook.SheetNames.push(sheetName);
+  //       workbook.Sheets[sheetName] = worksheet;
+  
+  //       // Adjusting column widths based on content length
+  //       // ... (remaining code for column widths)
+    
+  //       // Adjusting cell heights based on fixed height
+  //       // ... (remaining code for cell heights)
+  //     }
+  //   }
+  
+  //   const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
+  
+  //   this.saveAsExcelFile(excelBuffer, excelFileName);
+  // }
+  
+
+  private saveAsExcelFile(buffer: any, fileName: string): void {
+    const data: Blob = new Blob([buffer], {
+      type: EXCEL_TYPE
+    });
+    FileSaver.saveAs(data, fileName + '_export_' + new Date().getTime() + EXCEL_EXTENSION);
+    this.notificationService.notifySuccess("Successfully exported knowledge"); 
+  }
+  
+
+
+
+
+
+
+
+
+
+  //edit  for loop data starts
+  <div
+  class="flow-match-response-item"
+  *ngFor="let br of statsData.info.botResponse; let i = index"
+>
+  <div
+    [attr.contenteditable]="br.editable ? true : null"
+    (click)="makeEditable(br)"
+    (blur)="makeNonEditable(br)"
+  >
+    <b>{{ br.text || br['@type'] }}</b>
+  </div>
+  <span class="cs-quick-reply-header" *ngIf="br.potentialAction">
+    <b
+      class="cs-quick-reply-heading"
+      [attr.contenteditable]="br.editable ? true : null"
+      (click)="makeEditable(br)"
+      (blur)="makeNonEditable(br)"
+    >
+      Quick replies
+    </b>
+  </span>
+  <div class="cs-quick-reply-container">
+    <div
+      class="cs-quick-reply-debug-panel"
+      *ngFor="let quick of br.potentialAction; let j = index"
+    >
+      {{ j + 1 }}.
+      <span
+        [attr.contenteditable]="br.editable ? true : null"
+        (click)="makeEditable(br)"
+        (blur)="makeNonEditable(br)"
+      >
+        {{ quick.name }}
+      </span>
+    </div>
+  </div>
+
+
+  makeEditable(item: any) {
+    item.editable = true;
+  }
+  
+  makeNonEditable(item: any) {
+    item.editable = false;
+  }
+
+  //edit for loop ends

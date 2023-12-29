@@ -1,0 +1,1824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:meta><dc:date>2023-09-22T00:55:17.108935603</dc:date><meta:editing-duration>PT2H26M33S</meta:editing-duration><meta:editing-cycles>13</meta:editing-cycles><meta:generator>LibreOffice/7.3.7.2$Linux_X86_64 LibreOffice_project/30$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="11" meta:paragraph-count="218" meta:word-count="2733" meta:character-count="16778" meta:non-whitespace-character-count="14268"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="ViewAreaTop" config:type="long">287350</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">32581</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">15171</config:config-item>
+   <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">7840</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">298175</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">287350</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">32579</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">302519</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
+     <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ZoomFactor" config:type="short">150</config:config-item>
+     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="KeepRatio" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectFields" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectBookmarks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="GutterAtTop" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ContinuousEndnotes" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HeaderSpacingBelowLastPara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="FrameAutowidthWithMorePara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintFaxName" config:type="string"/>
+   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">473058</config:config-item>
+   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FootnoteInColumnToPageEnd" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddParaLineSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintEmptyPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RsidRoot" config:type="int">288046</config:config-item>
+   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Liberation Mono" svg:font-family="&apos;Liberation Mono&apos;" style:font-family-generic="modern" style:font-pitch="fixed"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Lohit Devanagari" svg:font-family="&apos;Lohit Devanagari&apos;"/>
+  <style:font-face style:name="Lohit Devanagari1" svg:font-family="&apos;Lohit Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans CJK SC" svg:font-family="&apos;Noto Sans CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans Mono CJK SC" svg:font-family="&apos;Noto Sans Mono CJK SC&apos;" style:font-family-generic="modern" style:font-pitch="fixed"/>
+  <style:font-face style:name="Noto Serif CJK SC" svg:font-family="&apos;Noto Serif CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="OpenSymbol" svg:font-family="OpenSymbol" style:font-charset="x-symbol"/>
+  <style:font-face style:name="Roboto" svg:font-family="Roboto, sans-serif"/>
+  <style:font-face style:name="S hne" svg:font-family="&apos;S hne&apos;, ui-sans-serif, system-ui, apple-system, &apos;Segoe UI&apos;, Roboto, Ubuntu, Cantarell, &apos;Noto Sans&apos;, sans-serif, &apos;Helvetica Neue&apos;, Arial, &apos;Apple Color Emoji&apos;, &apos;Segoe UI Emoji&apos;, &apos;Segoe UI Symbol&apos;, &apos;Noto Color Emoji&apos;"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:flow-with-text="false"/>
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="IN" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <style:default-style style:family="paragraph">
+   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="1.251cm" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="IN" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
+  </style:default-style>
+  <style:default-style style:family="table">
+   <style:table-properties table:border-model="collapsing"/>
+  </style:default-style>
+  <style:default-style style:family="table-row">
+   <style:table-row-properties fo:keep-together="auto"/>
+  </style:default-style>
+  <style:style style:name="Standard" style:family="paragraph" style:class="text"/>
+  <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.212cm" style:contextual-spacing="false" fo:keep-with-next="always"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="Noto Sans CJK SC" style:font-family-asian="&apos;Noto Sans CJK SC&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Lohit Devanagari1" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.247cm" style:contextual-spacing="false" fo:line-height="115%"/>
+  </style:style>
+  <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
+   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;"/>
+  </style:style>
+  <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties fo:margin-top="0.212cm" fo:margin-bottom="0.212cm" style:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:language="zxx" fo:country="none" style:font-size-asian="12pt" style:language-asian="zxx" style:country-asian="none" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:language-complex="zxx" style:country-complex="none"/>
+  </style:style>
+  <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="2" style:list-style-name="" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.353cm" fo:margin-bottom="0.212cm" style:contextual-spacing="false"/>
+   <style:text-properties style:font-name="Liberation Serif" fo:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="18pt" fo:font-weight="bold" style:font-name-asian="Noto Serif CJK SC" style:font-family-asian="&apos;Noto Serif CJK SC&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari1" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Preformatted_20_Text" style:display-name="Preformatted Text" style:family="paragraph" style:parent-style-name="Standard" style:class="html">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false"/>
+   <style:text-properties style:font-name="Liberation Mono" fo:font-family="&apos;Liberation Mono&apos;" style:font-family-generic="modern" style:font-pitch="fixed" fo:font-size="10pt" style:font-name-asian="Noto Sans Mono CJK SC" style:font-family-asian="&apos;Noto Sans Mono CJK SC&apos;" style:font-family-generic-asian="modern" style:font-pitch-asian="fixed" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-family-complex="&apos;Liberation Mono&apos;" style:font-family-generic-complex="modern" style:font-pitch-complex="fixed" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="Internet_20_link" style:display-name="Internet link" style:family="text">
+   <style:text-properties fo:color="#000080" loext:opacity="100%" fo:language="zxx" fo:country="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:language-asian="zxx" style:country-asian="none" style:language-complex="zxx" style:country-complex="none"/>
+  </style:style>
+  <style:style style:name="Strong_20_Emphasis" style:display-name="Strong Emphasis" style:family="text">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Numbering_20_Symbols" style:display-name="Numbering Symbols" style:family="text"/>
+  <style:style style:name="Bullet_20_Symbols" style:display-name="Bullet Symbols" style:family="text">
+   <style:text-properties style:font-name="OpenSymbol" fo:font-family="OpenSymbol" style:font-charset="x-symbol" style:font-name-asian="OpenSymbol" style:font-family-asian="OpenSymbol" style:font-charset-asian="x-symbol" style:font-name-complex="OpenSymbol" style:font-family-complex="OpenSymbol" style:font-charset-complex="x-symbol"/>
+  </style:style>
+  <style:style style:name="Source_20_Text" style:display-name="Source Text" style:family="text">
+   <style:text-properties style:font-name="Liberation Mono" fo:font-family="&apos;Liberation Mono&apos;" style:font-family-generic="modern" style:font-pitch="fixed" style:font-name-asian="Noto Sans Mono CJK SC" style:font-family-asian="&apos;Noto Sans Mono CJK SC&apos;" style:font-family-generic-asian="modern" style:font-pitch-asian="fixed" style:font-name-complex="Liberation Mono" style:font-family-complex="&apos;Liberation Mono&apos;" style:font-family-generic-complex="modern" style:font-pitch-complex="fixed"/>
+  </style:style>
+  <text:outline-style style:name="Outline">
+   <text:outline-level-style text:level="1" loext:num-list-format="%1%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="2" loext:num-list-format="%2%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="3" loext:num-list-format="%3%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="4" loext:num-list-format="%4%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="5" loext:num-list-format="%5%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="6" loext:num-list-format="%6%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="7" loext:num-list-format="%7%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="8" loext:num-list-format="%8%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="9" loext:num-list-format="%9%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="10" loext:num-list-format="%10%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+  </text:outline-style>
+  <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
+  <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
+  <text:linenumbering-configuration text:number-lines="false" text:offset="0.499cm" style:num-format="1" text:number-position="left" text:increment="5"/>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0004652e" officeooo:paragraph-rsid="0004652e" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#272c37" loext:opacity="100%" style:font-name="Roboto" fo:font-size="18pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0004652e" officeooo:paragraph-rsid="0004652e" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+   <style:text-properties loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L6">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+   <style:text-properties loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.499cm" style:contextual-spacing="false" fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L6">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.499cm" style:contextual-spacing="false" fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L6">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0004652e" officeooo:paragraph-rsid="0004652e" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0004652e" officeooo:paragraph-rsid="000737e2" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="0004652e"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="000737e2"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.476cm" style:contextual-spacing="false" style:line-height-at-least="0.503cm" fo:text-align="start" style:justify-single-word="false" fo:orphans="2" fo:widows="2" fo:text-indent="0cm" style:auto-text-indent="false"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0004652e" officeooo:paragraph-rsid="0004652e" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0004652e" officeooo:paragraph-rsid="000737e2" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="000737e2" officeooo:paragraph-rsid="000737e2" style:font-weight-asian="bold" style:font-weight-complex="bold" loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.476cm" style:contextual-spacing="false" style:line-height-at-least="0.503cm" fo:text-align="start" style:justify-single-word="false" fo:orphans="2" fo:widows="2" fo:text-indent="0cm" style:auto-text-indent="false"/>
+   <style:text-properties officeooo:rsid="000737e2" officeooo:paragraph-rsid="000737e2"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+   <style:text-properties loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+   <style:text-properties loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false"/>
+   <style:text-properties loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:paragraph-rsid="000737e2"/>
+  </style:style>
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+   <style:text-properties officeooo:paragraph-rsid="000737e2"/>
+  </style:style>
+  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L7">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L8">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L9">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L10">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L11">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L12">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L13">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L14">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L15">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L16">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L17">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L18">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L19">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L20">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L21">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L22">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L23">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L24">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L25">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L26">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L27">
+   <style:paragraph-properties fo:padding="0.049cm" fo:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#1179ef" loext:opacity="100%" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Roboto" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" style:text-blinking="false"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#374151" loext:opacity="100%" style:font-name="S hne" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#374151" loext:opacity="100%" style:font-name="S hne" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#374151" loext:opacity="100%" style:font-name="S hne" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#374151" loext:opacity="100%" style:font-name="S hne" fo:letter-spacing="normal" fo:font-style="normal"/>
+  </style:style>
+  <style:style style:name="T6" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#374151" loext:opacity="100%" style:font-name="S hne" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T7" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#374151" loext:opacity="100%" style:font-name="S hne" fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="normal" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="T8" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#374151" loext:opacity="100%" style:font-name="S hne" fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T9" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#374151" loext:opacity="100%" style:font-name="S hne" fo:font-size="11pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:font-size-asian="11pt" style:font-weight-asian="normal" style:font-size-complex="11pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T10" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#343541" loext:opacity="100%" style:font-name="S hne" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="000737e2" loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="T11" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#343541" loext:opacity="100%" style:font-name="S hne" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="000737e2" style:font-weight-asian="bold" style:font-weight-complex="bold" loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="T12" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#272c37" loext:opacity="100%" style:font-name="Roboto" fo:font-size="18pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="T13" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#272c37" loext:opacity="100%" style:font-name="Roboto" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="T14" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#272c37" loext:opacity="100%" style:font-name="Roboto" fo:font-size="11pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
+  </style:style>
+  <style:style style:name="T15" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#272c37" loext:opacity="100%" style:font-name="Roboto" fo:font-size="14pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="T16" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#272c37" loext:opacity="100%" style:font-name="Roboto" fo:font-size="14pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:font-size-asian="14pt" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T17" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#272c37" loext:opacity="100%" style:font-name="Roboto" fo:font-size="14pt" fo:letter-spacing="normal" fo:font-style="normal" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="T18" style:family="text">
+   <style:text-properties loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="T19" style:family="text">
+   <style:text-properties officeooo:rsid="000737e2"/>
+  </style:style>
+  <style:style style:name="T20" style:family="text">
+   <style:text-properties officeooo:rsid="000737e2" loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="T21" style:family="text">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="000737e2" style:font-weight-asian="bold" style:font-weight-complex="bold" loext:padding="0.049cm" loext:border="0.06pt solid #d9d9e3"/>
+  </style:style>
+  <style:style style:name="T22" style:family="text">
+   <style:text-properties fo:font-size="11pt" officeooo:rsid="000737e2" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
+  </style:style>
+  <style:style style:name="T23" style:family="text">
+   <style:text-properties officeooo:rsid="0004652e"/>
+  </style:style>
+  <style:style style:name="T24" style:family="text">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="000737e2" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="T25" style:family="text">
+   <style:text-properties fo:font-size="14pt" fo:font-weight="normal" officeooo:rsid="000737e2" style:font-size-asian="14pt" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <text:list-style style:name="L1">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L2">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L3">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L4">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L5">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L6">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L7">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L8">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="2">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L9">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="3">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L10">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="4">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L11">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="6">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L12">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L13">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="2">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L14">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="3">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L15">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="4">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L16">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="5">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L17">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L18">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="3">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L19">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="4">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L20">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="5">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L21">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="7">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L22">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="8">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L23">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="9">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L24">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="12">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L25">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="13">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L26">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="15">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L27">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1" text:start-value="16">
+    <style:list-level-properties text:space-before="0.752cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="2.002cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="3.253cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="4.503cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="5.754cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="7.005cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="8.255cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="9.506cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="10.756cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:space-before="12.007cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm" loext:margin-gutter="0cm">
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:style style:name="dp1" style:family="drawing-page">
+   <style:drawing-page-properties draw:background-size="full"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Standard" style:page-layout-name="pm1" draw:style-name="dp1"/>
+ </office:master-styles>
+ <office:body>
+  <office:text text:use-soft-page-breaks="true">
+   <office:forms form:automatic-focus="false" form:apply-design-mode="false">
+    <form:form form:apply-filter="true" form:control-implementation="ooo:com.sun.star.form.component.Form" office:target-frame="">
+     <form:properties>
+      <form:property form:property-name="PropertyChangeNotificationEnabled" office:value-type="boolean" office:boolean-value="true"/>
+      <form:property form:property-name="TargetURL" office:value-type="string" office:string-value=""/>
+     </form:properties>
+    </form:form>
+    <form:form form:apply-filter="true" form:control-implementation="ooo:com.sun.star.form.component.Form" office:target-frame="">
+     <form:properties>
+      <form:property form:property-name="PropertyChangeNotificationEnabled" office:value-type="boolean" office:boolean-value="true"/>
+      <form:property form:property-name="TargetURL" office:value-type="string" office:string-value=""/>
+     </form:properties>
+    </form:form>
+   </office:forms>
+   <text:sequence-decls>
+    <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
+   </text:sequence-decls>
+   <text:p text:style-name="P1"><text:a xlink:type="simple" xlink:href="https://www.simplilearn.com/tutorials/nodejs-tutorial/getting-started-with-nodejs" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">https://www.simplilearn.com/tutorials/nodejs-tutorial/getting-started-with-nodejs</text:a></text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"/>
+   <text:h text:style-name="P2" text:outline-level="2">Table of Contents</text:h>
+   <text:p text:style-name="P13"><text:a xlink:type="simple" xlink:href="https://www.simplilearn.com/tutorials/nodejs-tutorial#1_what_is_nodejs" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">1. What is Node.js?</text:span></text:a></text:p>
+   <text:p text:style-name="P13"><text:a xlink:type="simple" xlink:href="https://www.simplilearn.com/tutorials/nodejs-tutorial#2_getting_started_with_nodejs" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">2. Getting Started With Node.js</text:span></text:a></text:p>
+   <text:p text:style-name="P13"><text:a xlink:type="simple" xlink:href="https://www.simplilearn.com/tutorials/nodejs-tutorial#3_nodejs_express_tutorial" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">3. Node.js Express Tutorial</text:span></text:a></text:p>
+   <text:p text:style-name="P13"><text:a xlink:type="simple" xlink:href="https://www.simplilearn.com/tutorials/nodejs-tutorial#4_nodejs_mongodb" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">4. Node.js MongoDB</text:span></text:a></text:p>
+   <text:p text:style-name="P13"><text:a xlink:type="simple" xlink:href="https://www.simplilearn.com/tutorials/nodejs-tutorial#5_nodejs_mysql" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">5. Node.js MySQL</text:span></text:a></text:p>
+   <text:p text:style-name="P13"><text:span text:style-name="T1"/></text:p>
+   <text:p text:style-name="P19"/>
+   <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T20">1.</text:span></text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T11">What is Node.js? </text:span></text:span></text:p>
+   <text:p text:style-name="P1"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P1"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T3">Node.js is like a special toolbox for computer programmers. It helps them build all sorts of applications, like websites and mobile apps, using a language called JavaScript.</text:span></text:span></text:p>
+   <text:p text:style-name="P1"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T2"/></text:span></text:p>
+   <text:p text:style-name="P16"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T9">Let&apos;s say you&apos;re building a real-time chat application like WhatsApp. People send messages to each other, and you want those messages to arrive instantly. Node.js helps you do this:</text:span></text:span></text:p>
+   <text:list xml:id="list2561981987" text:style-name="L2">
+    <text:list-item>
+     <text:p text:style-name="P20">With Node.js, your server (the chef) can handle many messages at once, just like cooking multiple dishes simultaneously.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P21">When one person sends a message, Node.js doesn&apos;t block (wait) to send it. It quickly sends the message and goes back to listening for other messages. It&apos;s like serving a plate of food and immediately getting ready for the next order.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P14">So, Node.js is a helpful tool for programmers to build fast and efficient applications, especially those that need to handle many things happening at the same time, like real-time chats, online games, or streaming videos.</text:p>
+   <text:p text:style-name="P1"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T2"/></text:span></text:p>
+   <text:p text:style-name="P1"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T19">2.</text:span></text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Node.js Architecture in Simple Words:</text:span></text:span></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P16"><text:span text:style-name="Strong_20_Emphasis">Think of Node.js like a fast food restaurant where you&apos;re the only worker. Your job is to take orders, cook burgers, and serve customers.</text:span></text:p>
+   <text:list xml:id="list3731997256" text:style-name="L1">
+    <text:list-item>
+     <text:p text:style-name="P15"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Single-Task Focus</text:span></text:span>: Normally, you&apos;d take one customer&apos;s order, cook their burger, serve it, and then move to the next customer. This is how traditional servers work – one thing at a <text:soft-page-break/>time.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P15"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Node.js Efficiency</text:span></text:span>: Now, imagine you use Node.js methods. Instead of waiting for one order to finish, you jot down the first customer&apos;s order and put their burger on the grill. But while it&apos;s cooking, you don&apos;t stand around. You take more orders from other customers, put their burgers on the grill too, and keep an eye on all the burgers cooking. As soon as one burger is done, you serve it while you continue to cook others.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P15"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Non-Blocking</text:span></text:span>: You&apos;re never waiting for burgers to finish cooking; you keep taking orders and serving customers. This is similar to Node.js not blocking, allowing it to handle many tasks at once without waiting for each one to complete.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P15"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Event Loop</text:span></text:span>: Think of the notepad where you write down orders as Node.js&apos;s event loop. It constantly checks if any burgers are ready to be served, and when they are, it serves them. Then, it moves on to the next order.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P15"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Scalability</text:span></text:span>: If more customers come in, you can hire more workers (more Node.js instances) who work just like you, taking orders and cooking burgers independently. This scales up your restaurant&apos;s efficiency.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P14">In essence, Node.js lets you be a super-efficient fast food worker, taking and processing orders without waiting for each one to finish, making it perfect for handling many tasks at once, like in real-time applications such as chat, games, and streaming.</text:p>
+   <text:p text:style-name="P1"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P1"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P1"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T19">3.NPM</text:span></text:span></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P17"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18"><text:line-break/>Certainly! Think of Node Package Manager (NPM) as a super convenient tool for computer programmers. It does two main things:</text:span></text:span></text:p>
+   <text:list xml:id="list4171450781" text:style-name="L3">
+    <text:list-item>
+     <text:p text:style-name="P22"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Online Store for Code</text:span></text:span><text:span text:style-name="T18">: NPM is like a big online store where programmers can find ready-made pieces of code (packages/modules) that do specific tasks. Imagine you&apos;re building a house, and instead of making every brick from scratch, you can buy pre-made bricks of different types from this store.</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P22"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Installation and Organization</text:span></text:span><text:span text:style-name="T18">: NPM also comes with a helpful tool that lets you easily buy (install) those pre-made code bricks, organize them neatly, and make sure they work together. It&apos;s like having a magic toolbox that not only stores your tools but also finds and fetches new ones when you need them.</text:span></text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Real-Time Example:</text:span></text:span></text:p>
+   <text:p text:style-name="P23">Let&apos;s say you&apos;re building a website, and you want to add a cool feature like a photo slideshow. You don&apos;t have to write all the code for the slideshow from scratch. Instead:</text:p>
+   <text:list xml:id="list2305772315" text:style-name="L4">
+    <text:list-item>
+     <text:p text:style-name="P24"><text:soft-page-break/>You can go to the NPM online store, search for a &quot;slideshow&quot; package, and find one that suits your needs.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P24">Once you&apos;ve picked the right package, you use the NPM tool in your computer&apos;s command prompt to install it. This is like buying the ready-made bricks and placing them in your toolbox.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P24">NPM also makes sure that if your slideshow package needs other packages to work correctly (like special effects or animations), it gets those too. It&apos;s like if your photo slideshow bricks need some glue or screws, NPM goes and gets those for you.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P23">So, in simple terms, NPM is like a shop for code where programmers can find and buy pieces of code to make their projects faster and better. It&apos;s a handy way to manage and organize code, just like you would organize tools in a toolbox when building something.</text:p>
+   <text:p text:style-name="P25"/>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P27"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T19">4.</text:span></text:span><text:bookmark text:name="nodejs_modules"/><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T12">Node.js Modules</text:span></text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T23"><text:line-break/>Sure, let&apos;s simplify Node.js modules with a real-world comparison:</text:span></text:span></text:p>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Node.js Modules are like Lego Sets for Your Code</text:span></text:span></text:p>
+   <text:p text:style-name="P14">Imagine you&apos;re building a toy city with Lego blocks, and you want to add cool features like houses, cars, and trees. Instead of creating every piece from scratch, you can go to the Lego store (Node.js modules) and pick up pre-made Lego sets (modules) that contain various pieces (functions) you need.</text:p>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Real-Time Example:</text:span></text:span></text:p>
+   <text:p text:style-name="P14">Let&apos;s say you&apos;re building a simple weather app using Node.js. You need to fetch weather data from the internet and display it on your app. Here&apos;s how Node.js modules come into play:</text:p>
+   <text:list xml:id="list2498207600" text:style-name="L5">
+    <text:list-item>
+     <text:p text:style-name="P26"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Fetching Weather Data</text:span></text:span>: You don&apos;t need to write all the code to connect to a weather website and fetch data; there&apos;s a module for that. It&apos;s like buying a &quot;Weather Data Fetcher&quot; Lego set.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P26"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Displaying Data</text:span></text:span>: You also need to show the weather on your app&apos;s interface. You don&apos;t have to create all the buttons and displays from scratch; there&apos;s a module for creating user interfaces. It&apos;s like buying a &quot;User Interface&quot; Lego set.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P26"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Putting It All Together</text:span></text:span>: With Node.js, you can use the <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">require()</text:span></text:span> function to include these Lego sets (modules) in your code. So, you write something like <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const </text:span></text:span><text:soft-page-break/><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">weatherFetcher = require(&apos;WeatherDataFetcher&apos;)</text:span></text:span> to bring in the weather data module.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P14">Here&apos;s a simplified example:</text:p>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const weatherFetcher = require(&apos;WeatherDataFetcher&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const userInterface = require(&apos;UserInterface&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const weatherData = weatherFetcher.fetchWeather(&apos;New York&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">userInterface.displayWeather(weatherData);</text:span></text:span></text:p>
+   <text:p text:style-name="P14">So, Node.js modules are like Lego sets for your code, making it easier to build complex applications by reusing pre-made pieces of functionality. They help you save time and effort, just like using Lego sets instead of making every Lego block from scratch when building a toy city.</text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T25">5.</text:span></text:span><text:bookmark text:name="nodejs_http_module"/><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Node.js HTTP module</text:span></text:span></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P17"><text:span text:style-name="Strong_20_Emphasis">Certainly, let&apos;s break down the Node.js HTTP module in a simpler way with a real-time example and code:</text:span></text:p>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Node.js HTTP Module: Serving Web Pages</text:span></text:span></text:p>
+   <text:p text:style-name="P14">Think of the Node.js HTTP module like a chef who can cook and serve web pages. Here&apos;s how it works:</text:p>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Real-Time Example:</text:span></text:span></text:p>
+   <text:p text:style-name="P14">Imagine you want to create a simple web server using Node.js. You want this server to say &quot;Hello, World!&quot; when someone visits a specific web address (URL). Let&apos;s do it step by step:</text:p>
+   <text:list xml:id="list48151689" text:style-name="L6">
+    <text:list-item>
+     <text:p text:style-name="P29"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Include the HTTP Module</text:span></text:span>: First, you need to tell Node.js that you want to use its HTTP module. It&apos;s like telling the chef that you need a special tool (HTTP module) to serve food (web pages).</text:p>
+     <text:p text:style-name="P4">javascriptCopy code</text:p>
+     <text:p text:style-name="P8"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Include the HTTP module</text:span></text:span></text:p>
+     <text:p text:style-name="P7"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const http = require(&apos;http&apos;);</text:span></text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P29"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Create a Server</text:span></text:span>: Now, you create a server object. Think of this as setting up a table in a restaurant where customers can sit.</text:p>
+     <text:p text:style-name="P4">javascriptCopy code</text:p>
+     <text:p text:style-name="P8"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Create a server object</text:span></text:span></text:p>
+     <text:p text:style-name="P8"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const server = http.createServer((request, response) =&gt; {</text:span></text:span></text:p>
+     <text:p text:style-name="P8"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>// This is what happens when someone visits your server</text:span></text:span></text:p>
+     <text:p text:style-name="P7"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">});</text:span></text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P29"><text:soft-page-break/><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Handling Requests</text:span></text:span>: When someone visits your server (your table), Node.js calls the function you provided, which takes two arguments: <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">request</text:span></text:span> and <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">response</text:span></text:span>. Think of <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">request</text:span></text:span> as the order from the customer, and <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">response</text:span></text:span> as the plate you&apos;re going to serve.</text:p>
+     <text:p text:style-name="P4">javascriptCopy code</text:p>
+     <text:p text:style-name="P8"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Create a server object</text:span></text:span></text:p>
+     <text:p text:style-name="P8"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const server = http.createServer((request, response) =&gt; {</text:span></text:span></text:p>
+     <text:p text:style-name="P8"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>// This is what happens when someone visits your server</text:span></text:span></text:p>
+     <text:p text:style-name="P8"/>
+     <text:p text:style-name="P8"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>// Write a response to the client (customer)</text:span></text:span></text:p>
+     <text:p text:style-name="P8"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>response.write(&apos;Hello, World!&apos;);</text:span></text:span></text:p>
+     <text:p text:style-name="P8"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>// End the response (finish serving the plate)</text:span></text:span></text:p>
+     <text:p text:style-name="P8"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>response.end();</text:span></text:span></text:p>
+     <text:p text:style-name="P7"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">});</text:span></text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P29"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Start Listening</text:span></text:span>: Finally, you tell the server to start listening for customers at a specific table (port). It&apos;s like opening the restaurant for business.</text:p>
+     <text:p text:style-name="P4">javascriptCopy code</text:p>
+     <text:p text:style-name="P8"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Start listening on port 8080</text:span></text:span></text:p>
+     <text:p text:style-name="P7"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">server.listen(8080);</text:span></text:span></text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P14">Now, when you run this code, and someone goes to <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">http://localhost:8080</text:span></text:span> in their web browser, they will see &quot;Hello, World!&quot; displayed on their screen.</text:p>
+   <text:p text:style-name="P14">So, in simple terms, the Node.js HTTP module helps you create a web server that listens for requests (customers) and serves web pages (food) in response. It&apos;s like a chef who cooks and serves web content when someone visits a specific URL.</text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T19">6.</text:span></text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Node.js File System: Managing Files and Folders</text:span></text:span></text:p>
+   <text:p text:style-name="P14">Imagine Node.js as a digital filing assistant. It can create, read, update, and delete files and folders on your computer, just like you would with physical documents. Let&apos;s see how it works with a simple example:</text:p>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Real-Time Example:</text:span></text:span></text:p>
+   <text:p text:style-name="P14">Suppose you want to create a text file, write some information to it, and then read that information back. Here&apos;s how you would do it with Node.js:</text:p>
+   <text:list xml:id="list828089796" text:style-name="L7">
+    <text:list-item>
+     <text:p text:style-name="P30"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Include the File System Module</text:span></text:span>: First, you need to tell Node.js that you want to use its File System module (fs), like requesting a tool to work with files.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const fs = require(&apos;fs&apos;);</text:span></text:span></text:p>
+   <text:list xml:id="list3151407944" text:style-name="L8">
+    <text:list-item>
+     <text:p text:style-name="P31"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Create a File</text:span></text:span>: Now, let&apos;s create a new text file called &quot;example.txt&quot; and write some content <text:soft-page-break/>into it.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const content = &quot;This is a sample text.&quot;;</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">fs.writeFileSync(&apos;example.txt&apos;, content);</text:span></text:span></text:p>
+   <text:list xml:id="list433567472" text:style-name="L9">
+    <text:list-item>
+     <text:p text:style-name="P32"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Read from the File</text:span></text:span>: You can read the content from the &quot;example.txt&quot; file.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const readContent = fs.readFileSync(&apos;example.txt&apos;, &apos;utf8&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">console.log(readContent);</text:span></text:span></text:p>
+   <text:list xml:id="list902005991" text:style-name="L10">
+    <text:list-item>
+     <text:p text:style-name="P33"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Result</text:span></text:span>: When you run this code, you will see &quot;This is a sample text.&quot; printed to the console because it read the content from the file.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P33"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Update the File</text:span></text:span>: Let&apos;s say you want to add more text to the file without deleting what&apos;s already there.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const additionalContent = &quot;\nThis is some more text.&quot;;</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">fs.appendFileSync(&apos;example.txt&apos;, additionalContent);</text:span></text:span></text:p>
+   <text:list xml:id="list2625520910" text:style-name="L11">
+    <text:list-item>
+     <text:p text:style-name="P34"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Read Again</text:span></text:span>: Now, when you read from the file again, it will include the additional text.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const updatedContent = fs.readFileSync(&apos;example.txt&apos;, &apos;utf8&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">console.log(updatedContent);</text:span></text:span></text:p>
+   <text:p text:style-name="P14">So, in simple terms, Node.js File System (fs) is like a digital filing assistant for your code. It helps you create, read, update, and delete files and folders on your computer, just like managing documents in a real-world file cabinet. You can use it to work with files and data in your Node.js applications.</text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T19">7.</text:span></text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Node.js Events: Reacting to Actions</text:span></text:span></text:p>
+   <text:p text:style-name="P23">Think of Node.js Events like a party where things happen, and you have invited guests who react to those happenings. Your guests are your code functions, and they respond to events that occur during your program&apos;s execution.</text:p>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Real-Time Example:</text:span></text:span></text:p>
+   <text:p text:style-name="P23">Imagine you&apos;re hosting a virtual event, and you want to have some fun activities. You invite people (your code functions) to dance when the music starts or cheer when someone scores a point in a game.</text:p>
+   <text:p text:style-name="P23">Here&apos;s how it works with Node.js Events:</text:p>
+   <text:list xml:id="list1361683687" text:style-name="L12">
+    <text:list-item>
+     <text:p text:style-name="P35"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Include the Event Module</text:span></text:span><text:span text:style-name="T18">: First, you need to tell Node.js that you want to use its Event </text:span><text:soft-page-break/><text:span text:style-name="T18">module, like getting a DJ to play music at your party.</text:span></text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const EventEmitter = require(&apos;events&apos;);</text:span></text:span></text:p>
+   <text:list xml:id="list1683106312" text:style-name="L13">
+    <text:list-item>
+     <text:p text:style-name="P36"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Create an Event Emitter</text:span></text:span><text:span text:style-name="T18">: Think of this as setting up the stage for your event. You create an event emitter object.</text:span></text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const myEmitter = new EventEmitter();</text:span></text:span></text:p>
+   <text:list xml:id="list2342493439" text:style-name="L14">
+    <text:list-item>
+     <text:p text:style-name="P37"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Define Reactions to Events</text:span></text:span><text:span text:style-name="T18">: Now, you invite guests (your code functions) to react to specific events.</text:span></text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Guest 1: Dance when &quot;music&quot; event happens</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">myEmitter.on(&apos;music&apos;, () =&gt; {</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>console.log(&apos;Dancing!&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">});</text:span></text:span></text:p>
+   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Guest 2: Cheer when &quot;goal&quot; event happens</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">myEmitter.on(&apos;goal&apos;, () =&gt; {</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>console.log(&apos;Goal! Hooray!&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">});</text:span></text:span></text:p>
+   <text:list xml:id="list2997125172" text:style-name="L15">
+    <text:list-item>
+     <text:p text:style-name="P38"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Trigger Events</text:span></text:span><text:span text:style-name="T18">: During your program&apos;s execution, you trigger events, like starting the music or scoring a goal.</text:span></text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Start the music</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">myEmitter.emit(&apos;music&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Score a goal</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">myEmitter.emit(&apos;goal&apos;);</text:span></text:span></text:p>
+   <text:list xml:id="list1007711963" text:style-name="L16">
+    <text:list-item>
+     <text:p text:style-name="P39"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Result</text:span></text:span><text:span text:style-name="T18">: When you run this code, you&apos;ll see the reactions of your guests (code functions) in the console. It&apos;s like people dancing and cheering at your virtual event.</text:span></text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P23">So, in simple terms, Node.js Events are like organizing a party in your code. You set up an event emitter (the stage), invite guests (code functions) to react to events, and trigger those events during your program&apos;s execution. It&apos;s a way to make your code respond to actions or changes, just like guests react to activities at a party.</text:p>
+   <text:p text:style-name="P23"/>
+   <text:p text:style-name="P23"/>
+   <text:p text:style-name="P23"/>
+   <text:p text:style-name="P23"><text:soft-page-break/></text:p>
+   <text:p text:style-name="P23"/>
+   <text:p text:style-name="P28"><text:span text:style-name="T21">7.</text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Node.js Express Framework: Building Web Applications</text:span></text:span></text:p>
+   <text:p text:style-name="P14">Imagine you want to build a web application, like a simple blog site. Node.js by itself is like having a toolbox, but Express is like a power tool that makes it easier to build web apps.</text:p>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Step 1: Setup Your Project</text:span></text:span></text:p>
+   <text:list xml:id="list1857992566" text:style-name="L17">
+    <text:list-item>
+     <text:p text:style-name="P40"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Create a Folder</text:span></text:span>: Start by creating a folder for your project and navigate to it in your terminal.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P40"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Initialize Node.js</text:span></text:span>: Run <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">npm init -y</text:span></text:span> to initialize a Node.js project. This creates a <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">package.json</text:span></text:span> file to manage your project dependencies.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Step 2: Install Express</text:span></text:span></text:p>
+   <text:list xml:id="list2041464823" text:style-name="L18">
+    <text:list-item>
+     <text:p text:style-name="P41"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Install Express</text:span></text:span>: Use <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">npm install express</text:span></text:span> to install the Express framework for your project.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Step 3: Create a Simple Server</text:span></text:span></text:p>
+   <text:list xml:id="list1487728091" text:style-name="L19">
+    <text:list-item>
+     <text:p text:style-name="P42"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Create an App</text:span></text:span>: In your project folder, create a JavaScript file (e.g., <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">app.js</text:span></text:span>) to write your server code.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const express = require(&apos;express&apos;); // Import the Express framework</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const app = express(); // Create an Express application</text:span></text:span></text:p>
+   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const port = 3000; // Define the port you want your server to run on</text:span></text:span></text:p>
+   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Define a route to respond to requests to the root URL</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">app.get(&apos;/&apos;, (req, res) =&gt; {</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>res.send(&apos;Hello, World!&apos;); // Send a response to the client</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">});</text:span></text:span></text:p>
+   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Start the server</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">app.listen(port, () =&gt; {</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>console.log(`Server is listening on port ${port}`);</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">});</text:span></text:span></text:p>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Step 4: Start Your Server</text:span></text:span></text:p>
+   <text:list xml:id="list870924420" text:style-name="L20">
+    <text:list-item>
+     <text:p text:style-name="P43"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Start the Server</text:span></text:span>: In your terminal, run <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">node app.js</text:span></text:span> to start your Express server.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P43"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Access Your App</text:span></text:span>: Open your web browser and go to <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">http://localhost:3000</text:span></text:span>. You&apos;ll see &quot;Hello, World!&quot; displayed on the webpage. This is because your Express server is responding to requests to the root URL.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P14"><text:soft-page-break/><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Step 5: Create More Routes</text:span></text:span></text:p>
+   <text:list xml:id="list2061577866" text:style-name="L21">
+    <text:list-item>
+     <text:p text:style-name="P44"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Add More Routes</text:span></text:span>: You can create additional routes to handle different URLs. For example:</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Handle requests to &apos;/about&apos;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">app.get(&apos;/about&apos;, (req, res) =&gt; {</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>res.send(&apos;This is the About page&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">});</text:span></text:span></text:p>
+   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Handle requests to &apos;/contact&apos;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">app.get(&apos;/contact&apos;, (req, res) =&gt; {</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>res.send(&apos;Contact us at contact@example.com&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">});</text:span></text:span></text:p>
+   <text:list xml:id="list527541223" text:style-name="L22">
+    <text:list-item>
+     <text:p text:style-name="P45"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Restart the Server</text:span></text:span>: After adding more routes, you may need to restart your server (<text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">Ctrl + C</text:span></text:span> to stop, then <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">node app.js</text:span></text:span> to start again).</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Step 6: Use Templates and Data</text:span></text:span></text:p>
+   <text:list xml:id="list746080198" text:style-name="L23">
+    <text:list-item>
+     <text:p text:style-name="P46"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Install Template Engine</text:span></text:span>: To build dynamic web pages, you can use a template engine like EJS. Install it with <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">npm install ejs</text:span></text:span>.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P46"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Set Up Templates</text:span></text:span>: Create a folder (e.g., <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">views</text:span></text:span>) and add EJS templates (e.g., <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">home.ejs</text:span></text:span>, <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">about.ejs</text:span></text:span>, <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">contact.ejs</text:span></text:span>) for your pages.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P46"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Render Templates</text:span></text:span>: Modify your routes to render these templates and pass data to them:</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const ejs = require(&apos;ejs&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Set the view engine to EJS</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">app.set(&apos;view engine&apos;, &apos;ejs&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">app.set(&apos;views&apos;, __dirname + &apos;/views&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Handle requests to &apos;/about&apos; and render the &apos;about.ejs&apos; template</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">app.get(&apos;/about&apos;, (req, res) =&gt; {</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>res.render(&apos;about&apos;, { pageTitle: &apos;About Us&apos; });</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">});</text:span></text:span></text:p>
+   <text:list xml:id="list2758267197" text:style-name="L24">
+    <text:list-item>
+     <text:p text:style-name="P47"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Use Dynamic Data</text:span></text:span>: Update your EJS templates to display dynamic data:</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">htmlCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">&lt;!-- views/about.ejs --&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">&lt;!DOCTYPE html&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">&lt;html&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">&lt;head&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>&lt;title&gt;&lt;%= pageTitle %&gt;&lt;/title&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">&lt;/head&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:soft-page-break/><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">&lt;body&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>&lt;h1&gt;&lt;%= pageTitle %&gt;&lt;/h1&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>&lt;p&gt;This is the About page&lt;/p&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">&lt;/body&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">&lt;/html&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P14">Now, when you visit <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">/about</text:span></text:span>, you&apos;ll see &quot;About Us&quot; as the page title.</text:p>
+   <text:p text:style-name="P14"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Step 7: Handle Forms and POST Requests</text:span></text:span></text:p>
+   <text:list xml:id="list2113133987" text:style-name="L25">
+    <text:list-item>
+     <text:p text:style-name="P48"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Install Middleware</text:span></text:span>: For handling form submissions, you can install the <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">body-parser</text:span></text:span> middleware with <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">npm install body-parser</text:span></text:span>.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P48"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Use Middleware</text:span></text:span>: Add and configure <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">body-parser</text:span></text:span> as middleware to handle form data:</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">const bodyParser = require(&apos;body-parser&apos;);</text:span></text:span></text:p>
+   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Parse URL-encoded data</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">app.use(bodyParser.urlencoded({ extended: true }));</text:span></text:span></text:p>
+   <text:list xml:id="list233690715" text:style-name="L26">
+    <text:list-item>
+     <text:p text:style-name="P49"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Create a Form</text:span></text:span>: In your HTML template (e.g., <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">contact.ejs</text:span></text:span>), create a form that submits data to your server:</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">htmlCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">&lt;!-- views/contact.ejs --&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">&lt;form method=&quot;POST&quot; action=&quot;/contact&quot;&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>&lt;input type=&quot;text&quot; name=&quot;email&quot; placeholder=&quot;Email&quot;&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>&lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">&lt;/form&gt;</text:span></text:span></text:p>
+   <text:list xml:id="list3613441517" text:style-name="L27">
+    <text:list-item>
+     <text:p text:style-name="P50"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T18">Handle POST Request</text:span></text:span>: Modify your Express route to handle POST requests:</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3">javascriptCopy code</text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">// Handle POST requests to &apos;/contact&apos;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">app.post(&apos;/contact&apos;, (req, res) =&gt; {</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>const email = req.body.email;</text:span></text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18"><text:s text:c="2"/>res.send(`Thanks for contacting us at ${email}`);</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">});</text:span></text:span></text:p>
+   <text:p text:style-name="P14">Now, when you submit the form on the <text:span text:style-name="Source_20_Text"><text:span text:style-name="T18">/contact</text:span></text:span> page, it will send a POST request to your server, and you&apos;ll see a &quot;Thanks for contacting us at [email]&quot; response.</text:p>
+   <text:p text:style-name="P14">These steps cover the basics of using Node.js Express to build a simple web application. Express makes it easier to create routes, render templates, handle form data, and respond to different URLs, allowing you to build dynamic web apps more efficiently.</text:p>
+   <text:p text:style-name="P18"/>
+   <text:p text:style-name="P25"/>
+   <text:p text:style-name="P10"><text:soft-page-break/><text:span text:style-name="Strong_20_Emphasis"/></text:p>
+  </office:text>
+ </office:body>
+</office:document>
